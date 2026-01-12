@@ -1,6 +1,5 @@
 .env
 __pycache__/
-chroma_db_store/
 media/
 Samsung_Prism/
 venv/
