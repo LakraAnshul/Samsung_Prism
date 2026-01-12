@@ -1,0 +1,4 @@
+pip install chromadb langchain langchain-community pypdf sentence-transformers
+pip install groq
+pip install google-generativeai
+pip install python-dotenv
