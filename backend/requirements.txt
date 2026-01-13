@@ -1,0 +1,11 @@
+chromadb
+langchain
+langchain-community
+pypdf
+sentence-transformers
+groq
+google-generativeai
+python-dotenv
+langchain_ollama
+flask
+flask-cors

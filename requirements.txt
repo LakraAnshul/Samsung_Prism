@@ -1,8 +1,0 @@
-chromadb
-langchain
-langchain-community
-pypdf
-sentence-transformers
-groq
-google-generativeai
-python-dotenv
