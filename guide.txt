@@ -1,0 +1,96 @@
+{
+  "status": "success",
+  "task_title": "Troubleshooting Washing Machine Not Spinning - iFixit Guide",
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Inspect the tub for balance issues.",
+      "visual_description": "Close-up image of a washing machine's interior showing visible oscillation or movement in an unbalanced load.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Shaking_p11_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Shaking_p10_img1.png"
+      ]
+    },
+    {
+      "step": 2,
+      "instruction": "Check glide strips on traditional Whirlpool machines.",
+      "visual_description": "Close-up of the kidney bean shaped plastic glides under a washing machine's tub.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Shaking_p11_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Won't_Turn_On_p2_img1.png"
+      ]
+    },
+    {
+      "step": 3,
+      "instruction": "Examine water level system for failure signs.",
+      "visual_description": "Visualization showing trapped air bubbles increasing pressure against the diaphragm in a faulty sensor or switch.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Shaking_p11_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Won't_Turn_On_p2_img1.png"
+      ]
+    },
+    {
+      "step": 4,
+      "instruction": "Inspect coupler and belt for wear.",
+      "visual_description": "Close-up of washing machine's pulleys with an exposed V-belt showing signs of pinching or misalignment.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Door_Is_Locked_p9_img4.png",
+        "./final_cleaned_dataset\\Washing_Machine_Door_Is_Locked_p9_img1.png"
+      ]
+    },
+    {
+      "step": 5,
+      "instruction": "Check the impeller for damage.",
+      "visual_description": "Close-up image displaying a damaged impeller with chipped blades and debris on its surface within the pump body.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Samsung_Washer_SC_Code_p7_img1.png",
+        "./final_cleaned_dataset\\Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p7_img1.png"
+      ]
+    },
+    {
+      "step": 6,
+      "instruction": "Inspect motor control board for signs of damage.",
+      "visual_description": "Close-up image showing a burnt or darkened component area indicative of potential issues on an electronic Motor Control Board.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Door_Is_Locked_p9_img4.png",
+        "./final_cleaned_dataset\\Washing_Machine_Door_Is_Locked_p9_img1.png"
+      ]
+    },
+    {
+      "step": 7,
+      "instruction": "Manually drain the machine to test for proper draining.",
+      "visual_description": "Visualization showing a person using buckets and towels to manually remove water from an unspinning washing machine.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Shaking_p11_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Not_Draining_p11_img1.png"
+      ]
+    },
+    {
+      "step": 8,
+      "instruction": "Consult service manuals for potential drain pump issues.",
+      "visual_description": "Close-up image of a user consulting the detailed wiring diagram and troubleshooting guide in their washing machine's service manual.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Won't_Turn_On_p2_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Troubleshooting_p8_img3.png"
+      ]
+    },
+    {
+      "step": 9,
+      "instruction": "Watch an iFixit video for comprehensive diagnostics.",
+      "visual_description": "Visualization of a user watching the recommended lengthy and informative Washing Machine Not Spinning - iFixit Troubleshooting guide on their device.",
+      "images": [
+        "./final_cleaned_dataset\\Washing_Machine_Won't_Turn_On_p2_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p7_img1.png",
+        "./final_cleaned_dataset\\Washing_Machine_Shaking_p11_img1.png"
+      ]
+    }
+  ]
+}
