@@ -4,3 +4,10 @@ media/
 Samsung_Prism/
 venv/
 data/
+# ===== Vector DB / Chroma =====
+chroma_db_store/
+backend/chroma_db_store/
+
+# ===== Binary & DB files =====
+*.bin
+*.sqlite3
