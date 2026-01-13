@@ -183,17 +183,39 @@ const StructuredResponse = ({ data }) => {
                 </div>
               )}
 
-              {/* Image Rendering */}
-              {step.images && step.images !== "null" && (
-                <div className="mt-2 border border-gray-200 p-2 inline-block bg-gray-50">
-                  <img
-                    src={convertPathToUrl(step.images)}
-                    alt="Visual Aid"
-                    className="max-h-64 object-contain mix-blend-multiply filter grayscale hover:grayscale-0 transition-all duration-500"
-                    onError={(e) => {
-                      e.target.style.display = "none";
-                    }}
-                  />
+              {/* Image Rendering: Supports Array (Top 3) or Single String */}
+              {step.images && (
+                <div className="mt-3 flex gap-2 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-gray-300">
+                  {/* Handle if backend sends List vs String */}
+                  {Array.isArray(step.images)
+                    ? step.images.map((imgUrl, imgIdx) => (
+                        <div
+                          key={imgIdx}
+                          className="shrink-0 border border-gray-200 p-1 bg-gray-50 rounded-sm"
+                        >
+                          <img
+                            src={convertPathToUrl(imgUrl)}
+                            alt={`Step visual ${imgIdx + 1}`}
+                            className="h-32 w-auto object-contain transition-transform hover:scale-105"
+                            onError={(e) => {
+                              e.target.style.display = "none";
+                            }}
+                          />
+                        </div>
+                      ))
+                    : // Fallback for single string
+                      step.images !== "null" && (
+                        <div className="shrink-0 border border-gray-200 p-1 bg-gray-50 rounded-sm">
+                          <img
+                            src={convertPathToUrl(step.images)}
+                            alt="Visual Aid"
+                            className="h-32 w-auto object-contain transition-transform hover:scale-105"
+                            onError={(e) => {
+                              e.target.style.display = "none";
+                            }}
+                          />
+                        </div>
+                      )}
                 </div>
               )}
             </div>
@@ -204,11 +226,19 @@ const StructuredResponse = ({ data }) => {
   );
 };
 
-// Helper
+// --- HELPER: FIXED IMAGE PATH ---
 function convertPathToUrl(localPath) {
-  if (!localPath) return "";
-  const filename = localPath.split(/[\\/]/).pop();
-  return `${API_URL}/images/${filename}`;
+  if (!localPath || localPath === "null") return "";
+  if (typeof localPath !== "string") return "";
+
+  try {
+    const filename = localPath.split(/[\\/]/).pop();
+    // Use 'final_cleaned_dataset' route
+    return `${API_URL}/final_cleaned_dataset/${filename}`;
+  } catch (err) {
+    console.error("Error parsing image path:", err);
+    return "";
+  }
 }
 
 export default App;
