@@ -35,7 +35,7 @@ IMAGE_DB_PATH = "./image_knowledge_base.json"
 
 SERVER_IP = os.getenv("OLLAMA_SERVER_IP", "10.212.139.210")
 SERVER_PORT = os.getenv("OLLAMA_PORT", "11434")
-LOCAL_MODEL = "phi3.5-16k:latest"
+LOCAL_MODEL = "mistral-8k:latest"
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 CLOUD_MODEL = "llama-3.3-70b-versatile"
 
@@ -75,7 +75,7 @@ else:
 
 
 # --- DATABASE CONNECTION ---
-def get_retriever(k_value=20):
+def get_retriever(k_value=10):
     if not os.path.exists(DB_PATH):
         print(f"❌ Error: Database folder '{DB_PATH}' not found.")
         sys.exit(1)
