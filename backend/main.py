@@ -33,9 +33,9 @@ if sys.platform.startswith("linux"):
 DB_PATH = "./chroma_db_store"
 IMAGE_DB_PATH = "./image_knowledge_base.json"
 
-SERVER_IP = os.getenv("OLLAMA_SERVER_IP", "10.212.139.210")
+SERVER_IP = os.getenv("OLLAMA_SERVER_IP", "10.78.159.210")
 SERVER_PORT = os.getenv("OLLAMA_PORT", "11434")
-LOCAL_MODEL = "mistral-8k:latest"
+LOCAL_MODEL = os.getenv("MODEL", "phi3.5:latest")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 CLOUD_MODEL = "llama-3.3-70b-versatile"
 
