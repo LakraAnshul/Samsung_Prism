@@ -152,7 +152,7 @@ def generate_guide_from_rag(query):
 
 if __name__ == "__main__":
     # 1. Define Query
-    q1 = "My Washing Machine is not Spinning properly"
+    q1 = "How to clean Samsung Washing machine"
     print(f"\n👉 TESTING VALID QUERY: {q1}")
     
     # 2. Run Pipeline

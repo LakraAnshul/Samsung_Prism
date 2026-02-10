@@ -1,0 +1,58 @@
+[
+  {
+    "id": "Samsung_WA5471ABP_Step1_Wide_Location.png",
+    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step1_Wide_Location.png",
+    "problem_name": "Locate Magic Filter Wide",
+    "dense_caption": "A wide shot looking into the drum of a Samsung WA5471ABP washing machine. A red rectangular highlight outlines the 'Magic Filter' located on the side wall of the stainless steel drum, set against a blurred Indian household background.",
+    "detected_objects": ["washing machine drum", "Magic Filter", "red highlight", "stainless steel wall"]
+  },
+  {
+    "id": "Samsung_WA5471ABP_Step1_CloseUp_Filter.png",
+    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step1_CloseUp_Filter.png",
+    "problem_name": "Locate Magic Filter Close-up",
+    "dense_caption": "A close-up view of the Magic Filter unit inside the drum. The filter casing is distinct, and a red glow highlights the specific area where the user needs to interact.",
+    "detected_objects": ["Magic Filter unit", "red glow", "drum interior"]
+  },
+  {
+    "id": "Samsung_WA5471ABP_Step2_Press_Release_Tab.png",
+    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step2_Press_Release_Tab.png",
+    "problem_name": "Unlock Filter Tab",
+    "dense_caption": "A hand is shown reaching into the drum and pressing the release tab at the top of the filter. A red arrow points downwards onto the tab to indicate the pressing action required to unlock it.",
+    "detected_objects": ["hand", "release tab", "red directional arrow", "filter"]
+  },
+  {
+    "id": "Samsung_WA5471ABP_Step2_Lift_Remove.png",
+    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step2_Lift_Remove.png",
+    "problem_name": "Remove Filter Unit",
+    "dense_caption": "The filter is being physically lifted out of its housing on the drum wall. A red dashed line traces the upward movement path, indicating the removal direction.",
+    "detected_objects": ["hand", "removed filter", "filter housing", "red path line"]
+  },
+  {
+    "id": "Samsung_WA5471ABP_Step3_Rinse_Tap.png",
+    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step3_Rinse_Tap.png",
+    "problem_name": "Rinse Filter Mesh",
+    "dense_caption": "The open filter is being held under a running water tap in a sink. A red box highlights the mesh area where the water is hitting to flush out the lint.",
+    "detected_objects": ["open filter", "mesh", "running water", "tap", "red highlight box"]
+  },
+  {
+    "id": "Samsung_WA5471ABP_Step3_Scrub_Brush.png",
+    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step3_Scrub_Brush.png",
+    "problem_name": "Scrub Stubborn Lint",
+    "dense_caption": "A close-up showing a hand using a small cleaning brush to gently scrub the filter mesh. A red circle highlights the point of contact between the brush and the mesh.",
+    "detected_objects": ["small brush", "filter mesh", "hand", "red circle"]
+  },
+  {
+    "id": "Samsung_WA5471ABP_Step4_Insert_Back.png",
+    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step4_Insert_Back.png",
+    "problem_name": "Reinsert Filter",
+    "dense_caption": "A hand is aligning the clean filter back into the slot on the washing machine drum wall. Red arrows indicate the alignment points to ensure it fits correctly.",
+    "detected_objects": ["clean filter", "drum slot", "hand", "red alignment arrows"]
+  },
+  {
+    "id": "Samsung_WA5471ABP_Step4_Lock_Click.png",
+    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step4_Lock_Click.png",
+    "problem_name": "Secure Filter Lock",
+    "dense_caption": "The filter is pressed firmly against the drum wall. A red 'click' graphic or icon is overlaid on the top tab to visualize the locking mechanism engaging.",
+    "detected_objects": ["filter", "drum wall", "hand", "red click graphic"]
+  }
+]
