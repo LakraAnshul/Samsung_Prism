@@ -12,7 +12,7 @@ except ImportError as e:
     sys.exit(1)
 
 # CONFIGURATION
-PDF_DIRECTORY = "./data/manuals/"
+PDF_DIRECTORY = "./Knowledge_Base/text"
 DB_PATH = "./chroma_db_store"
 
 def create_vector_db():
