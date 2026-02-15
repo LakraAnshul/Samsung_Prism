@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Configuration for Freepik AI
-FREEPIK_API_KEY = os.getenv("FREEPIK_API_KEY","FPSXa4f22bee94cb2041c72be2376815abe0")
+FREEPIK_API_KEY = os.getenv("FREEPIK_API_KEY")
 API_BASE_URL = "https://api.freepik.com/v1/ai/mystic"
 
 OUTPUT_DIR = "./final_cleaned_dataset"
