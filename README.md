@@ -1,1 +1,2 @@
-# Samsung_Prism
+# IIITNR_25LAI45_Guide_Weave_AI_Framework_for_Generating_Visual_Guides_from_Knowledge_base
+SRIB-PRISM Program
