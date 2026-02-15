@@ -1,6 +1,9 @@
 import os
 import json
-import fitz  # PyMuPDF
+try:
+    import pymupdf as fitz  # PyMuPDF
+except ImportError:
+    import fitz  # Fallback for older installations
 from groq import Groq
 from dotenv import load_dotenv
 

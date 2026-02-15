@@ -783,13 +783,7 @@
     "dense_caption": "The image shows a front-loading washing machine with a digital display and control panel.",
     "detected_objects": ["washing machine"]
   },
-  {
-    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img6.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img6.png",
-    "problem_name": "Washing Machine",
-    "dense_caption": "An illustration of a washing machine with a blue outline and light blue details, likely used for troubleshooting or instructional purposes.",
-    "detected_objects": ["washing machine"]
-  },
+  
   {
     "id": "Samsung_Washer_SC_Code_p2_img1.png",
     "file_path": "./final_cleaned_dataset\\Samsung_Washer_SC_Code_p2_img1.png",
@@ -847,13 +841,7 @@
     "dense_caption": "The image shows a front-loading washing machine with a dark gray finish and a large circular door. The machine has a control panel at the top with various buttons and settings.",
     "detected_objects": ["washing machine", "control panel", "buttons"]
   },
-  {
-    "id": "Samsung_Washer_SC_Code_p9_img6.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_Washer_SC_Code_p9_img6.png",
-    "problem_name": "Washing Machine",
-    "dense_caption": "An illustration of a washing machine with a blue outline and light blue details, likely used for troubleshooting or instructional purposes.",
-    "detected_objects": ["washing machine"]
-  },
+  
   {
     "id": "Samsung_Washing_Machine_Error_Codes_p6_img1.png",
     "file_path": "./final_cleaned_dataset\\Samsung_Washing_Machine_Error_Codes_p6_img1.png",
@@ -861,13 +849,7 @@
     "dense_caption": "The image shows a front-loading Samsung washing machine with a digital display and a large circular door.",
     "detected_objects": ["washing machine", "digital display", "door"]
   },
-  {
-    "id": "Samsung_Washing_Machine_Error_Codes_p6_img4.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_Washing_Machine_Error_Codes_p6_img4.png",
-    "problem_name": "Washing Machine Icon",
-    "dense_caption": "An icon of a washing machine is shown, likely used for navigation or representation of a washing machine related task.",
-    "detected_objects": ["washing machine icon"]
-  },
+  
   {
     "id": "Washing_Machine_Door_Is_Locked_p2_img1.png",
     "file_path": "./final_cleaned_dataset\\Washing_Machine_Door_Is_Locked_p2_img1.png",
@@ -880,27 +862,7 @@
       "glass window"
     ]
   },
-  {
-    "id": "Washing_Machine_Door_Is_Locked_p9_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Door_Is_Locked_p9_img1.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "Troubleshooting a washing machine with a potential control board issue",
-    "detected_objects": ["Washing Machine"]
-  },
-  {
-    "id": "Washing_Machine_Door_Is_Locked_p9_img4.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Door_Is_Locked_p9_img4.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "Troubleshooting a washing machine with a potential control board issue",
-    "detected_objects": ["Washing Machine Icon"]
-  },
-  {
-    "id": "Washing_Machine_Door_Is_Locked_p9_img6.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Door_Is_Locked_p9_img6.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "Troubleshooting a washing machine with a potential control board issue",
-    "detected_objects": ["Washing Machine Icon"]
-  },
+  
   {
     "id": "Washing_Machine_Is_Leaking_p2_img1.png",
     "file_path": "./final_cleaned_dataset\\Washing_Machine_Is_Leaking_p2_img1.png",
@@ -918,34 +880,6 @@
       "circuit board",
       "washing machine components"
     ]
-  },
-  {
-    "id": "Washing_Machine_Is_Leaking_p10_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Is_Leaking_p10_img1.png",
-    "problem_name": "Washing Machine",
-    "dense_caption": "An illustration of a washing machine is shown, likely used for troubleshooting or instructional purposes.",
-    "detected_objects": ["washing machine"]
-  },
-  {
-    "id": "Washing_Machine_Is_Leaking_p10_img4.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Is_Leaking_p10_img4.png",
-    "problem_name": "Washing Machine",
-    "dense_caption": "An illustration of a washing machine with a blue outline and light blue details, likely used for troubleshooting or instructional purposes.",
-    "detected_objects": ["washing machine"]
-  },
-  {
-    "id": "Washing_Machine_Is_Leaking_p10_img6.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Is_Leaking_p10_img6.png",
-    "problem_name": "Washing Machine Icon",
-    "dense_caption": "An icon of a washing machine is shown, likely used for navigation or representation of a washing machine related task.",
-    "detected_objects": ["washing machine icon"]
-  },
-  {
-    "id": "Washing_Machine_Not_Draining_p2_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Not_Draining_p2_img1.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "A washing machine is being diagnosed for drainage issues, with steps to check the drain hose, pump, and water level sensing system.",
-    "detected_objects": ["Washing Machine"]
   },
   {
     "id": "Washing_Machine_Not_Draining_p3_img1.png",
@@ -1025,24 +959,6 @@
     "detected_objects": ["washing machine", "hose", "hand"]
   },
   {
-    "id": "Washing_Machine_Not_Draining_p10_img4.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Not_Draining_p10_img4.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "Troubleshooting a washing machine by replacing the main control board",
-    "detected_objects": [
-      "Washing Machine",
-      "Circuit Board",
-      "Troubleshooting Guide"
-    ]
-  },
-  {
-    "id": "Washing_Machine_Not_Draining_p11_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Not_Draining_p11_img1.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "The image depicts a washing machine troubleshooting process, specifically for issues related to the machine not draining.",
-    "detected_objects": ["washing machine icon"]
-  },
-  {
     "id": "Washing_Machine_Not_Spinning_p2_img1.png",
     "file_path": "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p2_img1.png",
     "problem_name": "Washing Machine Troubleshooting",
@@ -1055,27 +971,6 @@
     "problem_name": "Washing Machine Troubleshooting",
     "dense_caption": "The image shows a washing machine, likely being diagnosed or repaired for issues such as not spinning or draining properly.",
     "detected_objects": ["washing machine"]
-  },
-  {
-    "id": "Washing_Machine_Not_Spinning_p13_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p13_img1.png",
-    "problem_name": "Washing Machine",
-    "dense_caption": "A graphic representation of a washing machine, likely used for troubleshooting or instructional purposes.",
-    "detected_objects": ["washing machine"]
-  },
-  {
-    "id": "Washing_Machine_Not_Spinning_p13_img4.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p13_img4.png",
-    "problem_name": "Washing Machine Icon",
-    "dense_caption": "An icon of a washing machine is shown, likely used for navigation or representation of a washing machine related task.",
-    "detected_objects": ["washing machine icon"]
-  },
-  {
-    "id": "Washing_Machine_Not_Spinning_p13_img5.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Not_Spinning_p13_img5.png",
-    "problem_name": "Washing Machine Icon",
-    "dense_caption": "An icon of a washing machine is shown, likely used for navigation or representation of a washing machine related task.",
-    "detected_objects": ["washing machine icon"]
   },
   {
     "id": "Washing_Machine_Shaking_p2_img1.png",
@@ -1096,55 +991,6 @@
     ]
   },
   {
-    "id": "Washing_Machine_Shaking_p10_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Shaking_p10_img1.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "Troubleshooting a washing machine with potential issues such as vibration caused by a loose magnet on the rotor or a worn drive block.",
-    "detected_objects": ["Washing Machine"]
-  },
-  {
-    "id": "Washing_Machine_Shaking_p10_img3.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Shaking_p10_img3.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "The image depicts a washing machine, likely used for troubleshooting purposes, specifically for issues such as vibration, failure to spin, drain, turn on, or leak.",
-    "detected_objects": ["Washing Machine"]
-  },
-  {
-    "id": "Washing_Machine_Shaking_p10_img5.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Shaking_p10_img5.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "The image depicts a washing machine, likely used for troubleshooting purposes, specifically for issues such as vibration, failure to spin, drain, turn on, or leak.",
-    "detected_objects": ["Washing Machine"]
-  },
-  {
-    "id": "Washing_Machine_Shaking_p11_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Shaking_p11_img1.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "The image depicts a washing machine troubleshooting process, specifically for issues related to the machine shaking.",
-    "detected_objects": ["washing machine"]
-  },
-  {
-    "id": "Washing_Machine_Troubleshooting_p2_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Troubleshooting_p2_img1.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "The image depicts a washing machine troubleshooting guide, showing a blue outline of a washing machine with a white background, indicating a step-by-step process for resolving common washing machine issues.",
-    "detected_objects": ["washing machine", "icon"]
-  },
-  {
-    "id": "Washing_Machine_Troubleshooting_p8_img3.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Troubleshooting_p8_img3.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "The image depicts a troubleshooting guide for a washing machine, with a simple line drawing of a washing machine in the context of fixing issues such as checking hose connections, assessing hot water supply, testing the water level switch, inspecting the mixing valve, examining the temperature selection switch, and investigating timer functionality.",
-    "detected_objects": ["washing machine icon"]
-  },
-  {
-    "id": "Washing_Machine_Troubleshooting_p9_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Troubleshooting_p9_img1.png",
-    "problem_name": "Washing Machine Troubleshooting",
-    "dense_caption": "The image depicts a washing machine icon, likely representing a troubleshooting guide for washing machines.",
-    "detected_objects": ["washing machine icon"]
-  },
-  {
     "id": "Washing_Machine_Won't_Turn_On_p2_img1.png",
     "file_path": "./final_cleaned_dataset\\Washing_Machine_Won't_Turn_On_p2_img1.png",
     "problem_name": "Washing Machine Troubleshooting",
@@ -1159,24 +1005,87 @@
     "detected_objects": ["washing machine", "lid switch", "wires"]
   },
   {
-    "id": "Washing_Machine_Won't_Turn_On_p7_img1.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Won't_Turn_On_p7_img1.png",
-    "problem_name": "Washing Machine",
-    "dense_caption": "An illustration of a washing machine",
-    "detected_objects": ["washing machine"]
-  },
-  {
-    "id": "Washing_Machine_Won't_Turn_On_p7_img4.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Won't_Turn_On_p7_img4.png",
-    "problem_name": "Washing Machine Icon",
-    "dense_caption": "An illustration of a washing machine",
-    "detected_objects": ["washing machine"]
-  },
-  {
-    "id": "Washing_Machine_Won't_Turn_On_p7_img5.png",
-    "file_path": "./final_cleaned_dataset\\Washing_Machine_Won't_Turn_On_p7_img5.png",
-    "problem_name": "Washing Machine",
-    "dense_caption": "An illustration of a washing machine",
-    "detected_objects": ["washing machine"]
-  }
+"id": "Samsung_WA5471ABP_Step2_TurnOffWater_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step2_TurnOffWater_01.png",
+"problem_name": "Turn Off Water Supply",
+"dense_caption": "A close-up of a hand with Indian skin tone turning a brass water faucet clockwise to the 'Off' position on a cream-colored wall. A red arrow indicates the direction of rotation. A red rectangular box highlights the hand and faucet. The back of a silver Samsung WA5471 ABP washing machine with connected hoses is visible on the right.",
+"detected_objects": ["hand", "water faucet", "hoses", "washing machine back panel", "red highlight box", "red directional arrow"]
+},
+{
+"id": "Samsung_WA5471ABP_Step1_Unplug_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step1_Unplug_01.png",
+"problem_name": "Unplug Power Cord",
+"dense_caption": "A close-up view showing a hand with Indian skin tone unplugging a black 3-pin power cord from a white wall socket. A red rectangular box highlights the plug and socket area. To the left, the top portion of a silver Samsung WA5471 ABP top load washing machine is visible.",
+"detected_objects": ["hand", "power plug", "wall socket", "red highlight box", "Samsung WA5471 ABP washing machine"]
+},
+{
+"id": "Samsung_WA5471ABP_Step3_LocateHoses_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step3_LocateHoses_01.png",
+"problem_name": "Locate Hose Connections",
+"dense_caption": "A close-up view of the back panel of a silver Samsung WA5471 ABP washing machine, showing the hot and cold water inlet valves with hoses attached. A red rectangular box highlights the connection area.",
+"detected_objects": ["Samsung WA5471 ABP back panel", "hot water inlet valve", "cold water inlet valve", "water hoses", "red highlight box"]
+},
+{
+"id": "Samsung_WA5471ABP_Step4_PlaceBucket_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step4_PlaceBucket_01.png",
+"problem_name": "Prepare for Water Spillage",
+"dense_caption": "A view of the back of a silver Samsung WA5471 ABP washing machine showing the water hose connections. An orange plastic bucket with a white towel draped over the rim is placed on the floor underneath the hoses to catch water. A red rectangular box highlights the bucket and towel.",
+"detected_objects": ["Samsung WA5471 ABP back panel", "water hoses", "orange bucket", "white towel", "red highlight box"]
+},
+{
+"id": "Samsung_WA5471ABP_Step5_UnscrewHoses_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step5_UnscrewHoses_01.png",
+"problem_name": "Unscrew Water Hoses",
+"dense_caption": "A close-up view of a hand with Indian skin tone unscrewing the hot (red) and cold (blue) water hoses from the inlet valves on the back of the Samsung WA5471 ABP washing machine by turning them to the left (counter-clockwise).",
+"detected_objects": ["hand", "red hot water hose", "blue cold water hose", "washing machine back panel", "inlet valves"]
+},
+{
+"id": "Samsung_WA5471ABP_Step6_InspectValves_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step6_InspectValves_01.png",
+"problem_name": "Inspect Intake Valves",
+"dense_caption": "A close-up view into the threaded intake valves on the back of the Samsung WA5471 ABP washing machine. Small circular wire mesh filter screens are visible inside both the hot and cold water valves.",
+"detected_objects": ["threaded intake valves", "wire mesh screens", "washing machine back panel"]
+},
+{
+"id": "Samsung_WA5471ABP_Step7_RemoveFilters_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step7_RemoveFilters_01.png",
+"problem_name": "Remove Mesh Filters",
+"dense_caption": "A close-up action shot showing a hand using needle-nose pliers to gently pull a wire mesh filter straight out of the water intake valve on the back of the Samsung WA5471 ABP washing machine.",
+"detected_objects": ["hand", "needle-nose pliers", "wire mesh filter", "intake valve", "washing machine back panel"]
+},
+{
+"id": "Samsung_WA5471ABP_Step8_RinseFilters_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step8_RinseFilters_01.png",
+"problem_name": "Rinse Filters",
+"dense_caption": "A view of a sink where hands are holding the removed wire mesh filters under warm running water to rinse away sand and debris.",
+"detected_objects": ["hands", "wire mesh filters", "running water", "sink faucet"]
+},
+{
+"id": "Samsung_WA5471ABP_Step9_ScrubFilters_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step9_ScrubFilters_01.png",
+"problem_name": "Scrub Filters",
+"dense_caption": "A close-up showing a hand holding a dirty wire mesh filter while the other hand gently scrubs it with a soft toothbrush to remove stubborn debris.",
+"detected_objects": ["hands", "wire mesh filter", "soft toothbrush"]
+},
+{
+"id": "Samsung_WA5471ABP_Step10_ReplaceFilters_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step10_ReplaceFilters_01.png",
+"problem_name": "Replace Clean Filters",
+"dense_caption": "A close-up view of a hand pushing the clean wire mesh filters back into their respective intake valves on the back of the Samsung WA5471 ABP washing machine until they seat firmly.",
+"detected_objects": ["hand", "clean mesh filters", "intake valves", "washing machine back panel"]
+},
+{
+"id": "Samsung_WA5471ABP_Step11_ReconnectHoses_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step11_ReconnectHoses_01.png",
+"problem_name": "Reconnect Water Hoses",
+"dense_caption": "A close-up view of hands screwing the water hoses back onto the intake valves of the Samsung WA5471 ABP washing machine and hand-tightening them securely.",
+"detected_objects": ["hands", "water hoses", "intake valves", "washing machine back panel"]
+},
+{
+"id": "Samsung_WA5471ABP_Step12_CheckLeaks_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step12_CheckLeaks_01.png",
+"problem_name": "Turn On Water & Check Leaks",
+"dense_caption": "A view showing the water faucets turned back to the 'On' position, with a focus on the hose connections at the back of the Samsung WA5471 ABP washing machine where a hand is checking for any signs of leaks.",
+"detected_objects": ["water faucets", "hose connections", "hand", "washing machine back panel"]
+}
 ]
