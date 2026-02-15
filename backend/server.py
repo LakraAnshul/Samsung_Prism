@@ -7,6 +7,7 @@ from flask_cors import CORS
 # Import the engine
 from main import generate_guide_from_rag
 
+
 load_dotenv()
 
 app = Flask(__name__)

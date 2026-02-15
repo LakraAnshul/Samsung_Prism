@@ -20,6 +20,7 @@ def generate_guide_from_rag(query):
     # Retrieve docs
     relevant_docs = retriever.invoke(query)
     
+    
     # --- DEBUGGING: FULL PRINT ---
     print(f"--- 🧐 DEBUG: Retrieved {len(relevant_docs)} chunks from DB ---")
     for i, doc in enumerate(relevant_docs):

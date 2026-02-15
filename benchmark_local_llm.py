@@ -20,6 +20,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 BENCHMARK_FILE = "benchmark_data.json"
 
+
 # --- METRIC 1: FAITHFULNESS (Hallucination Check) ---
 def calculate_faithfulness(answer, context_list):
     """

@@ -194,6 +194,7 @@ Make it look like authentic instructional manual photography with a clear red hi
 
         raise ValueError("Unsupported Freepik response format")
 
+
     def _poll_for_image(self, task_id: str, headers: dict) -> bytes:
         endpoints = [
             f"{API_BASE_URL}/{task_id}",

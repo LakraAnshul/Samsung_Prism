@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "query": "How do I resolve issues with detergent, bleach, or softener draining immediately in my Samsung washer?",
     "ground_truth": [
@@ -26,6 +26,7 @@
     "id": 2,
     "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf"
   },
+  
   {
     "query": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots",
     "ground_truth": [

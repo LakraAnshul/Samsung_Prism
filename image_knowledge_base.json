@@ -6,6 +6,7 @@
     "dense_caption": "The image shows a pair of black scissors with a red button on the handle, likely used for cutting various materials during the cleaning process of the Samsung DC68 Washing Machine Filter.",
     "detected_objects": ["scissors", "red button", "handle"]
   },
+  
   {
     "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img4.png",
     "file_path": "./final_cleaned_dataset\\How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img4.png",

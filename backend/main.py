@@ -29,6 +29,7 @@ if sys.platform.startswith("linux"):
     except ImportError:
         pass
 
+
 # --- CONFIGURATION ---
 DB_PATH = "./chroma_db_store"
 IMAGE_DB_PATH = "./image_knowledge_base.json"

@@ -13,6 +13,7 @@ IMAGE_DB_PATH = "image_knowledge_base.json"
 
 load_dotenv()
 
+
 # --- 2. SETUP & IMPORTS ---
 try:
     from langchain_huggingface import HuggingFaceEmbeddings

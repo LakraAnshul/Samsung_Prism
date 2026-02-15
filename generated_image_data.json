@@ -6,6 +6,7 @@
 "dense_caption": "A close-up of a hand with Indian skin tone turning a brass water faucet clockwise to the 'Off' position on a cream-colored wall. A red arrow indicates the direction of rotation. A red rectangular box highlights the hand and faucet. The back of a silver Samsung WA5471 ABP washing machine with connected hoses is visible on the right.",
 "detected_objects": ["hand", "water faucet", "hoses", "washing machine back panel", "red highlight box", "red directional arrow"]
 },
+
 {
 "id": "Samsung_WA5471ABP_Step1_Unplug_01.png",
 "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step1_Unplug_01.png",

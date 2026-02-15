@@ -19,6 +19,7 @@ API_KEY = os.getenv("GROQ_API_KEY")
 TEST_DATA_PATH = "benchmark_data.json"
 OUTPUT_REPORT = "accuracy_report.csv"
 
+
 def judge_submission(query, ground_truth, generated_json):
     """
     Uses Groq as a strict Professor to grade the student's answer.

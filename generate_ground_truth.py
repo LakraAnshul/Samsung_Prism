@@ -21,6 +21,7 @@ def extract_text_from_pdf(pdf_path):
         full_text += page.get_text()
     return full_text
 
+
 def analyze_pdf_content(filename, text_content):
     """Asks Groq to strictly extract the main task and steps."""
     client = Groq(api_key=GROQ_API_KEY)
