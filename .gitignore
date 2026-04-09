@@ -11,5 +11,6 @@ backend/chroma_db_store/
 # ===== Binary & DB files =====
 *.bin
 *.sqlite3
+**/chroma_db_store.7z
 
 .env
