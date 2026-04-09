@@ -23,6 +23,7 @@ def ask_remote_ai(query):
     OUTPUT: JSON format with 'answer' field.
     """
     
+    
     try:
         response = llm.invoke(prompt)
         return json.loads(response.content)

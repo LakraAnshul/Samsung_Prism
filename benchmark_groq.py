@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 # 1. Import your existing generation function
 # Ensure main1.py is in the same folder
 try:
-    from main1 import generate_guide_from_rag
+    from main import generate_guide_from_rag
 except ImportError:
     print("❌ CRITICAL: Could not find 'main1.py'. Make sure it is in this folder.")
     exit()
@@ -18,6 +18,7 @@ API_KEY = os.getenv("GROQ_API_KEY")
 # Configuration
 TEST_DATA_PATH = "benchmark_data.json"
 OUTPUT_REPORT = "accuracy_report.csv"
+
 
 def judge_submission(query, ground_truth, generated_json):
     """

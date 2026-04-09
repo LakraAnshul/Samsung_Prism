@@ -1,38 +1,38 @@
-# --- 3. DATABASE CONNECTION ---
+import os
+import sys
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
+
+# --- CONFIGURATION ---
+DB_PATH = "./chroma_db_store"
+
 def get_retriever():
-    embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-    
+    """
+    Initializes and returns the ChromaDB retriever.
+    """
+    # 1. Verify Database Exists
     if not os.path.exists(DB_PATH):
         print(f"❌ Error: Database folder '{DB_PATH}' not found.")
+        print("   Please run your ingestion script (e.g., ingest.py) first.")
         sys.exit(1)
-        
-    vector_db = Chroma(persist_directory=DB_PATH, embedding_function=embedding_model)
-    
-    # CHANGE 1: Increased k from 3 to 7
-    # This means it will fetch the top 7 pages relevant to your query
-    return vector_db.as_retriever(search_kwargs={"k": 7})
 
-# --- 4. GENERATION PIPELINE ---
-def generate_guide_from_rag(query):
-    print(f"\n--- 🔍 Step 1: Searching Knowledge Base for: '{query}' ---")
+    # 2. Initialize Embeddings
+    # We use the same model used for creating the database
+    embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+    # 3. Connect to ChromaDB
+    try:
+        vector_db = Chroma(persist_directory=DB_PATH, embedding_function=embedding_model)
+        
+        # Return retriever with search settings (k=7 chunks)
+        return vector_db.as_retriever(search_kwargs={"k": 7})
+        
+    except Exception as e:
+        print(f"❌ Error connecting to Database: {e}")
+        sys.exit(1)
+
+# Optional: Test block to verify connection when running this file directly
+if __name__ == "__main__":
+    print("Testing Database Connection...")
     retriever = get_retriever()
-    
-    # Retrieve docs
-    relevant_docs = retriever.invoke(query)
-    
-    # --- DEBUGGING: FULL PRINT ---
-    print(f"--- 🧐 DEBUG: Retrieved {len(relevant_docs)} chunks from DB ---")
-    for i, doc in enumerate(relevant_docs):
-        filename = doc.metadata.get('filename', 'Unknown')
-        
-        # CHANGE 2: Removed [:200]. Now printing the FULL text content.
-        print(f"\n[Chunk {i+1} | Source: {filename}]")
-        print(f"{'-'*20}")
-        print(doc.page_content) 
-        print(f"{'-'*20}")
-    # -----------------------------------------------
-
-    if not relevant_docs:
-        return {"error": "No relevant info found in manuals."}
-    
-    # ... Rest of the function remains the same ...
+    print("✅ Connection Successful!")

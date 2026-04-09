@@ -13,12 +13,13 @@ try:
     from main_local_llm import generate_guide_from_rag, get_retriever
 except ImportError:
     print("❌ Critical Error: 'main1.py' not found.")
-    print("   Please save your Local LLM code as 'main1.py' in this folder.")
+    print("Please save your Local LLM code as 'main1.py' in this folder.")
     exit()
 
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 BENCHMARK_FILE = "benchmark_data.json"
+
 
 # --- METRIC 1: FAITHFULNESS (Hallucination Check) ---
 def calculate_faithfulness(answer, context_list):

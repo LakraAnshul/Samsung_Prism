@@ -11,6 +11,7 @@ except ImportError as e:
     print("Run this command: pip install langchain-community langchain-huggingface chromadb pypdf sentence-transformers")
     sys.exit(1)
 
+
 # CONFIGURATION
 PDF_DIRECTORY = "./Knowledge_Base/text"
 DB_PATH = "./chroma_db_store"

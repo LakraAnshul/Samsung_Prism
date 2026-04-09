@@ -6,12 +6,13 @@ from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 
 # --- CONFIGURATION (REMOTE SERVER) ---
-SERVER_IP = "10.212.139.210"  
+SERVER_IP = "10.183.45.210"  
 SERVER_PORT = "11434"
-LOCAL_MODEL = "phi3.5" 
+LOCAL_MODEL = "mistral-8k:latest" 
 IMAGE_DB_PATH = "image_knowledge_base.json" 
 
 load_dotenv()
+
 
 # --- 2. SETUP & IMPORTS ---
 try:

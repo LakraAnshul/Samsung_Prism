@@ -20,6 +20,7 @@ OUTPUT_DIR = "./extracted_images"
 OUTPUT_JSON = "image_knowledge_base.json"
 MODEL_ID = "meta-llama/llama-4-scout-17b-16e-instruct"
 
+
 # Ensure output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

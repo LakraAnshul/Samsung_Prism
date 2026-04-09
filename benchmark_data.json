@@ -1,148 +1,358 @@
-[
+﻿[
   {
+    "query": "How do I resolve issues with detergent, bleach, or softener draining immediately in my Samsung washer?",
+    "ground_truth": [
+      "Do not exceed the MAX line.",
+      "Clean the detergent drawer.",
+      "Level your washer.",
+      "Replace the detergent drawer."
+    ],
     "id": 1,
-    "query": "How do I clean the water inlet mesh filters on my Samsung WA5471ABP?",
-    "source_pdf": "User Manual of WA5471ABP.pdf",
-    "ground_truth": [
-      "1. Turn off the washing machine completely and unplug the power cord from the wall outlet.",
-      "2. Locate the hot and cold water faucets on your wall and turn them tightly to the 'Off' position.",
-      "3. Go to the back of the washing machine where the hoses connect.",
-      "4. Place a bucket or towel underneath the hose connections to catch any leftover water.",
-      "5. Unscrew the hot and cold water hoses from the back of the washing machine by turning them to the left.",
-      "6. Look inside the threaded intake valves on the machine; you will see small plastic or wire mesh screens.",
-      "7. Use a pair of needle-nose pliers to gently pull these mesh filters straight out.",
-      "8. Rinse the mesh filters under warm running water until all sand and debris are gone.",
-      "9. If the filters are very dirty, scrub them gently with a soft toothbrush.",
-      "10. Push the clean filters back into their respective intake valves until they seat firmly.",
-      "11. Screw the water hoses back onto the machine and hand-tighten them securely.",
-      "12. Turn the water faucets back on and check for any leaks."
-    ]
+    "source_pdf": "detergentL15.pdf"
   },
   {
+    "query": "How to Clean a Samsung DC68 Washing Machine Filter",
+    "ground_truth": [
+      "Turn the washing machine off and locate the filter access door.",
+      "Gently press the top of the filter door to release and open it.",
+      "Place a rag underneath your access door and place a basin on top.",
+      "Pull out the drain hose and unplug the white cap to let the excess water flow out into the basin.",
+      "Once the water stops coming out from the drain hose, secure it back into position.",
+      "Push the filter in and twist it counterclockwise. Remove the filter from the filter bay.",
+      "Remove any debris from the filter using a paper towel. Rinse the filter under warm water.",
+      "Insert the filter back and secure it by twisting it clockwise.",
+      "Close the access door by pushing against the machine until you hear a click sound."
+    ],
     "id": 2,
-    "query": "How do I fix the nd or 5E (Not Draining) error code?",
-    "source_pdf": "Washing Machine Not Draining.pdf",
-    "ground_truth": [
-      "1. Note: This top-loading model (WA5471) does not have a front-access filter door like front-loaders.",
-      "2. First, press the 'Power' button to turn off the machine.",
-      "3. Check the gray drain hose on the back of the machine. Ensure it is not bent, kinked, or crushed against the wall.",
-      "4. Verify the drain hose height. It must be inserted into the standpipe between 39 and 96 inches high. If it is pushed too far down (airtight), pull it out slightly so there is an air gap.",
-      "5. Remove the end of the drain hose from your wall pipe or sink.",
-      "6. Inspect the end of the hose for any lint, coins, or debris blocking the opening.",
-      "7. Straighten the hose out on the floor (into a bucket) and try running a 'Spin Only' cycle to see if water flows.",
-      "8. If the pump runs (you hear a humming sound) but no water comes out, the internal pump may be clogged with a small sock or coin.",
-      "9. Since the pump is internal, you may need to bail the water out of the tub manually using a pitcher before calling for service."
-    ]
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf"
   },
+  
   {
+    "query": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots",
+    "ground_truth": [
+      "Unplug your washer. The washer filter panel is located on the bottom left side of the washer. Remove the panel by pressing it once.",
+      "Inside the panel near the top of the filter, there is a black hose with a cap. Pull the top part of the hose out, making sure the top is facing up. Place some paper towels or rags under the cap to catch any water that may spill out. Remove the cap and drain the water into an empty container. Place the cap back on and snap the hose back into the place where you originally found it.",
+      "Remove the filter by grabbing hold of the handle and turning it counterclockwise. Pull the filter out.",
+      "Clean the filter with dish soap and hot water. Feel free to use a brush to scrub away any built-up residue. Check for any small items and remove objects by hand if needed.",
+      "It is optional to use a long hook-like object or pole and remove any object (like coins) that may be stuck in the washer slot before returning the filter. Use a paper towel to wipe out any residue in the filter housing.",
+      "Place the clean filter back inside the washer and turn it clockwise until it's fully seated.",
+      "Close the panel and plug the washing machine in.",
+      "Your washer's filter is clean and ready to catch more debris."
+    ],
     "id": 3,
-    "query": "How do I fix the UE or Ub (Unbalanced Load) error?",
-    "source_pdf": "Washing Machine Not Spinning.pdf",
-    "ground_truth": [
-      "1. Press the 'Start/Pause' button to unlock the lid and pause the cycle.",
-      "2. Open the lid and look at the laundry inside.",
-      "3. If the laundry is bunched up on one side, redistribute it evenly around the center agitator/plate.",
-      "4. If you are washing a single heavy item (like a bath mat or jeans), add 2 or 3 old towels to balance the weight.",
-      "5. Close the lid securely.",
-      "6. Press the 'Start/Pause' button again to resume the spin cycle.",
-      "7. If the machine still shakes violently, check the feet at the bottom. Try rocking the machine; if it wobbles, adjust the leveling legs.",
-      "8. If this happens frequently, you must run the 'Calibration Mode' to reset the weight sensors (see Calibration steps)."
-    ]
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf"
   },
   {
+    "query": "How to Unclog a Samsung WF350ANR Washing Machine Filter",
+    "ground_truth": [
+      "Caution: Before beginning this guide, be sure to turn the washing machine off and unplug it from the outlet. The water filter is typically located at the bottom right or bottom left. In this case, it is located at the bottom right. Place a bucket under the water filter to capture excess water before moving on to the next steps.",
+      "Jiggle the water filter compartment while pulling it towards yourself to remove the compartment.",
+      "To open the water filter, move the knob to the left with your hand. With your other hand, hold the bucket underneath the filter to capture the excess water.",
+      "Remove the water filter. Clean hard-to-reach places in the filter with a toothbrush and excess water that was captured with the bucket.",
+      "Use the toothbrush to clean the slot in the washing machine where the water filter is inserted.",
+      "Inspect the inside to make sure there is no leftover lint or unnecessary objects that can clog the water filter.",
+      "Place the water filter back into the washing machine. Turn the filter to the right to tighten it.",
+      "Pour the bucket of excess water down a drain. If a lot of lint or hair was cleaned out of the water filter, make sure to grab it with one hand as you drain out the water with the other hand. Discard the lint and hair in the trash."
+    ],
     "id": 4,
-    "query": "How do I run the Calibration Mode on a Samsung WA5471ABP?",
-    "source_pdf": "User Manual of WA5471ABP.pdf",
-    "ground_truth": [
-      "1. Make sure the washing machine tub is completely empty (no clothes, no water).",
-      "2. Press the 'Power' button to turn the machine off.",
-      "3. Press the 'Power' button again to turn the machine on.",
-      "4. Immediately press and hold the 'Delay Start' and 'Eco Plus' buttons simultaneously for 3 seconds.",
-      "5. The display should show the letters 'Cb' or 'CLB'.",
-      "6. Press the 'Start/Pause' button to begin the calibration.",
-      "7. The tub will rotate back and forth for about 1 to 3 minutes. Do not disturb it.",
-      "8. When it is finished, the display will show 'End' or '0' and play a song.",
-      "9. The machine is now recalibrated and ready for use."
-    ]
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf"
   },
   {
+    "query": "How do I troubleshoot my washing machine?",
+    "ground_truth": [
+      "To avoid risk of electrical shock, personal injury or death; disconnect power to washer before servicing, unless testing requires power.",
+      "Check fuse or reset circuit breaker.",
+      "Push any key to turn on the washer and press the Start/Pause key to run the washer.",
+      "Close door and push the Start/Pause key to run the washer.",
+      "Check if washer is in a pause, soak or suds process. Wait briefly and it may start."
+    ],
     "id": 5,
-    "query": "How do I fix the 4E or nF (No Fill) error code?",
-    "source_pdf": "Washing Machine Troubleshooting.pdf",
-    "ground_truth": [
-      "1. Check that both the Hot and Cold water taps on your wall are fully turned on.",
-      "2. Inspect the water hoses behind the washer to ensure they are not pinched or kinked.",
-      "3. Turn off the power and unplug the machine.",
-      "4. Disconnect the hoses and clean the mesh filters inside the inlet valves (see filter cleaning instructions).",
-      "5. If you are using 'FloodSafe' hoses (hoses with a check valve), remove them. They often restrict water flow too much for Samsung washers. Replace them with standard rubber hoses.",
-      "6. Reconnect everything and run a 'Rinse + Spin' cycle to test the water flow."
-    ]
+    "source_pdf": "ilide.info-washer-repair-manual-samsung-pr_0b39fd9d3a756a63c1083f74bcf34d13.pdf"
   },
   {
+    "query": "How do I troubleshoot the SC code on my Samsung washing machine?",
+    "ground_truth": [
+      "Before you get too involved, do some initial checks. Answers to a few questions can help you target the problem.",
+      "\u2022 Is the washing machine located in an unheated area that gets very cold, or outdoors like on an unheated porch?",
+      "\u2022 You may have an ice clog in your drain hose.",
+      "\u2022 Try checking the hose near the bottom where it enters the washing machine. If it is stiff, try heating it with a hair dryer. Some Samsung machines have a check valve in the hose which can trap water and that water can freeze.",
+      "\u2022 You can also try pouring hot water slowly down the hose and letting it stand for a while.",
+      "\u2022 Does your machine take a long time to drain? You may even be using a workaround where you set it to spin more than once to get it to drain fully.",
+      "\u2022 Likely there is an obstruction, so you should just start at Clogged Filter.",
+      "\u2022 Do you hear grinding noises when the machine is trying to pump out? Do you notice that the machine has become much more noisy when draining?",
+      "\u2022 Your pump is likely failing. You might want to just go to Clogged Filter, then skip to Clogged or Failed Pump.",
+      "\u2022 Is there no sound at all when your machine is draining, for that matter it probably doesn't drain at all?",
+      "\u2022 Your pump is probably the issue; go to Clogged or Failed Pump then you can circle back if need be.",
+      "\u2022 If none of these apply go to the next step.",
+      "1. Clogged Filter: Many of these machines are equipped with a filter that can become clogged and prevent draining. This is both very common and very easy to fix. If your machine doesn't have a filter, skip this section.",
+      "\u2022 Run a Drain Spin Cycle (maybe more than once) if possible to try and remove as much water from the machine as you can.",
+      "\u2022 Have absorbent materials ready, like old towels, a bucket, and a mop.",
+      "\u2022 You may even choose to use some disposable pet training pads. It is often pretty dirty under a washing machine, or even just on the floor of many laundry areas.",
+      "\u2022 There is often a small drain hose alongside the filter on front-load machines, and you can drain even more water out before opening the filter if you have a shallow pan to drain into.",
+      "\u2022 Open the filter housing (the filter unscrews from it), remove the filter, and wash it off. You may find the clog trapped here.",
+      "\u2022 Look inside the filter housing for any bits or foreign material. Make sure it's cleaned out. Not infrequently, you will discover a coin or plastic cap. which may fall in when the filter is removed.",
+      "\u2022 Look especially at the openings into the housing as there may be objects that are protruding from them and you will want to remove them.",
+      "\u2022 If the filter and housing were already clean when you opened it, replace it and skip to the next step.",
+      "\u2022 Reinstall the filter and run a rinse-spin cycle to check if the machine fills and drains properly. If the machine drains, you are done. If not, go to the next step.",
+      "2. Drain Hose Problems: The next most common problem is issues with the drain hose. Some things to check:",
+      "\u2022 Is the drain hose set too deep in the outlet standpipe? If it is, pull it out more. It should be about 4 or 10cm into the pipe.",
+      "\u2022 Check the entire length of the drain hose for kinks and make sure nothing is crushing the hose either.",
+      "\u2022 You can use a wooden dowel to probe the drain hose for a clog.",
+      "3. Clogged Pump Hose: Occasionally objects will make their way into the pump feed hose from the tub. They can be trapped before the filter, and often one item will trap another and fully obstruct the hose.",
+      "\u2022 Access the interior of the machine.",
+      "\u2022 Remove the hose that runs from the bottom of the outer wash tub (or drum) to the pump.",
+      "\u2022 Be prepared with a towel or other absorbent material as there is often trapped water, especially if the pump has struggled to empty the machine.",
+      "\u2022 Usually, this hose will be fairly large, 3-4cm(1 1/4 +/-) at the small end which is usually where the objects will lodge. Detach both ends of the hose and check for the clog.",
+      "\u2022 Clear any obstructions (they will often come out in the reverse flow direction more easily), wash the hose if possible, and reinstall it.",
+      "4. Clogged or Failed Pump: On some machines, especially many top loaders that do not have a filter, the pump itself can become clogged with debris.",
+      "\u2022 If you don't already have the machine opened up from the previous steps, open the cabinet and locate the drain pump.",
+      "\u2022 You will need to remove the whole assembly.",
+      "\u2022 Disconnect all the hoses that go into the pump assembly. Note where they go (rarely more than 3 hoses). Take a photo for reference before you start.",
+      "\u2022 Disconnect the electrical connection. If there's a circulating pump, disconnect it too. Be sure to note which connector goes where.",
+      "\u2022 Unscrew the pump from its mounting to the frame of the machine.",
+      "\u2022 Once you have the pump assembly out, remove the drain pump unit from the pump housing. Usually, there are only three screws or maybe four.",
+      "\u2022 Once you have it open, clean out the pump housing and also inspect the impeller for damage.",
+      "\u2022 You can also use a multimeter to check the resistance of the pump windings. they should be between 12 and 18\u03a9.",
+      "\u2022 Make sure the impeller is still connected to the motor shaft.",
+      "\u2022 It should turn with a stiff, step-by-step, kind of jerky or pulsing 'rubbery' movement. If it just spins loosely, that is actually a bad sign. Replace the pump (not the pump housing) if it just spins because it is broken.",
+      "5. Other Causes: Water Level Sensor/Switch: If this has failed, the machine will think it has drained when it hasn't.",
+      "Control Board: This is the last resort. If the machine is still giving these errors and you have done all the above steps, it is a good possibility that your main control board is defective. You should replace it."
+    ],
     "id": 6,
-    "query": "What should I do if my washing machine won't turn on?",
-    "source_pdf": "Washing Machine Won't Turn On.pdf",
-    "ground_truth": [
-      "1. Check if the power plug is loose. Push it firmly into the wall outlet.",
-      "2. Go to your home's circuit breaker box and check if the breaker labeled 'Laundry' or 'Washer' has tripped. Flip it Off and then back On.",
-      "3. Test the wall outlet by plugging in a lamp or hair dryer to see if it works.",
-      "4. If the outlet works, unplug the washer for 60 seconds to perform a 'Hard Reset' of the computer board.",
-      "5. Plug it back in and press Power.",
-      "6. If it still won't turn on, the main control board or the noise filter assembly inside the machine may be fused and needs replacement."
-    ]
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf"
   },
   {
+    "query": "How do I troubleshoot the SC or 5C code on my Samsung washing machine?",
+    "ground_truth": [
+      "Before you get too involved, do some initial checks. Answers to a few questions can help you target the problem.",
+      "\u2022 Is the washing machine located in an unheated area that gets very cold, or outdoors like on an unheated porch?",
+      "\u2022 You may have an ice clog in your drain hose.",
+      "\u2022 Try checking the hose near the bottom where it enters the washing machine. If it is stiff, try heating it with a hair dryer. Some Samsung machines have a check valve in the hose which can trap water and that water can freeze.",
+      "\u2022 You can also try pouring hot water slowly down the hose and letting it stand for a while.",
+      "\u2022 Does your machine take a long time to drain? You may even be using a workaround where you set it to spin more than once to get it to drain fully.",
+      "\u2022 Likely there is an obstruction, so you should just start at Clogged Filter.",
+      "\u2022 Do you hear grinding noises when the machine is trying to pump out? Do you notice that the machine has become much more noisy when draining?",
+      "\u2022 Your pump is likely failing. You might want to just go to Clogged Filter, then skip to Clogged or Failed Pump.",
+      "\u2022 Is there no sound at all when your machine is draining, for that matter it probably doesn't drain at all?",
+      "\u2022 Your pump is probably the issue; go to Clogged or Failed Pump then you can circle back if need be.",
+      "\u2022 If none of these apply go to the next step.",
+      "1. Clogged Filter: Many of these machines are equipped with a filter that can become clogged and prevent draining. This is both very common and very easy to fix. If your machine doesn't have a filter, skip this section.",
+      "\u2022 Run a Drain Spin Cycle (maybe more than once) if possible to try and remove as much water from the machine as you can.",
+      "\u2022 Have absorbent materials ready, like old towels, a bucket, and a mop.",
+      "\u2022 You may even choose to use some disposable pet training pads. It is often pretty dirty under a washing machine, or even just on the floor of many laundry areas.",
+      "\u2022 There is often a small drain hose alongside the filter on front-load machines, and you can drain even more water out before opening the filter if you have a shallow pan to drain into.",
+      "\u2022 Open the filter housing (the filter unscrews from it), remove the filter, and wash it off. You may find the clog trapped here.",
+      "\u2022 Look inside the filter housing for any bits or foreign material. Make sure it's cleaned out. Not infrequently, you will discover a coin or plastic cap. which may fall in when the filter is removed.",
+      "\u2022 Look especially at the openings into the housing as there may be objects that are protruding from them and you will want to remove them.",
+      "\u2022 If the filter and housing were already clean when you opened it, replace it and skip to the next step.",
+      "\u2022 Reinstall the filter and run a rinse-spin cycle to check if the machine fills and drains properly. If the machine drains, you are done. If not, go to the next step.",
+      "2. Drain Hose Problems: The next most common problem is issues with the drain hose. Some things to check:",
+      "\u2022 Is the drain hose set too deep in the outlet standpipe? If it is, pull it out more. It should be about 4 or 10cm into the pipe.",
+      "\u2022 Check the entire length of the drain hose for kinks and make sure nothing is crushing the hose either.",
+      "\u2022 You can use a wooden dowel to probe the drain hose for a clog. This is sometimes hard to determine because several models (usually top loaders) have a check valve built into the hose inside the machine.",
+      "\u2022 Sometimes you can lay the hose down flat near floor level and try to get water to drain through it. Remove anything that is used to shape or bend the hose (like putting a 'u' bend so it will go into the drain pipe).",
+      "\u2022 The hose has to be straightened out before you probe with the dowel.",
+      "\u2022 You can also try clearing the hose with a wet-dry vacuum, but be careful\u2014 you might suck something further into the hoses inside the machine.",
+      "\u2022 If the hose seems ok, move on to the next step.",
+      "\u2022 If you removed a clog, run a test on the machine by doing a rinse and spin cycle and see if the machine pumps out properly. if it does, you're done! If it doesn't pump out, go to the next step after you drain the machine.",
+      "3. Clogged Pump Hose: Occasionally objects will make their way into the pump feed hose from the tub. They can be trapped before the filter, and often one item will trap another and fully obstruct the hose.",
+      "\u2022 Access the interior of the machine.",
+      "\u2022 Remove the hose that runs from the bottom of the outer wash tub (or drum) to the pump.",
+      "\u2022 Be prepared with a towel or other absorbent material as there is often trapped water, especially if the pump has struggled to empty the machine.",
+      "\u2022 Usually, this hose will be fairly large, 3-4cm(1 1/4) at the small end which is usually where the objects will lodge. Detach both ends of the hose and check for the clog.",
+      "\u2022 Clear any obstructions (they will often come out in the reverse flow direction more easily), wash the hose if possible, and reinstall it.",
+      "\u2022 If there were no obstructions, go to the next cause",
+      "\u2022 If you found obstructions, you probably found your problem. You can reassemble the machine and test it.",
+      "4. Clogged or Failed Pump: On some machines, especially many top loaders that do not have a filter, the pump itself can become clogged with debris. Often this is cumulative, a small item like a paperclip or twist tie gets into the pump and then traps other items.",
+      "\u2022 If you don't already have the machine opened up from the previous steps, open the cabinet and locate the drain pump. As mentioned, this will be a unit that connects to the drain hose, and also to the washer tub or drum.",
+      "\u2022 You will need to remove the whole assembly.",
+      "\u2022 Disconnect all the hoses that go into the pump assembly. Note where they go (rarely more than 3 hoses). Take a photo for reference before you start.",
+      "\u2022 Disconnect the electrical connection. If there's a circulating pump, disconnect it too. Be sure to note which connector goes where.",
+      "\u2022 Unscrew the pump from its mounting to the frame of the machine.",
+      "\u2022 Once you have the pump assembly out, remove the drain pump unit from the pump housing. Usually, there are only three screws or maybe four. Note the position of the pump before you remove it, occasionally a pump will fit in more than one position.",
+      "\u2022 Once you have it open, clean out the pump housing and also inspect the impeller for damage.",
+      "\u2022 You can also use a multimeter to check the resistance of the pump windings. they should be between 12 and 18\u03a9.",
+      "\u2022 Make sure the impeller is still connected to the motor shaft.",
+      "\u2022 It should turn with a stiff, step-by-step, kind of jerky or pulsing 'rubbery' movement. If it just spins loosely, that is actually a bad sign. Replace the pump (not the pump housing) if it just spins because it is broken.",
+      "\u2022 You may also find that the pump has end play (the shaft moves along its axis). This is often indicated by noise when the pump was operating, and damage to the impeller and pump housing where they rub. It may still turn in the right way, but if it has end play, replace it.",
+      "\u2022 Usually, if the housing is not cracked, the rubbing from the impeller is not a problem\u2013you can just replace the pump.",
+      "\u2022 When you have finished cleaning the pump housing and checking the impeller, and have replaced any defective parts, reassemble your machine and test it. If it works, you're done! If not, we have some last-ditch items.",
+      "5. Other Causes: Water Level Sensor/Switch: If this has failed, the machine will think it has drained when it hasn't. If the machine has also been reluctant to fill with water, that sensor and system could be a distinct possibility.",
+      "Control Board: This is the last resort. If the machine is still giving these errors and you have done all the above steps, it is a good possibility that your main control board is defective. You should replace it."
+    ],
     "id": 7,
-    "query": "How do I fix a washing machine that is shaking or vibrating efficiently?",
-    "source_pdf": "Washing Machine Shaking.pdf",
-    "ground_truth": [
-      "1. Stop the machine and ensure the floor is solid and not slippery.",
-      "2. Try to rock the washing machine by pushing on opposite corners (front-left and back-right).",
-      "3. If the machine rocks, locate the four leveling legs at the bottom.",
-      "4. Use the supplied wrench (or pliers) to turn the locking nut on the loose leg to the left to loosen it.",
-      "5. Turn the leveling leg to the right (clockwise) to lower it until it touches the floor firmly.",
-      "6. Once the machine is stable, tighten the locking nut by turning it to the right (counter-clockwise) until it is flush against the machine base.",
-      "7. Run a test spin with a few towels to ensure it is stable."
-    ]
+    "source_pdf": "Samsung Washer SC Code.pdf"
   },
   {
+    "query": "How do I troubleshoot my Samsung Washing Machine?",
+    "ground_truth": [
+      "Ensure your water supply is turned on and the hose isn't kinked.",
+      "Restart the washer by turning it off and on.",
+      "Check for blockages in the drain hose and filter.",
+      "Restart your washer to reset the system.",
+      "Reduce the load size and ensure the detergent amount is correct.",
+      "Reset the washer by turning it off and on.",
+      "Adjust the load to balance it, or add more items.",
+      "Reset the washer to clear the error.",
+      "Check the water heater settings",
+      "Reset the washer to clear the error."
+    ],
     "id": 8,
-    "query": "How do I clean the detergent drawer to prevent mold?",
-    "source_pdf": "User Manual of WA5471ABP.pdf",
-    "ground_truth": [
-      "1. Pull the detergent drawer out until it stops.",
-      "2. Press down on the release lever (usually a blue tab) inside the drawer and pull the drawer completely out.",
-      "3. Remove the liquid detergent insert and the softener insert from the drawer.",
-      "4. Wash all parts under warm running water using an old toothbrush to remove sticky residue.",
-      "5. Use a damp cloth to wipe out the empty drawer compartment inside the machine.",
-      "6. Dry the drawer with a towel.",
-      "7. Reinsert the components and slide the drawer back into the machine."
-    ]
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf"
   },
   {
+    "query": "How do I load my Samsung washer for optimal results?",
+    "ground_truth": [
+      "Load your washer",
+      "Small Load: The tub is about 1/3 full, equating to 1 pound (450 g) of laundry per cubic foot of washer capacity.",
+      "Medium Load: The tub is about 1/2 full, or 2 pounds (900 g) of laundry per cubic foot of washer capacity.",
+      "Large Load: The tub is about 3/4 full, or 3 pounds (1.36 kg) of laundry per cubic foot of washer capacity."
+    ],
     "id": 9,
-    "query": "How do I use the Pure Cycle / Self Clean mode?",
-    "source_pdf": "User Manual of WA5471ABP.pdf",
-    "ground_truth": [
-      "1. Ensure the washing machine is completely empty.",
-      "2. Press the 'Power' button to turn the washer on.",
-      "3. Turn the cycle selector knob to 'Pure Cycle' or 'Self Clean'.",
-      "4. Note: Do NOT add detergent or bleach. This cycle uses very hot water and high-speed spinning to clean itself.",
-      "5. Press the 'Start/Pause' button.",
-      "6. The machine will run for approximately 1-2 hours.",
-      "7. Perform this cycle once a month or every 20 washes to prevent odors."
-    ]
+    "source_pdf": "The optimal laundry load size for your Samsung washer15.pdf"
   },
   {
-    "id": 10,
-    "query": "How do I troubleshoot a locked lid that won't open?",
-    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "query": "How do I connect the water supply hose to the washer?",
     "ground_truth": [
-      "1. If the cycle is running, press 'Start/Pause' and wait for the tub to stop spinning. The lock will release automatically.",
-      "2. If the machine is off and locked, plug it in and turn the power on. The lock should click open.",
-      "3. If it remains locked with water inside, you must run a 'Spin Only' cycle to drain the water first. The lid will not open if water sensors detect a full tub.",
-      "4. If the machine is empty and still locked, perform a reset: Unplug the machine for 5 minutes.",
-      "5. Plug it back in. If it clicks, try to open it immediately."
-    ]
+      "1. Connect the ends of the water supply hoses to the HOT and COLD faucets.",
+      "2. Tighten the fitting by hand until it is snug, then make two-thirds of a turn with a wrench.",
+      "3. Prepare a bucket for the water that will be emitted when you open the faucets connected to the two water supply hoses to remove any foreign substances from them.",
+      "4. Connect the ends of the water supply hoses to the water supply intake connections at the back of the washer.",
+      "5. Tighten the fitting by hand until it is snug, then make two-thirds of a turn with a wrench.",
+      "6. Turn on the HOT and COLD water supplies and check all the water supply intake connections and the faucets for water leaks."
+    ],
+    "id": 10,
+    "source_pdf": "User Manual of WA5471ABP-03050A-04_XAA.pdf"
+  },
+  {
+    "query": "How do I connect the water supply hose to the washer?",
+    "ground_truth": [
+      "1. Connect the ends of the water supply hoses to the HOT and COLD faucets.",
+      "2. Tighten the fitting by hand until it is snug, then make two-thirds of a turn with a wrench.",
+      "3. Prepare a bucket for the water that will be emitted when you open the faucets connected to the two water supply hoses to remove any foreign substances from them.",
+      "4. Connect the ends of the water supply hoses to the water supply intake connections at the back of the washer.",
+      "5. Tighten the fitting by hand until it is snug, then make two-thirds of a turn with a wrench.",
+      "6. Turn on the HOT and COLD water supplies and check all the water supply intake connections and the faucets for water leaks."
+    ],
+    "id": 11,
+    "source_pdf": "User Manual of WA5471ABP.pdf"
+  },
+  {
+    "query": "How do I keep my Samsung washer fresh and odor-free?",
+    "ground_truth": [
+      "Run a Spin-only cycle",
+      "Add chlorine bleach",
+      "Choose a Self Clean cycle",
+      "Wipe down the tub",
+      "Run a Rinse+Spin cycle",
+      "Allow the washing machine to dry",
+      "Clean the pump filter (Front Load models only)",
+      "Request Service"
+    ],
+    "id": 12,
+    "source_pdf": "washer fresh and odour free15.pdf"
+  },
+  {
+    "query": "How do I troubleshoot a locked washing machine door?",
+    "ground_truth": [
+      "We are starting with you looking at your locked washing machine. First of all, there are a few questions to answer.",
+      "Is your machine a top loader? If not, go to the next question.",
+      "Your best bets for releasing the door: Unplug and wait 5 minutes",
+      "Gently bang on the door near the latch location.",
+      "Try to alternately lift and push in gently on the door near the latch location. Do this for a minute or so.",
+      "Try to remove the top of the machine to gain access to the latch. This is often complicated on a top-load machine and usually involves removing the control console, and then releasing the top.",
+      "If you get in you should be able to manually release the latch.",
+      "Is your machine still full of water? Some machines will not unlock the door if they aren't pumped out first. If it's emptied of water, but stuck, go to the next question.",
+      "You will need to drain your machine first to see if it will unlock.",
+      "Many front-load machines have filters that are located down low on the front of the machine, these can be opened carefully to allow the machine to drain.",
+      "Some machines will have a drain tube in the same spot, which can simplify the process.",
+      "You may be able to use a wet-dry vac at the filter opening (or the drain tube) to rapidly remove the water."
+    ],
+    "id": 13,
+    "source_pdf": "Washing Machine Door Is Locked.pdf"
+  },
+  {
+    "query": "How do I troubleshoot a leaking washing machine?",
+    "ground_truth": [
+      "Shut off the water to the washing machine. It will help you to get everything dry, and you may notice that the wall-mounted shut-off valves leak when you are doing this.",
+      "Look carefully for where the source of the leak seems to be, front or rear for example. Dried mineral or detergent deposits or rusted areas can give a clue.",
+      "It is essential to dry everything off first because then the leak is easier to spot.",
+      "You may even notice things like the location of the moisture as you are drying the machine.",
+      "The first place to check is the valves and hoses and connections that supply water to the machine. If you find any leaking, try to tighten them and check again.",
+      "Watch carefully, as water can run down a hose from a leaking connection, and mislead you as to the leak location."
+    ],
+    "id": 14,
+    "source_pdf": "Washing Machine Is Leaking.pdf"
+  },
+  {
+    "query": "How do I troubleshoot a washing machine that is not draining?",
+    "ground_truth": [
+      "Your first move is to try to run a drain and spin cycle. If you don\u2019t know how, now\u2019s the time to get acquainted with your owner\u2019s manual. If you don\u2019t have one, you can usually go to the manufacturer\u2019s website and download one.",
+      "Once the machine is trying to drain, check the following items: \u2022 Is water coming out of the drain hose? Is it flowing fully or just a little trickle. Is there no water? \u2022 If there\u2019s no water, can you hear the pump running? If so, is it noisy? A running pump with no water coming out points to a clog or an impeller problem.",
+      "Get the items you will need to drain the machine. \u2022 You will need a bucket, a shallow pan that you can pour from and some rags. You may need to drain the machine more than once, so keep these items handy."
+    ],
+    "id": 15,
+    "source_pdf": "Washing Machine Not Draining.pdf"
+  },
+  {
+    "query": "How do I troubleshoot a washing machine that is not spinning?",
+    "ground_truth": [
+      "Check whether your machine has a High-E\ufb01ciency badge or not.",
+      "For High E\ufb01ciency (HE) machines, refer to the solution directly under each possible cause.",
+      "We will o\ufb00er separate subheadings for Top Loaders and Front Loaders when the solutions di\ufb00er.",
+      "If you've got an older top loader machine without a High-E\ufb01ciency badge, refer to the 'Traditional Machines' sections, as these will cover older top loader machines mainly built before 2000.",
+      "If there's no Traditional Machines section, just follow the main solution, as it doesn't di\ufb00er from high-e\ufb01ciency machines.",
+      "For the causes that follow, we assume: Your washing machine is plugged in and hasn't been accidentally unplugged.",
+      "Check that it has power.",
+      "If it doesn't even respond to start, this isn't the place, you need to consider why the machine won't start at all.",
+      "That it is able to \ufb01ll with water.",
+      "If so, turn the water o\ufb00 for now.",
+      "You ran a Reset sequence on your machine if it has electronic controls.",
+      "Note: If you replace a component on a machine with electronic controls, you should run a reset and a calibration/ recalibration, if available.",
+      "On to the causes!"
+    ],
+    "id": 16,
+    "source_pdf": "Washing Machine Not Spinning.pdf"
+  },
+  {
+    "query": "How do I troubleshoot a shaking washing machine?",
+    "ground_truth": [
+      "Stop the machine, open it, and rearrange the load. You might even want to add an item like a towel if there's only one item so that you can better balance things.",
+      "If the load is too large, the machine may not be able to spin at full speed, remove some of the wash items and try again.",
+      "Try to rock your machine in a couple of directions and see which way it wants to move if at all. if It doesn't want to move that's helpful, because leveling will be that much easier.",
+      "You should put a small level on the top of the machine to check which way it is leaning. In case you aren't sure how to use a level, here's a link to some information",
+      "Check for these and remove them if they are present. Often the machine will have to come with a wrench for doing this.",
+      "Remove the front and rear panels of the washing machine. You will be able to see the shock absorbers. There are usually 4, sometimes only two, and occasionally three.",
+      "Push down on the washer tub or basket and release it quickly",
+      "When you release it, note if it bounces or just returns to its starting position. If it bounces more than once it's defective, replace all the rods and associated components.",
+      "To check the springs on front loaders you will need to remove the top cover of the machine.",
+      "Make sure the springs are attached and not bent, broken, or corroded. If they are ok go on to Balance Ring",
+      "To check these springs you will need to remove the washer case or cabinet.",
+      "Check to see that the liquid is still present. Some front-load machines use concrete weights that can crack and shed pieces. Check to see that they are intact and that there is no debris under or inside the machine."
+    ],
+    "id": 17,
+    "source_pdf": "Washing Machine Shaking.pdf"
+  },
+  {
+    "query": "How do I troubleshoot a washing machine that will not fill with water?",
+    "ground_truth": [
+      "Power Connection: Ensure the washer is properly plugged in and turned on.",
+      "Hose Inspection: Check for any kinks or blockages in the fill hoses.",
+      "Screen Cleaning: Clean the screens in the fill hoses to remove any clogs."
+    ],
+    "id": 18,
+    "source_pdf": "Washing Machine Troubleshooting.pdf"
+  },
+  {
+    "query": "How do I troubleshoot a washing machine that won't turn on?",
+    "ground_truth": [
+      "Before you go forward, here are a few questions to consider:",
+      "Did you just run a very heavy load in your machine? You can have issues where the thermal protection for the motor trips after the motor has stopped. Give it a few minutes.",
+      "Is your machine giving an error code? There are some codes that will prevent a machine from starting. Codes that deal with the door lock, or draining the machine are good candidates for no start. Your owner's manual will help with those.",
+      "Dies the machine fill with water, but then nothing more? Obviously, you have power, and the start button works so that the machine will fill, so skip to Child Lock.",
+      "Does the machine hum after it fills? Skip down to Shorted Capacitor."
+    ],
+    "id": 19,
+    "source_pdf": "Washing Machine Won't Turn On.pdf"
   }
 ]

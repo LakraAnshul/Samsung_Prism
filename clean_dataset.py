@@ -21,6 +21,7 @@ def clean_dataset():
     with open(JSON_PATH, 'r') as f:
         kb_data = json.load(f)
     
+    
     # 2. Extract Valid Filenames
     # We use a 'set' for instant lookup speed
     valid_filenames = {entry['id'] for entry in kb_data}

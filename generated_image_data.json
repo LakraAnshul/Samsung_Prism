@@ -1,58 +1,87 @@
 [
   {
-    "id": "Samsung_WA5471ABP_Step1_Wide_Location.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step1_Wide_Location.png",
-    "problem_name": "Locate Magic Filter Wide",
-    "dense_caption": "A wide shot looking into the drum of a Samsung WA5471ABP washing machine. A red rectangular highlight outlines the 'Magic Filter' located on the side wall of the stainless steel drum, set against a blurred Indian household background.",
-    "detected_objects": ["washing machine drum", "Magic Filter", "red highlight", "stainless steel wall"]
-  },
-  {
-    "id": "Samsung_WA5471ABP_Step1_CloseUp_Filter.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step1_CloseUp_Filter.png",
-    "problem_name": "Locate Magic Filter Close-up",
-    "dense_caption": "A close-up view of the Magic Filter unit inside the drum. The filter casing is distinct, and a red glow highlights the specific area where the user needs to interact.",
-    "detected_objects": ["Magic Filter unit", "red glow", "drum interior"]
-  },
-  {
-    "id": "Samsung_WA5471ABP_Step2_Press_Release_Tab.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step2_Press_Release_Tab.png",
-    "problem_name": "Unlock Filter Tab",
-    "dense_caption": "A hand is shown reaching into the drum and pressing the release tab at the top of the filter. A red arrow points downwards onto the tab to indicate the pressing action required to unlock it.",
-    "detected_objects": ["hand", "release tab", "red directional arrow", "filter"]
-  },
-  {
-    "id": "Samsung_WA5471ABP_Step2_Lift_Remove.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step2_Lift_Remove.png",
-    "problem_name": "Remove Filter Unit",
-    "dense_caption": "The filter is being physically lifted out of its housing on the drum wall. A red dashed line traces the upward movement path, indicating the removal direction.",
-    "detected_objects": ["hand", "removed filter", "filter housing", "red path line"]
-  },
-  {
-    "id": "Samsung_WA5471ABP_Step3_Rinse_Tap.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step3_Rinse_Tap.png",
-    "problem_name": "Rinse Filter Mesh",
-    "dense_caption": "The open filter is being held under a running water tap in a sink. A red box highlights the mesh area where the water is hitting to flush out the lint.",
-    "detected_objects": ["open filter", "mesh", "running water", "tap", "red highlight box"]
-  },
-  {
-    "id": "Samsung_WA5471ABP_Step3_Scrub_Brush.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step3_Scrub_Brush.png",
-    "problem_name": "Scrub Stubborn Lint",
-    "dense_caption": "A close-up showing a hand using a small cleaning brush to gently scrub the filter mesh. A red circle highlights the point of contact between the brush and the mesh.",
-    "detected_objects": ["small brush", "filter mesh", "hand", "red circle"]
-  },
-  {
-    "id": "Samsung_WA5471ABP_Step4_Insert_Back.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step4_Insert_Back.png",
-    "problem_name": "Reinsert Filter",
-    "dense_caption": "A hand is aligning the clean filter back into the slot on the washing machine drum wall. Red arrows indicate the alignment points to ensure it fits correctly.",
-    "detected_objects": ["clean filter", "drum slot", "hand", "red alignment arrows"]
-  },
-  {
-    "id": "Samsung_WA5471ABP_Step4_Lock_Click.png",
-    "file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step4_Lock_Click.png",
-    "problem_name": "Secure Filter Lock",
-    "dense_caption": "The filter is pressed firmly against the drum wall. A red 'click' graphic or icon is overlaid on the top tab to visualize the locking mechanism engaging.",
-    "detected_objects": ["filter", "drum wall", "hand", "red click graphic"]
-  }
+"id": "Samsung_WA5471ABP_Step2_TurnOffWater_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step2_TurnOffWater_01.png",
+"problem_name": "Turn Off Water Supply",
+"dense_caption": "A close-up of a hand with Indian skin tone turning a brass water faucet clockwise to the 'Off' position on a cream-colored wall. A red arrow indicates the direction of rotation. A red rectangular box highlights the hand and faucet. The back of a silver Samsung WA5471 ABP washing machine with connected hoses is visible on the right.",
+"detected_objects": ["hand", "water faucet", "hoses", "washing machine back panel", "red highlight box", "red directional arrow"]
+},
+
+{
+"id": "Samsung_WA5471ABP_Step1_Unplug_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step1_Unplug_01.png",
+"problem_name": "Unplug Power Cord",
+"dense_caption": "A close-up view showing a hand with Indian skin tone unplugging a black 3-pin power cord from a white wall socket. A red rectangular box highlights the plug and socket area. To the left, the top portion of a silver Samsung WA5471 ABP top load washing machine is visible.",
+"detected_objects": ["hand", "power plug", "wall socket", "red highlight box", "Samsung WA5471 ABP washing machine"]
+},
+{
+"id": "Samsung_WA5471ABP_Step3_LocateHoses_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step3_LocateHoses_01.png",
+"problem_name": "Locate Hose Connections",
+"dense_caption": "A close-up view of the back panel of a silver Samsung WA5471 ABP washing machine, showing the hot and cold water inlet valves with hoses attached. A red rectangular box highlights the connection area.",
+"detected_objects": ["Samsung WA5471 ABP back panel", "hot water inlet valve", "cold water inlet valve", "water hoses", "red highlight box"]
+},
+{
+"id": "Samsung_WA5471ABP_Step4_PlaceBucket_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step4_PlaceBucket_01.png",
+"problem_name": "Prepare for Water Spillage",
+"dense_caption": "A view of the back of a silver Samsung WA5471 ABP washing machine showing the water hose connections. An orange plastic bucket with a white towel draped over the rim is placed on the floor underneath the hoses to catch water. A red rectangular box highlights the bucket and towel.",
+"detected_objects": ["Samsung WA5471 ABP back panel", "water hoses", "orange bucket", "white towel", "red highlight box"]
+},
+{
+"id": "Samsung_WA5471ABP_Step5_UnscrewHoses_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step5_UnscrewHoses_01.png",
+"problem_name": "Unscrew Water Hoses",
+"dense_caption": "A close-up view of a hand with Indian skin tone unscrewing the hot (red) and cold (blue) water hoses from the inlet valves on the back of the Samsung WA5471 ABP washing machine by turning them to the left (counter-clockwise).",
+"detected_objects": ["hand", "red hot water hose", "blue cold water hose", "washing machine back panel", "inlet valves"]
+},
+{
+"id": "Samsung_WA5471ABP_Step6_InspectValves_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step6_InspectValves_01.png",
+"problem_name": "Inspect Intake Valves",
+"dense_caption": "A close-up view into the threaded intake valves on the back of the Samsung WA5471 ABP washing machine. Small circular wire mesh filter screens are visible inside both the hot and cold water valves.",
+"detected_objects": ["threaded intake valves", "wire mesh screens", "washing machine back panel"]
+},
+{
+"id": "Samsung_WA5471ABP_Step7_RemoveFilters_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step7_RemoveFilters_01.png",
+"problem_name": "Remove Mesh Filters",
+"dense_caption": "A close-up action shot showing a hand using needle-nose pliers to gently pull a wire mesh filter straight out of the water intake valve on the back of the Samsung WA5471 ABP washing machine.",
+"detected_objects": ["hand", "needle-nose pliers", "wire mesh filter", "intake valve", "washing machine back panel"]
+},
+{
+"id": "Samsung_WA5471ABP_Step8_RinseFilters_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step8_RinseFilters_01.png",
+"problem_name": "Rinse Filters",
+"dense_caption": "A view of a sink where hands are holding the removed wire mesh filters under warm running water to rinse away sand and debris.",
+"detected_objects": ["hands", "wire mesh filters", "running water", "sink faucet"]
+},
+{
+"id": "Samsung_WA5471ABP_Step9_ScrubFilters_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step9_ScrubFilters_01.png",
+"problem_name": "Scrub Filters",
+"dense_caption": "A close-up showing a hand holding a dirty wire mesh filter while the other hand gently scrubs it with a soft toothbrush to remove stubborn debris.",
+"detected_objects": ["hands", "wire mesh filter", "soft toothbrush"]
+},
+{
+"id": "Samsung_WA5471ABP_Step10_ReplaceFilters_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step10_ReplaceFilters_01.png",
+"problem_name": "Replace Clean Filters",
+"dense_caption": "A close-up view of a hand pushing the clean wire mesh filters back into their respective intake valves on the back of the Samsung WA5471 ABP washing machine until they seat firmly.",
+"detected_objects": ["hand", "clean mesh filters", "intake valves", "washing machine back panel"]
+},
+{
+"id": "Samsung_WA5471ABP_Step11_ReconnectHoses_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step11_ReconnectHoses_01.png",
+"problem_name": "Reconnect Water Hoses",
+"dense_caption": "A close-up view of hands screwing the water hoses back onto the intake valves of the Samsung WA5471 ABP washing machine and hand-tightening them securely.",
+"detected_objects": ["hands", "water hoses", "intake valves", "washing machine back panel"]
+},
+{
+"id": "Samsung_WA5471ABP_Step12_CheckLeaks_01.png",
+"file_path": "./final_cleaned_dataset\\Samsung_WA5471ABP_Step12_CheckLeaks_01.png",
+"problem_name": "Turn On Water & Check Leaks",
+"dense_caption": "A view showing the water faucets turned back to the 'On' position, with a focus on the hose connections at the back of the Samsung WA5471 ABP washing machine where a hand is checking for any signs of leaks.",
+"detected_objects": ["water faucets", "hose connections", "hand", "washing machine back panel"]
+}
 ]
