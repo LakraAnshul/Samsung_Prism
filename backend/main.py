@@ -127,10 +127,11 @@ def phase_1_generate_steps(query, text_context, mode):
     CONTEXT: {text_context}
     QUERY: "{query}"
 
-    TASK: Extract steps.
+    TASK: Extract steps. Rate grounding_confidence (1-10) based on how well the context answers the query.
     OUTPUT FORMAT (JSON ONLY):
     {{
       "task_title": "string",
+      "grounding_confidence": 10,
       "steps": [ {{ "step": 1, "instruction": "string", "chunks": [1] }} ]
     }}
     """
@@ -157,6 +158,9 @@ def phase_2_semantic_match(steps_json):
     steps = steps_json.get("steps", [])
     task_title = steps_json.get("task_title", "")
 
+    used_images = set()
+    MIN_IMAGE_CONFIDENCE = 0.60
+
     for step in steps:
         instruction = step.get("instruction", "")
 
@@ -175,12 +179,24 @@ def phase_2_semantic_match(steps_json):
 
         for idx in top_indices:
             score = scores[idx]
+            img_path = IMAGE_KB[idx]["file_path"]
+
             # Threshold: Only accept reasonable matches
-            if score > 0.35:
-                img_path = IMAGE_KB[idx]["file_path"]
+            if score > MIN_IMAGE_CONFIDENCE:
+                if img_path in used_images and score < 0.90:
+                    print(
+                        f"   ⚠️ Skipping duplicate image ({score:.2f}): {img_path.split('/')[-1]}"
+                    )
+                    continue
+
                 matched_paths.append(img_path)
+                used_images.add(img_path)
                 print(
                     f"   ✅ Step {step['step']} -> Match ({score:.2f}): {img_path.split('/')[-1]}"
+                )
+            else:
+                print(
+                    f"   ❌ Rejecting image ({score:.2f} < {MIN_IMAGE_CONFIDENCE}): {img_path.split('/')[-1]}"
                 )
 
         # 4. Assign list (or null)
