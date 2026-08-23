@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung PRISM — Grounded Multimodal RAG Technical Review</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Vector Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Mermaid.js for Beautiful Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <!-- Chart.js for Benchmark Visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        :root {
+            --bg-main: #050811;
+            --bg-surface: #0A101D;
+            --bg-card: rgba(14, 22, 38, 0.85);
+            --bg-card-hover: rgba(22, 34, 58, 0.95);
+            --bg-glass: rgba(255, 255, 255, 0.04);
+            --border-glass: rgba(255, 255, 255, 0.1);
+            --border-glow: rgba(0, 119, 255, 0.4);
+            
+            --samsung-navy: #034EA2;
+            --samsung-blue: #0077FF;
+            --cyan-accent: #00E5FF;
+            --emerald-green: #10B981;
+            --amber-alert: #F59E0B;
+            --rose-red: #EF4444;
+            --purple-accent: #8B5CF6;
+            
+            --text-primary: #FFFFFF;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 18px;
+            --radius-xl: 24px;
+            
+            --shadow-card: 0 12px 36px -4px rgba(0, 0, 0, 0.6), 0 0 24px -2px rgba(0, 119, 255, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            user-select: none;
+        }
+
+        /* Top App Bar */
+        .top-navbar {
+            height: 64px;
+            background: rgba(10, 16, 29, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-glass);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 28px;
+            z-index: 100;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .brand-cluster {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .prism-badge {
+            background: linear-gradient(135deg, var(--samsung-navy), var(--samsung-blue));
+            padding: 6px 14px;
+            border-radius: var(--radius-sm);
+            font-weight: 800;
+            font-size: 13px;
+            letter-spacing: 1.2px;
+            color: #FFFFFF;
+            box-shadow: 0 0 16px rgba(0, 119, 255, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .deck-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-primary);
+            letter-spacing: -0.2px;
+        }
+
+        .deck-subtitle {
+            font-size: 12px;
+            color: var(--cyan-accent);
+            font-weight: 500;
+        }
+
+        .action-cluster {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: 600;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            border: none;
+            outline: none;
+        }
+
+        .btn-ghost {
+            background: var(--bg-glass);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-glass);
+        }
+
+        .btn-ghost:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+            border-color: rgba(255, 255, 255, 0.25);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #0077FF, #00C3FF);
+            color: #FFFFFF;
+            box-shadow: 0 4px 14px rgba(0, 119, 255, 0.35);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(0, 119, 255, 0.5);
+        }
+
+        /* Slide Viewport */
+        .stage-container {
+            flex: 1;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: radial-gradient(circle at 50% 20%, rgba(3, 78, 162, 0.18), transparent 70%),
+                        radial-gradient(circle at 85% 85%, rgba(0, 229, 255, 0.08), transparent 50%),
+                        radial-gradient(circle at 15% 85%, rgba(139, 92, 246, 0.06), transparent 50%);
+            transition: all 0.3s ease;
+        }
+
+        .slide-deck {
+            position: relative;
+            width: 92vw;
+            max-width: 1440px;
+            height: 82vh;
+            max-height: 840px;
+            aspect-ratio: 16 / 9;
+            transition: all 0.3s ease;
+        }
+
+        .slide {
+            position: absolute;
+            inset: 0;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-card);
+            padding: 34px 48px;
+            display: flex;
+            flex-direction: column;
+            opacity: 0;
+            visibility: hidden;
+            transform: scale(0.97) translateY(14px);
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            overflow-y: auto;
+            backdrop-filter: blur(24px);
+        }
+
+        .slide.active {
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1) translateY(0);
+            z-index: 10;
+        }
+
+        .slide::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 48px;
+            right: 48px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--samsung-blue), var(--cyan-accent), transparent);
+            opacity: 0.8;
+        }
+
+        /* Slide Header */
+        .slide-header {
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-shrink: 0;
+        }
+
+        .category-tag {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+            color: var(--cyan-accent);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 4px;
+        }
+
+        .slide-title {
+            font-size: 26px;
+            font-weight: 800;
+            color: #FFFFFF;
+            letter-spacing: -0.5px;
+            line-height: 1.2;
+        }
+
+        .slide-subtitle {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-top: 3px;
+            font-weight: 400;
+        }
+
+        .slide-number-pill {
+            background: var(--bg-glass);
+            border: 1px solid var(--border-glass);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* Slide Content Bodies */
+        .slide-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 14px;
+        }
+
+        /* Grid Utilities */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+
+        .grid-2-1 {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 18px;
+        }
+
+        .grid-1-2 {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 18px;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            padding: 18px 20px;
+            transition: all 0.25s ease;
+            position: relative;
+        }
+
+        .card:hover {
+            border-color: var(--border-glow);
+            background: var(--bg-card-hover);
+        }
+
+        .card-glow {
+            border-color: rgba(0, 119, 255, 0.45);
+            box-shadow: inset 0 0 20px rgba(0, 119, 255, 0.08);
+        }
+
+        .card-success {
+            border-color: rgba(16, 185, 129, 0.4);
+            box-shadow: inset 0 0 20px rgba(16, 185, 129, 0.08);
+        }
+
+        .card-alert {
+            border-color: rgba(239, 68, 68, 0.4);
+            box-shadow: inset 0 0 20px rgba(239, 68, 68, 0.08);
+        }
+
+        .card-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-text {
+            font-size: 13.5px;
+            color: var(--text-secondary);
+            line-height: 1.55;
+        }
+
+        .metric-val {
+            font-size: 34px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            background: linear-gradient(135deg, #FFFFFF, var(--cyan-accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .metric-label {
+            font-size: 11.5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        /* Feature Lists */
+        .feature-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .feature-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 13.5px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .icon-bullet {
+            width: 22px;
+            height: 22px;
+            border-radius: 6px;
+            background: rgba(0, 119, 255, 0.15);
+            color: var(--cyan-accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .icon-bullet.success {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34D399;
+        }
+
+        .icon-bullet.danger {
+            background: rgba(239, 68, 68, 0.15);
+            color: #F87171;
+        }
+
+        /* --- BEAUTIFUL FLOWCHART STYLES --- */
+        .flowchart-card {
+            background: rgba(10, 16, 29, 0.88);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-lg);
+            padding: 16px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            box-shadow: inset 0 0 24px rgba(0, 119, 255, 0.06);
+            overflow: hidden;
+        }
+
+        .mermaid {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mermaid svg {
+            width: 100% !important;
+            max-height: 380px !important;
+            font-family: 'Plus Jakarta Sans', sans-serif !important;
+        }
+
+        /* Mermaid Node Enhancements */
+        .mermaid .node rect, 
+        .mermaid .node polygon,
+        .mermaid .node circle {
+            rx: 10px !important;
+            stroke-width: 2px !important;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.4));
+        }
+
+        .mermaid .nodeLabel {
+            font-size: 14px !important;
+            font-weight: 700 !important;
+            color: #FFFFFF !important;
+        }
+
+        .mermaid .edgeLabel {
+            font-size: 12px !important;
+            font-weight: 700 !important;
+            color: var(--cyan-accent) !important;
+            background-color: #0A101D !important;
+            border-radius: 4px !important;
+            padding: 2px 6px !important;
+            border: 1px solid rgba(0, 229, 255, 0.3) !important;
+        }
+
+        .mermaid .edgePath path {
+            stroke-width: 2px !important;
+            stroke: #00E5FF !important;
+        }
+
+        /* Tables */
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12.5px;
+        }
+
+        .styled-table th {
+            background: rgba(255, 255, 255, 0.04);
+            color: var(--text-primary);
+            text-align: left;
+            padding: 10px 12px;
+            font-weight: 700;
+            border-bottom: 1px solid var(--border-glass);
+        }
+
+        .styled-table td {
+            padding: 10px 12px;
+            color: var(--text-secondary);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .status-pass {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34D399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .code-pill {
+            font-family: 'JetBrains Mono', monospace;
+            background: rgba(0, 0, 0, 0.45);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11.5px;
+            color: var(--cyan-accent);
+        }
+
+        /* Bottom Controls Bar */
+        .bottom-bar {
+            height: 60px;
+            background: rgba(10, 16, 29, 0.92);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid var(--border-glass);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 32px;
+            z-index: 100;
+            flex-shrink: 0;
+            position: relative;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .progress-track {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--samsung-navy), var(--samsung-blue), var(--cyan-accent));
+            transition: width 0.3s ease;
+        }
+
+        .nav-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .nav-btn {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: var(--bg-glass);
+            border: 1px solid var(--border-glass);
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .nav-btn:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--cyan-accent);
+            transform: scale(1.05);
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .slide-indicator {
+            font-size: 13.5px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .slide-indicator span {
+            color: var(--text-primary);
+        }
+
+        .keyboard-hints {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .kbd {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            color: var(--text-secondary);
+        }
+
+        /* --- FULLSCREEN PRESENTATION MODE: CLEAN & PURE --- */
+        :fullscreen body,
+        .fullscreen-active body {
+            background: #050811;
+        }
+
+        :fullscreen .top-navbar,
+        .fullscreen-active .top-navbar,
+        :fullscreen .bottom-bar,
+        .fullscreen-active .bottom-bar {
+            display: none !important;
+        }
+
+        :fullscreen .stage-container,
+        .fullscreen-active .stage-container {
+            width: 100vw !important;
+            height: 100vh !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            background: #050811 !important;
+        }
+
+        :fullscreen .slide-deck,
+        .fullscreen-active .slide-deck {
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: 100vw !important;
+            max-height: 100vh !important;
+            aspect-ratio: auto !important;
+        }
+
+        :fullscreen .slide,
+        .fullscreen-active .slide {
+            border-radius: 0 !important;
+            border: none !important;
+            box-shadow: none !important;
+            padding: 44px 72px !important;
+            width: 100vw !important;
+            height: 100vh !important;
+        }
+
+        /* Floating discreet indicator in fullscreen */
+        .fs-floating-nav {
+            position: fixed;
+            bottom: 24px;
+            right: 32px;
+            display: none;
+            align-items: center;
+            gap: 12px;
+            background: rgba(10, 16, 29, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--border-glass);
+            padding: 6px 14px;
+            border-radius: 30px;
+            z-index: 999;
+            opacity: 0.3;
+            transition: opacity 0.2s ease;
+        }
+
+        :fullscreen .fs-floating-nav,
+        .fullscreen-active .fs-floating-nav {
+            display: flex;
+        }
+
+        .fs-floating-nav:hover {
+            opacity: 1;
+        }
+
+        /* Slide Overview Grid Overlay */
+        .overview-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(5, 8, 17, 0.96);
+            backdrop-filter: blur(24px);
+            z-index: 200;
+            display: none;
+            flex-direction: column;
+            padding: 40px 60px;
+            overflow-y: auto;
+        }
+
+        .overview-modal.open {
+            display: flex;
+        }
+
+        .overview-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            flex-shrink: 0;
+        }
+
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+            gap: 20px;
+        }
+
+        .thumbnail-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            padding: 18px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .thumbnail-card:hover, .thumbnail-card.current {
+            border-color: var(--cyan-accent);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0, 229, 255, 0.2);
+        }
+
+        .thumbnail-card .t-num {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--cyan-accent);
+            font-weight: 700;
+        }
+
+        .thumbnail-card .t-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+
+        .thumbnail-card .t-desc {
+            font-size: 12px;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        /* Print Layout for Export to Clean PDF */
+        @media print {
+            .top-navbar, .bottom-bar, .overview-modal, .fs-floating-nav {
+                display: none !important;
+            }
+            body {
+                overflow: visible !important;
+                height: auto !important;
+                background: #070B14 !important;
+                color: #FFFFFF !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+            .stage-container {
+                display: block !important;
+                background: none !important;
+            }
+            .slide-deck {
+                width: 100% !important;
+                height: auto !important;
+                max-width: 100% !important;
+                max-height: none !important;
+            }
+            .slide {
+                position: relative !important;
+                inset: auto !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                transform: none !important;
+                page-break-after: always;
+                page-break-inside: avoid;
+                margin-bottom: 30px;
+                background: #0A101D !important;
+                color: #FFFFFF !important;
+                border: 1px solid rgba(255,255,255,0.15) !important;
+                height: 100vh !important;
+                max-height: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <header class="top-navbar">
+        <div class="brand-cluster">
+            <div class="prism-badge">
+                <i data-lucide="sparkles" style="width:14px;height:14px;"></i> SAMSUNG PRISM
+            </div>
+            <div>
+                <div class="deck-title">Grounded Multimodal RAG for Appliance Technical Support</div>
+                <div class="deck-subtitle">Milestone 1 Architecture & Benchmark Review</div>
+            </div>
+        </div>
+        <div class="action-cluster">
+            <button class="btn btn-ghost" onclick="toggleOverview()" title="Slide Overview Grid (Hotkey: O)">
+                <i data-lucide="layout-grid" style="width:15px;height:15px;"></i> Overview
+            </button>
+            <button class="btn btn-ghost" onclick="toggleFullscreen()" title="Fullscreen Presentation Mode (Hotkey: F)">
+                <i data-lucide="maximize" style="width:15px;height:15px;"></i> Fullscreen (F)
+            </button>
+            <button class="btn btn-primary" onclick="window.print()" title="Export / Print Clean PDF">
+                <i data-lucide="printer" style="width:15px;height:15px;"></i> Export PDF
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Slide Deck Stage -->
+    <main class="stage-container" id="stageContainer">
+        <div class="slide-deck" id="slideDeck">
+
+            <!-- SLIDE 1: Title Slide -->
+            <section class="slide active" id="slide-1">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="shield-check" style="width:14px;height:14px;"></i> Samsung PRISM Project Review</div>
+                        <h1 class="slide-title" style="font-size: 36px;">Grounded Multimodal RAG</h1>
+                        <p class="slide-subtitle" style="font-size: 18px;">Zero-Hallucination Technical Guide & Diagram Alignment for Home Appliances</p>
+                    </div>
+                    <div class="slide-number-pill">01 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-3" style="margin-top: 10px;">
+                        <div class="card card-glow">
+                            <div class="card-title"><i data-lucide="target" style="color:var(--cyan-accent)"></i> Core Mission</div>
+                            <p class="card-text">Eliminate visual and text hallucinations in customer repair manuals by strictly grounding step-by-step instructions to verified physical appliance diagrams.</p>
+                        </div>
+                        <div class="card card-glow">
+                            <div class="card-title"><i data-lucide="cpu" style="color:var(--samsung-blue)"></i> Key Innovation</div>
+                            <p class="card-text">Multi-tiered retrieval uniting spatial PDF bounding boxes, model slotting, direct page linking, and a &lt;0.65 confidence rejection gate.</p>
+                        </div>
+                        <div class="card card-glow">
+                            <div class="card-title"><i data-lucide="check-circle-2" style="color:var(--emerald-green)"></i> Benchmark Proven</div>
+                            <p class="card-text">Achieved <strong>90.0%</strong> Procedural Text Quality, <strong>85.0%</strong> Visual Alignment Accuracy, and <strong>0.0%</strong> Image Repetition on Samsung WA5471ABP.</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; padding-top: 20px; border-top: 1px solid var(--border-glass);">
+                        <div style="font-size: 13px; color: var(--text-muted); display:flex; align-items:center; gap:8px;">
+                            <i data-lucide="layers" style="width:15px;height:15px;color:var(--cyan-accent);"></i>
+                            <strong>Target Domain:</strong> Samsung Washing Machine Knowledge Base (Deep Test Bed: WA5471ABP)
+                        </div>
+                        <div style="font-size: 13px; color: var(--cyan-accent); font-family: 'JetBrains Mono', monospace; font-weight:600;">
+                            Milestone 1 • Engineering Presentation
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: Problem vs Solution -->
+            <section class="slide" id="slide-2">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="alert-octagon" style="width:14px;height:14px;"></i> Problem Identification</div>
+                        <h2 class="slide-title">The Gap in Standard Multimodal RAG</h2>
+                        <p class="slide-subtitle">Why traditional unconstrained RAG pipelines fail in technical appliance domains</p>
+                    </div>
+                    <div class="slide-number-pill">02 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-2">
+                        <div class="card card-alert">
+                            <div class="card-title" style="color:#F87171;"><i data-lucide="x-circle"></i> Flawed Baseline Architecture</div>
+                            <ul class="feature-list" style="margin-top: 12px;">
+                                <li>
+                                    <div class="icon-bullet danger"><i data-lucide="x" style="width:13px;height:13px;"></i></div>
+                                    <span><strong>Two Independent Searches:</strong> Text and image retrieval ran separately with zero grounding connection.</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet danger"><i data-lucide="x" style="width:13px;height:13px;"></i></div>
+                                    <span><strong>Unconstrained Queries:</strong> "Samsung washer" queries cross-pollinated top-load and front-load manuals.</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet danger"><i data-lucide="x" style="width:13px;height:13px;"></i></div>
+                                    <span><strong>Forced Bad Matches:</strong> Pipeline always attached an image even when zero relevant diagrams existed.</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet danger"><i data-lucide="x" style="width:13px;height:13px;"></i></div>
+                                    <span><strong>Severe Repetition:</strong> Same pump diagram repeated across 6 unrelated steps.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card card-success">
+                            <div class="card-title" style="color:#34D399;"><i data-lucide="check-circle-2"></i> Our Solution Architecture</div>
+                            <ul class="feature-list" style="margin-top: 12px;">
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:13px;height:13px;"></i></div>
+                                    <span><strong>Model Disambiguation:</strong> Enforces model number validation & slot-filling prior to vector search.</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:13px;height:13px;"></i></div>
+                                    <span><strong>Spatial Linked Ingestion:</strong> Images and text chunks bound at PDF parse time via page & bbox.</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:13px;height:13px;"></i></div>
+                                    <span><strong>Confidence Rejection:</strong> Return clean, pristine text if match similarity is &lt;0.65.</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:13px;height:13px;"></i></div>
+                                    <span><strong>Zero Duplicate Guarantee:</strong> Suppresses image reuse across consecutive steps.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 3: End-to-End System Architecture (Beautiful Multi-Tier Flowchart) -->
+            <section class="slide" id="slide-3">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="git-branch" style="width:14px;height:14px;"></i> System Engineering</div>
+                        <h2 class="slide-title">End-to-End Grounded Architecture Flowchart</h2>
+                        <p class="slide-subtitle">Dataflow through model slotting, chunk citations, and dual-tier visual matching</p>
+                    </div>
+                    <div class="slide-number-pill">03 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="flowchart-card">
+                        <div class="mermaid">
+flowchart TD
+    %% Global Nodes
+    subgraph INGESTION ["Spatial Knowledge Base Ingestion"]
+        PDF["User Manuals (PDF)"] --> EXT["PyMuPDF: Chunking + Spatial Image Extraction"]
+        EXT --> CHROMA[("Scoped ChromaDB: 864 Chunks / 339 Pages")]
+        EXT --> IMGKBS[("Image KB: 232 Diagrams with BBoxes & Captions")]
+    end
+
+    subgraph INFERENCE ["Runtime Grounded Inference Pipeline"]
+        UQ["User Query (e.g. Clean Filter)"] --> MS["Phase 1: Model Slotting & Validation"]
+        MS --> RET["Phase 2: Scoped ChromaDB Text Retrieval"]
+        CHROMA -.-> RET
+        RET --> LLM["Phase 3: LLM Step Generation + Chunk Citations"]
+        LLM --> DEC{"Match Engine: Has diagram on cited page?"}
+        
+        DEC -->|"YES (Exact Page)"| T1["Tier 1: Direct Page Link (0.95 Boost)"]
+        DEC -->|"NO (Different Page)"| T2["Tier 2: Model-Scoped Semantic Search"]
+        IMGKBS -.-> T1
+        IMGKBS -.-> T2
+        
+        T2 --> SIMCHECK{"Cosine Sim >= 0.65?"}
+        SIMCHECK -->|"YES"| DUPCHECK{"Is Duplicate?"}
+        SIMCHECK -->|"NO"| REJECT1["Confidence Rejection Gate"]
+        DUPCHECK -->|"NO (or Sim >= 0.92)"| ATTACH["Attach Semantic Diagram"]
+        DUPCHECK -->|"YES (Sim < 0.92)"| REJECT2["Duplicate Suppression"]
+        
+        T1 --> ASSEMBLE["Phase 4: Output Assembly"]
+        ATTACH --> ASSEMBLE
+        REJECT1 --> ASSEMBLE
+        REJECT2 --> ASSEMBLE
+        ASSEMBLE --> OUT(["Grounded Multimodal Technical Guide"]):::outNode
+    end
+
+    classDef outNode fill:#034EA2,stroke:#00E5FF,stroke-width:2.5px,color:#FFF;
+    style DEC fill:#1E293B,stroke:#00E5FF,stroke-width:2px,color:#FFF;
+    style SIMCHECK fill:#1E293B,stroke:#8B5CF6,stroke-width:2px,color:#FFF;
+    style DUPCHECK fill:#1E293B,stroke:#F59E0B,stroke-width:2px,color:#FFF;
+    style T1 fill:#0E1626,stroke:#10B981,stroke-width:2px,color:#34D399;
+    style REJECT1 fill:#0E1626,stroke:#EF4444,stroke-width:2px,color:#F87171;
+    style REJECT2 fill:#0E1626,stroke:#EF4444,stroke-width:2px,color:#F87171;
+    style ATTACH fill:#0E1626,stroke:#00E5FF,stroke-width:2px,color:#38BDF8;
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: Spatial PDF Ingestion Flowchart & Schema -->
+            <section class="slide" id="slide-4">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="database" style="width:14px;height:14px;"></i> Data Engineering</div>
+                        <h2 class="slide-title">Spatial Ingestion Pipeline & Metadata Schema</h2>
+                        <p class="slide-subtitle">Binding manual graphics to their surrounding technical text at extraction time</p>
+                    </div>
+                    <div class="slide-number-pill">04 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-2-1">
+                        <div class="flowchart-card" style="padding:12px;">
+                            <div class="mermaid">
+flowchart TD
+    RAW["Raw Service Manuals (.PDF)"] --> PARSE["PyMuPDF Parser"]
+    PARSE -->|"Text Blocks"| TEXT_PIPE["Text Chunking & Model/Page Tagging"]
+    PARSE -->|"Vector & Pixmaps"| IMG_PIPE["Bounding Box [x0,y0,x1,y1] + Captions"]
+    TEXT_PIPE --> VEC_DB[("ChromaDB Vector Store (864 Chunks)")]
+    IMG_PIPE --> JSON_KB[("image_knowledge_base.json (232 Diagrams)")]
+
+    style RAW fill:#0E1626,stroke:#0077FF,stroke-width:1.5px,color:#FFF;
+    style PARSE fill:#1E293B,stroke:#00E5FF,stroke-width:2px,color:#FFF;
+    style TEXT_PIPE fill:#0E1626,stroke:#8B5CF6,stroke-width:1.5px,color:#FFF;
+    style IMG_PIPE fill:#0E1626,stroke:#10B981,stroke-width:1.5px,color:#FFF;
+    style VEC_DB fill:#034EA2,stroke:#00E5FF,stroke-width:2px,color:#FFF;
+    style JSON_KB fill:#034EA2,stroke:#10B981,stroke-width:2px,color:#FFF;
+                            </div>
+                        </div>
+
+                        <div class="card" style="display:flex;flex-direction:column;justify-content:center;">
+                            <div class="card-title"><i data-lucide="file-code" style="color:var(--cyan-accent)"></i> JSON Image Schema</div>
+                            <pre style="background:rgba(0,0,0,0.55);padding:10px;border-radius:6px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#38BDF8;overflow-x:auto;line-height:1.45;border:1px solid rgba(255,255,255,0.06);">
+{
+  "id": "WA5471ABP_p30_img2",
+  "model": "WA5471ABP",
+  "page_number": 30,
+  "bbox": [72.0, 145.2, 280.5, 410.8],
+  "caption": "Clean debris filter",
+  "detected_objects": ["filter", "cap"]
+}</pre>
+                            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;">
+                                <div style="background:rgba(0,119,255,0.12);padding:6px 10px;border-radius:6px;text-align:center;">
+                                    <div style="font-size:18px;font-weight:800;color:#FFF;">864</div>
+                                    <div style="font-size:10px;color:var(--text-muted);">Text Chunks</div>
+                                </div>
+                                <div style="background:rgba(16,185,129,0.12);padding:6px 10px;border-radius:6px;text-align:center;">
+                                    <div style="font-size:18px;font-weight:800;color:#34D399;">232</div>
+                                    <div style="font-size:10px;color:var(--text-muted);">Linked Diagrams</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: Dual-Tier Match & Rejection Flowchart -->
+            <section class="slide" id="slide-5">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="git-merge" style="width:14px;height:14px;"></i> Core Retrieval Logic</div>
+                        <h2 class="slide-title">Dual-Tier Matching & Rejection Decision Flowchart</h2>
+                        <p class="slide-subtitle">Deterministic page linking backed by scoped cosine fallback and rejection gates</p>
+                    </div>
+                    <div class="slide-number-pill">05 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="flowchart-card">
+                        <div class="mermaid">
+flowchart TD
+    STEP["Generated Step (Cites Chunk #X)"] --> CHECK_PAGE{"Does an image exist on cited Chunk #X Page?"}
+    
+    CHECK_PAGE -->|"YES (Page Found)"| T1["Tier 1: Direct Page Link (0.95 Confidence Boost)"]
+    CHECK_PAGE -->|"NO (No Page Image)"| T2["Tier 2: Model-Scoped Semantic Search (Cosine Similarity)"]
+    
+    T2 --> CHECK_SIM{"Cosine Similarity >= 0.65?"}
+    CHECK_SIM -->|"NO (< 0.65)"| REJECT_CONF["Confidence Rejection Gate (Clean Text Only)"]
+    CHECK_SIM -->|"YES (>= 0.65)"| CHECK_DUP{"Was this image already attached?"}
+    
+    CHECK_DUP -->|"NO"| ATTACH_IMG["Attach Semantic Diagram (Scoped Match)"]
+    CHECK_DUP -->|"YES & Sim < 0.92"| REJECT_DUP["Duplicate Suppressed (Clean Text Only)"]
+    CHECK_DUP -->|"YES & Sim >= 0.92"| ATTACH_IMG
+    
+    T1 --> OUT_STEP(["Verified Grounded Step Output"]):::outNode
+    ATTACH_IMG --> OUT_STEP
+    REJECT_CONF --> OUT_STEP
+    REJECT_DUP --> OUT_STEP
+
+    classDef outNode fill:#034EA2,stroke:#00E5FF,stroke-width:2.5px,color:#FFF;
+    style CHECK_PAGE fill:#1E293B,stroke:#00E5FF,stroke-width:2px,color:#FFF;
+    style CHECK_SIM fill:#1E293B,stroke:#8B5CF6,stroke-width:2px,color:#FFF;
+    style CHECK_DUP fill:#1E293B,stroke:#F59E0B,stroke-width:2px,color:#FFF;
+    style T1 fill:#0E1626,stroke:#10B981,stroke-width:2px,color:#34D399;
+    style REJECT_CONF fill:#0E1626,stroke:#EF4444,stroke-width:2px,color:#F87171;
+    style REJECT_DUP fill:#0E1626,stroke:#EF4444,stroke-width:2px,color:#F87171;
+    style ATTACH_IMG fill:#0E1626,stroke:#00E5FF,stroke-width:2px,color:#38BDF8;
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 6: Precision Defense: Rejection & Duplicate Suppression -->
+            <section class="slide" id="slide-6">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="shield-alert" style="width:14px;height:14px;"></i> Precision Defense</div>
+                        <h2 class="slide-title">Confidence Rejection & Duplicate Suppression</h2>
+                        <p class="slide-subtitle">Transforming bad visual attachments into clean, reliable text instructions</p>
+                    </div>
+                    <div class="slide-number-pill">06 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-2">
+                        <div class="card card-glow">
+                            <div class="card-title"><i data-lucide="sliders" style="color:var(--cyan-accent)"></i> Confidence Rejection Threshold (&lt;0.65)</div>
+                            <p class="card-text" style="margin-bottom:10px;">Most troubleshooting steps (e.g. <em>"Unplug the washing machine from wall outlet"</em> or <em>"Wait 5 minutes"</em>) do not have diagrams in the official manual.</p>
+                            <p class="card-text">Instead of forcing a random unrelated machine photo, the engine returns <code class="code-pill">images: null</code> with <code class="code-pill">rejection_reason: "low_visual_confidence"</code>.</p>
+                        </div>
+
+                        <div class="card card-glow">
+                            <div class="card-title"><i data-lucide="copy-x" style="color:var(--rose-red)"></i> Duplicate Suppression Filter</div>
+                            <p class="card-text" style="margin-bottom:10px;">Baseline RAG repeated the same image on 80% of steps. Our engine tracks all attached image paths within the session.</p>
+                            <p class="card-text">Re-attaching an already used image requires an overwhelming similarity score (&ge; 0.92), reducing the repetition rate to <strong>0.0%</strong>.</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background:rgba(0,0,0,0.35);">
+                        <div class="card-title"><i data-lucide="terminal" style="color:var(--text-muted)"></i> Live Execution Audit Log</div>
+                        <pre style="font-family:'JetBrains Mono',monospace;font-size:11.5px;color:#A7F3D0;line-height:1.6;">
+[INFO] Step 1 -> Tier 1 Direct Link: User_Manual_WA5471ABP_p30_img2.png (Page 30, Conf: 0.95)
+[INFO] Step 2 -> Rejection: No reliable image found (returning clean text, Conf < 0.65)
+[INFO] Step 3 -> Rejection: Duplicate suppressed (Already attached in Step 1, Sim: 0.74 < 0.92)</pre>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 7: Deep Single-Model Test Bed -->
+            <section class="slide" id="slide-7">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="test-tube-2" style="width:14px;height:14px;"></i> Evaluation Framework</div>
+                        <h2 class="slide-title">Deep Single-Model Test Bed: WA5471ABP</h2>
+                        <p class="slide-subtitle">Why narrowing the benchmark to 20 deep tasks proved our architecture</p>
+                    </div>
+                    <div class="slide-number-pill">07 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-3">
+                        <div class="card">
+                            <div class="card-title"><i data-lucide="wrench" style="color:var(--cyan-accent)"></i> Maintenance Tasks</div>
+                            <ul class="feature-list" style="font-size:13px;">
+                                <li>• Debris filter cleaning</li>
+                                <li>• Water inlet mesh screen</li>
+                                <li>• Dispenser drawer removal</li>
+                                <li>• Pure Cycle / Tub Clean</li>
+                            </ul>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title"><i data-lucide="alert-octagon" style="color:var(--amber-alert)"></i> Error Diagnostics</div>
+                            <ul class="feature-list" style="font-size:13px;">
+                                <li>• UE / dc Unbalance error</li>
+                                <li>• nd / 5E Drain error</li>
+                                <li>• nF / 4E Water supply fault</li>
+                                <li>• Lid lock failure resolution</li>
+                            </ul>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title"><i data-lucide="settings-2" style="color:var(--purple-accent)"></i> Setup & Calibration</div>
+                            <ul class="feature-list" style="font-size:13px;">
+                                <li>• Calibration mode execution</li>
+                                <li>• Washer leveling & vibration</li>
+                                <li>• Child Lock toggle</li>
+                                <li>• Freezing winterization steps</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card" style="border-color:rgba(0,119,255,0.35);">
+                        <div class="card-title"><i data-lucide="info" style="color:var(--samsung-blue)"></i> Strategic Alignment with Mentor Direction</div>
+                        <p class="card-text">Instead of testing 1 unanswerable vague query across 50 models, we proved full procedural recall, direct diagram linking, and rejection accuracy across <strong>20 comprehensive tasks on a single manual</strong>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 8: Benchmark Results & Metrics -->
+            <section class="slide" id="slide-8">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="bar-chart-3" style="width:14px;height:14px;"></i> Quantitative Evaluation</div>
+                        <h2 class="slide-title">Benchmark Results on 20 Evaluation Cases</h2>
+                        <p class="slide-subtitle">Verified performance recorded in <code class="code-pill">accuracy_report.csv</code></p>
+                    </div>
+                    <div class="slide-number-pill">08 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-4">
+                        <div class="card card-glow">
+                            <div class="metric-val">90.0%</div>
+                            <div class="metric-label">Text Quality Score</div>
+                            <p style="font-size:11px;color:var(--text-muted);margin-top:2px;">13.50 / 15.0 Avg</p>
+                        </div>
+                        <div class="card card-glow">
+                            <div class="metric-val">85.0%</div>
+                            <div class="metric-label">Visual Alignment</div>
+                            <p style="font-size:11px;color:var(--text-muted);margin-top:2px;">Direct Page & Scoped Match</p>
+                        </div>
+                        <div class="card card-success">
+                            <div class="metric-val" style="color:#34D399;">0.0%</div>
+                            <div class="metric-label">Repetition Rate</div>
+                            <p style="font-size:11px;color:var(--text-muted);margin-top:2px;">Zero Duplicate Images</p>
+                        </div>
+                        <div class="card card-success">
+                            <div class="metric-val" style="color:#34D399;">100%</div>
+                            <div class="metric-label">Rejection Accuracy</div>
+                            <p style="font-size:11px;color:var(--text-muted);margin-top:2px;">Clean text when no diagram</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-1-2">
+                        <div class="card" style="display:flex;flex-direction:column;justify-content:center;">
+                            <canvas id="benchmarkChart" style="max-height:160px;"></canvas>
+                        </div>
+                        <div class="card">
+                            <table class="styled-table">
+                                <thead>
+                                    <tr>
+                                        <th>Query / Task (WA5471ABP)</th>
+                                        <th>Recall</th>
+                                        <th>Order</th>
+                                        <th>Safety</th>
+                                        <th>Visual Align</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Clean Debris Filter</td>
+                                        <td>4.5/5</td>
+                                        <td>4.5/5</td>
+                                        <td>4.5/5</td>
+                                        <td>100.0%</td>
+                                        <td><span class="status-badge status-pass"><i data-lucide="check" style="width:11px;height:11px;"></i> PASSED</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Remove & Clean Detergent Drawer</td>
+                                        <td>4.5/5</td>
+                                        <td>4.5/5</td>
+                                        <td>4.5/5</td>
+                                        <td>100.0%</td>
+                                        <td><span class="status-badge status-pass"><i data-lucide="check" style="width:11px;height:11px;"></i> PASSED</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fix nF / 4E Water Supply Error</td>
+                                        <td>4.5/5</td>
+                                        <td>4.5/5</td>
+                                        <td>4.5/5</td>
+                                        <td>100.0%</td>
+                                        <td><span class="status-badge status-pass"><i data-lucide="check" style="width:11px;height:11px;"></i> PASSED</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Child Lock Enable / Disable</td>
+                                        <td>4.5/5</td>
+                                        <td>4.5/5</td>
+                                        <td>4.5/5</td>
+                                        <td>100.0%</td>
+                                        <td><span class="status-badge status-pass"><i data-lucide="check" style="width:11px;height:11px;"></i> PASSED</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: Automation vs Manual Annotation Analysis -->
+            <section class="slide" id="slide-9">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="cpu" style="width:14px;height:14px;"></i> Feasibility & Operations</div>
+                        <h2 class="slide-title">Automation vs. Manual Annotation</h2>
+                        <p class="slide-subtitle">Clear breakdown answering whether human labeling is required</p>
+                    </div>
+                    <div class="slide-number-pill">09 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-3">
+                        <div class="card card-success">
+                            <div class="card-title" style="color:#34D399;"><i data-lucide="zap"></i> Runtime Inference</div>
+                            <div style="font-size:22px;font-weight:800;color:#FFFFFF;margin-bottom:6px;">100% Automated</div>
+                            <p class="card-text">Model extraction, query disambiguation, vector retrieval, direct page linking, cosine fallback, and confidence rejection run completely autonomously with zero human touch.</p>
+                        </div>
+
+                        <div class="card card-success">
+                            <div class="card-title" style="color:#34D399;"><i data-lucide="folder-sync"></i> Manual Ingestion</div>
+                            <div style="font-size:22px;font-weight:800;color:#FFFFFF;margin-bottom:6px;">100% Automated</div>
+                            <p class="card-text">PyMuPDF pipeline extracts text blocks, page numbers, image bounding boxes, and surrounding captions automatically from raw PDF technical manuals.</p>
+                        </div>
+
+                        <div class="card card-glow">
+                            <div class="card-title" style="color:var(--cyan-accent);"><i data-lucide="clipboard-check"></i> Benchmark Suite</div>
+                            <div style="font-size:22px;font-weight:800;color:#FFFFFF;margin-bottom:6px;">90% Auto / 10% Spot</div>
+                            <p class="card-text">Automated scripts generate synthetic test beds and score responses. A single 10-minute spot check of ground-truth phrasing is all that's recommended for verification.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: Live Frontend & User Experience -->
+            <section class="slide" id="slide-10">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="monitor" style="width:14px;height:14px;"></i> User Interface</div>
+                        <h2 class="slide-title">Interactive Frontend & Disambiguation UI</h2>
+                        <p class="slide-subtitle">State-of-the-art React application delivering clear, verifiable repair cards</p>
+                    </div>
+                    <div class="slide-number-pill">10 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-2">
+                        <div class="card">
+                            <div class="card-title"><i data-lucide="mouse-pointer-click" style="color:var(--cyan-accent)"></i> Model Selector & Disambiguation</div>
+                            <ul class="feature-list" style="margin-top:10px;">
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div>
+                                    <span><strong>Model Dropdown:</strong> Direct selection of active appliance (WA5471ABP, WF5M5100AW, etc.).</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div>
+                                    <span><strong>Interactive Pill Buttons:</strong> If model is missing, one-click disambiguation prompts pop up in chat.</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div>
+                                    <span><strong>Grounding Confidence Meter:</strong> Displays 1-10 overall guide confidence rating.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title"><i data-lucide="image" style="color:var(--emerald-green)"></i> Step Cards with Grounded Visual Badges</div>
+                            <ul class="feature-list" style="margin-top:10px;">
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div>
+                                    <span><strong>Match Type Badges:</strong> Clearly marks <code class="code-pill">Direct Page Link</code> vs <code class="code-pill">Semantic Fallback</code>.</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div>
+                                    <span><strong>Confidence Score Badges:</strong> Visual match percentage (e.g. 95% Match).</span>
+                                </li>
+                                <li>
+                                    <div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div>
+                                    <span><strong>Image Modal Zoom:</strong> Click-to-expand high-resolution diagrams.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: Milestone 1 Deliverables Summary -->
+            <section class="slide" id="slide-11">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="check-square" style="width:14px;height:14px;"></i> Milestone 1 Check-Off</div>
+                        <h2 class="slide-title">Milestone 1 Deliverables Achieved</h2>
+                        <p class="slide-subtitle">All requirements completed ahead of schedule</p>
+                    </div>
+                    <div class="slide-number-pill">11 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-2">
+                        <div class="card card-success">
+                            <div class="card-title" style="color:#34D399;"><i data-lucide="check-circle"></i> Completed Milestone 1 Features</div>
+                            <ul class="feature-list" style="margin-top:10px;">
+                                <li><div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div><span>Model-scoped text extraction & ChromaDB vector database.</span></li>
+                                <li><div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div><span>Spatial image extraction with bounding boxes & page metadata.</span></li>
+                                <li><div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div><span>Dual-tier direct page link & cosine semantic fallback engine.</span></li>
+                                <li><div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div><span>Confidence rejection threshold (&lt;0.65) and duplicate suppression.</span></li>
+                                <li><div class="icon-bullet success"><i data-lucide="check" style="width:12px;height:12px;"></i></div><span>20-task deep single-model evaluation suite on WA5471ABP.</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="card card-glow">
+                            <div class="card-title" style="color:var(--cyan-accent);"><i data-lucide="file-spreadsheet"></i> Verifiable Project Artifacts</div>
+                            <ul class="feature-list" style="margin-top:10px;">
+                                <li><div class="icon-bullet"><i data-lucide="file-text" style="width:12px;height:12px;"></i></div><span><code class="code-pill">accuracy_report.csv</code> — Per-task benchmark logs & scores.</span></li>
+                                <li><div class="icon-bullet"><i data-lucide="file-text" style="width:12px;height:12px;"></i></div><span><code class="code-pill">benchmark_data.json</code> — Ground truth test cases.</span></li>
+                                <li><div class="icon-bullet"><i data-lucide="file-text" style="width:12px;height:12px;"></i></div><span><code class="code-pill">image_knowledge_base.json</code> — 232 indexed diagrams.</span></li>
+                                <li><div class="icon-bullet"><i data-lucide="file-text" style="width:12px;height:12px;"></i></div><span><code class="code-pill">walkthrough.md</code> — Comprehensive technical walkthrough.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 12: Next Steps & Future Roadmap -->
+            <section class="slide" id="slide-12">
+                <div class="slide-header">
+                    <div>
+                        <div class="category-tag"><i data-lucide="compass" style="width:14px;height:14px;"></i> Project Roadmap</div>
+                        <h2 class="slide-title">Next Steps & Future Roadmap</h2>
+                        <p class="slide-subtitle">Scaling from single-model excellence to full appliance portfolio coverage</p>
+                    </div>
+                    <div class="slide-number-pill">12 / 12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="grid-3">
+                        <div class="card card-glow">
+                            <div class="card-title"><i data-lucide="expand" style="color:var(--cyan-accent)"></i> Phase 1: Portfolio Scaling</div>
+                            <p class="card-text">Scale the linked spatial ingestion pipeline across all Samsung refrigerator, dishwasher, and microwave service manuals.</p>
+                        </div>
+                        <div class="card card-glow">
+                            <div class="card-title"><i data-lucide="scan-line" style="color:var(--samsung-blue)"></i> Phase 2: Dynamic Bounding Boxes</div>
+                            <p class="card-text">Render interactive red bounding-box callouts directly on the frontend step diagrams using extracted <code class="code-pill">bbox</code> coordinates.</p>
+                        </div>
+                        <div class="card card-glow">
+                            <div class="card-title"><i data-lucide="video" style="color:var(--emerald-green)"></i> Phase 3: Video Timestamps</div>
+                            <p class="card-text">Extend the multi-tiered grounding engine to link step instructions directly to precise video timestamp segments from YouTube repair clips.</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:auto;text-align:center;padding:18px;background:rgba(3,78,162,0.14);border-radius:var(--radius-md);border:1px solid rgba(0,119,255,0.25);">
+                        <h3 style="font-size:18px;font-weight:800;color:#FFFFFF;margin-bottom:4px;">Thank You! Open for Questions & Mentor Discussion</h3>
+                        <p style="font-size:13px;color:var(--cyan-accent);display:flex;align-items:center;justify-content:center;gap:6px;">
+                            <i data-lucide="award" style="width:14px;height:14px;"></i> Samsung PRISM Team • Grounded Multimodal RAG
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Bottom Controls & Navigation -->
+    <footer class="bottom-bar">
+        <div class="progress-track" id="progressBar" style="width: 8.33%;"></div>
+        
+        <div class="keyboard-hints">
+            <span>Navigate: <span class="kbd">←</span> / <span class="kbd">→</span> or <span class="kbd">Space</span></span>
+            <span>Fullscreen: <span class="kbd">F</span></span>
+            <span>Overview: <span class="kbd">O</span></span>
+        </div>
+
+        <div class="nav-controls">
+            <button class="nav-btn" id="prevBtn" onclick="prevSlide()" disabled title="Previous Slide (Left Arrow)">
+                <i data-lucide="chevron-left"></i>
+            </button>
+            <div class="slide-indicator">
+                <span id="currentSlideNum">01</span> / <span id="totalSlideNum">12</span>
+            </div>
+            <button class="nav-btn" id="nextBtn" onclick="nextSlide()" title="Next Slide (Right Arrow)">
+                <i data-lucide="chevron-right"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Discreet Floating Navigation Indicator in Fullscreen -->
+    <div class="fs-floating-nav">
+        <button class="nav-btn" onclick="prevSlide()" title="Previous (Left Arrow)">
+            <i data-lucide="chevron-left" style="width:14px;height:14px;"></i>
+        </button>
+        <span style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:#FFF;" id="fsSlideNum">01 / 12</span>
+        <button class="nav-btn" onclick="nextSlide()" title="Next (Right Arrow)">
+            <i data-lucide="chevron-right" style="width:14px;height:14px;"></i>
+        </button>
+        <button class="nav-btn" onclick="toggleFullscreen()" title="Exit Fullscreen (Esc or F)">
+            <i data-lucide="minimize" style="width:14px;height:14px;"></i>
+        </button>
+    </div>
+
+    <!-- Slide Overview Modal (Hotkey: 'O') -->
+    <div class="overview-modal" id="overviewModal">
+        <div class="overview-header">
+            <div>
+                <h2 style="font-size:22px;font-weight:800;color:#FFF;display:flex;align-items:center;gap:8px;">
+                    <i data-lucide="layout-grid" style="color:var(--cyan-accent);"></i> Slide Overview
+                </h2>
+                <p style="font-size:13px;color:var(--text-secondary);">Click any slide to jump directly to it</p>
+            </div>
+            <button class="btn btn-ghost" onclick="toggleOverview()">
+                <i data-lucide="x" style="width:16px;height:16px;"></i> Close (Esc)
+            </button>
+        </div>
+        <div class="overview-grid" id="overviewGrid">
+            <!-- Populated via JS -->
+        </div>
+    </div>
+
+    <!-- Script to Initialize Mermaid, Chart.js, Icons, and Navigation -->
+    <script>
+        // Initialize Mermaid with custom dark theme and larger readable font size
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            themeVariables: {
+                darkMode: true,
+                background: '#070B14',
+                primaryColor: '#0E1626',
+                primaryTextColor: '#FFFFFF',
+                primaryBorderColor: '#00E5FF',
+                lineColor: '#00E5FF',
+                secondaryColor: '#1E293B',
+                tertiaryColor: '#0B1120',
+                fontFamily: 'Plus Jakarta Sans, sans-serif',
+                fontSize: '14px'
+            }
+        });
+
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        let currentSlideIndex = 0;
+
+        const currentSlideNum = document.getElementById('currentSlideNum');
+        const fsSlideNum = document.getElementById('fsSlideNum');
+        const totalSlideNum = document.getElementById('totalSlideNum');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const progressBar = document.getElementById('progressBar');
+        const overviewModal = document.getElementById('overviewModal');
+        const overviewGrid = document.getElementById('overviewGrid');
+
+        totalSlideNum.innerText = String(totalSlides).padStart(2, '0');
+
+        function updateSlideUI() {
+            slides.forEach((slide, idx) => {
+                if (idx === currentSlideIndex) {
+                    slide.classList.add('active');
+                } else {
+                    slide.classList.remove('active');
+                }
+            });
+
+            const slideStr = `${String(currentSlideIndex + 1).padStart(2, '0')} / ${String(totalSlides).padStart(2, '0')}`;
+            currentSlideNum.innerText = String(currentSlideIndex + 1).padStart(2, '0');
+            if (fsSlideNum) fsSlideNum.innerText = slideStr;
+
+            prevBtn.disabled = currentSlideIndex === 0;
+            nextBtn.disabled = currentSlideIndex === totalSlides - 1;
+
+            const progress = ((currentSlideIndex + 1) / totalSlides) * 100;
+            progressBar.style.width = `${progress}%`;
+
+            lucide.createIcons();
+        }
+
+        function nextSlide() {
+            if (currentSlideIndex < totalSlides - 1) {
+                currentSlideIndex++;
+                updateSlideUI();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlideIndex > 0) {
+                currentSlideIndex--;
+                updateSlideUI();
+            }
+        }
+
+        function goToSlide(index) {
+            if (index >= 0 && index < totalSlides) {
+                currentSlideIndex = index;
+                updateSlideUI();
+                overviewModal.classList.remove('open');
+            }
+        }
+
+        function toggleOverview() {
+            overviewModal.classList.toggle('open');
+            if (overviewModal.classList.contains('open')) {
+                buildOverviewThumbnails();
+            }
+        }
+
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().then(() => {
+                    document.body.classList.add('fullscreen-active');
+                }).catch(() => {
+                    document.body.classList.toggle('fullscreen-active');
+                });
+            } else {
+                document.exitFullscreen().then(() => {
+                    document.body.classList.remove('fullscreen-active');
+                }).catch(() => {
+                    document.body.classList.remove('fullscreen-active');
+                });
+            }
+        }
+
+        document.addEventListener('fullscreenchange', () => {
+            if (!document.fullscreenElement) {
+                document.body.classList.remove('fullscreen-active');
+            } else {
+                document.body.classList.add('fullscreen-active');
+            }
+        });
+
+        function buildOverviewThumbnails() {
+            overviewGrid.innerHTML = '';
+            slides.forEach((slide, idx) => {
+                const title = slide.querySelector('.slide-title')?.innerText || `Slide ${idx + 1}`;
+                const subtitle = slide.querySelector('.slide-subtitle')?.innerText || '';
+                
+                const thumb = document.createElement('div');
+                thumb.className = `thumbnail-card ${idx === currentSlideIndex ? 'current' : ''}`;
+                thumb.innerHTML = `
+                    <div class="t-num">SLIDE ${String(idx + 1).padStart(2, '0')}</div>
+                    <div class="t-title">${title}</div>
+                    <div class="t-desc">${subtitle}</div>
+                `;
+                thumb.onclick = () => goToSlide(idx);
+                overviewGrid.appendChild(thumb);
+            });
+        }
+
+        // Keyboard Controls
+        window.addEventListener('keydown', (e) => {
+            if (overviewModal.classList.contains('open')) {
+                if (e.key === 'Escape' || e.key === 'o' || e.key === 'O') {
+                    toggleOverview();
+                }
+                return;
+            }
+
+            if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+                e.preventDefault();
+                nextSlide();
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                e.preventDefault();
+                prevSlide();
+            } else if (e.key === 'o' || e.key === 'O') {
+                e.preventDefault();
+                toggleOverview();
+            } else if (e.key === 'f' || e.key === 'F') {
+                e.preventDefault();
+                toggleFullscreen();
+            } else if (e.key === 'Home') {
+                e.preventDefault();
+                goToSlide(0);
+            } else if (e.key === 'End') {
+                e.preventDefault();
+                goToSlide(totalSlides - 1);
+            }
+        });
+
+        // Double click anywhere on background to toggle fullscreen
+        document.getElementById('stageContainer').addEventListener('dblclick', (e) => {
+            if (e.target.tagName !== 'BUTTON' && e.target.tagName !== 'CANVAS') {
+                toggleFullscreen();
+            }
+        });
+
+        // Initialize Chart.js for Slide 8
+        window.addEventListener('DOMContentLoaded', () => {
+            const ctx = document.getElementById('benchmarkChart');
+            if (ctx) {
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Text Recall', 'Visual Alignment', 'Zero Repetition', 'Rejection Acc'],
+                        datasets: [{
+                            label: 'Grounded RAG (%)',
+                            data: [90.0, 85.0, 100.0, 100.0],
+                            backgroundColor: [
+                                'rgba(0, 119, 255, 0.75)',
+                                'rgba(0, 229, 255, 0.75)',
+                                'rgba(16, 185, 129, 0.75)',
+                                'rgba(139, 92, 246, 0.75)'
+                            ],
+                            borderColor: [
+                                '#0077FF',
+                                '#00E5FF',
+                                '#10B981',
+                                '#8B5CF6'
+                            ],
+                            borderWidth: 1.5,
+                            borderRadius: 6
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                max: 100,
+                                ticks: { color: '#64748B', font: { size: 10 } },
+                                grid: { color: 'rgba(255,255,255,0.05)' }
+                            },
+                            x: {
+                                ticks: { color: '#94A3B8', font: { size: 10, weight: 600 } },
+                                grid: { display: false }
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

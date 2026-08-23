@@ -1,452 +1,23 @@
 [
   {
-    "id": "detergentL15_p1_img1.png",
-    "file_path": "./extracted_images/detergentL15_p1_img1.png",
-    "problem_name": "valid_image",
-    "dense_caption": "The image shows a close-up of a washing machine's detergent drawer, which is partially open and contains a blue detergent insert. The drawer is white, and the washing machine's control panel is visible in the background. The image appears to be illustrating the proper use of the detergent drawer, specifically highlighting the MAX line that should not be exceeded to prevent immediate drainage into the tub.",
+    "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p1_img1.png",
+    "file_path": "./extracted_images/How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p1_img1.png",
+    "model": "WF5M5100AW",
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "page_number": 1,
+    "bbox": [
+      44.86,
+      184.99,
+      65.2,
+      205.12
+    ],
+    "caption": "Samsung Washing Machine Washing Machine Appliance Home Parts Guides Troubleshooting Edit | How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots",
+    "problem_name": "WF5M5100AW Component/Step",
+    "dense_caption": "Instructional diagram on page 1 for WF5M5100AW. Samsung Washing Machine Washing Machine Appliance Home Parts Guides Troubleshooting Edit | How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots",
     "detected_objects": [
       "washing machine",
-      "detergent drawer",
-      "control panel",
-      "detergent insert"
-    ]
-  },
-  {
-    "id": "detergentL15_p2_img1.png",
-    "file_path": "./extracted_images/detergentL15_p2_img1.png",
-    "problem_name": "detergent_drawer",
-    "dense_caption": "The image shows an open detergent drawer of a Samsung washing machine with its various compartments and a 'MAX' line indicator.",
-    "detected_objects": [
-      "detergent drawer",
-      "MAX line indicator",
-      "washing machine"
-    ]
-  },
-  {
-    "id": "detergentL15_p2_img2.png",
-    "file_path": "./extracted_images/detergentL15_p2_img2.png",
-    "problem_name": "Washer Detergent Drawer Issue",
-    "dense_caption": "The image shows a Samsung washing machine's detergent drawer with water splashing out, indicating that detergent or additives are draining immediately. The drawer is open, and the blue detergent container is visible, with water flowing out of it.",
-    "detected_objects": [
-      "washing machine",
-      "detergent drawer",
-      "water splashes"
-    ]
-  },
-  {
-    "id": "detergentL15_p3_img1.png",
-    "file_path": "./extracted_images/detergentL15_p3_img1.png",
-    "problem_name": "VALID_IMAGE",
-    "dense_caption": "A man in a blue jacket and white shirt is sitting outdoors, looking at a purple smartphone with a stylus in his hand, likely accessing the Samsung Support Centre for troubleshooting his washer issue.",
-    "detected_objects": [
-      "man",
-      "smartphone",
-      "stylus",
-      "skyscraper"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img1.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img1.png",
-    "problem_name": "Portrait of a Woman",
-    "dense_caption": "A woman with dark hair and a blue top is smiling and looking at the camera.",
-    "detected_objects": [
-      "woman",
-      "hair",
-      "top"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img2.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img2.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "The image shows a pair of scissors, which are required to clean the Samsung DC68 washing machine filter.",
-    "detected_objects": [
-      "scissors"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img3.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img3.png",
-    "problem_name": "Paper Towels",
-    "dense_caption": "The image shows a roll of paper towels, which are required for cleaning the Samsung washing machine filter.",
-    "detected_objects": [
-      "paper towels",
-      "roll"
-    ]
-  },
-  
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img4.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img4.png",
-    "problem_name": "Cleaning Supplies",
-    "dense_caption": "The image shows a stack of red shop towels or rags, which are used for cleaning the Samsung washing machine filter.",
-    "detected_objects": [
-      "towels",
-      "rags"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img1.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img1.png",
-    "problem_name": "CLEAN_WASHING_MACHINE",
-    "dense_caption": "The image shows a washing machine with its door open, revealing the interior drum. The machine is silver with a black control panel and a large circular door opening. A sticker on the right side indicates it is an ENERGY STAR certified product.",
-    "detected_objects": [
-      "washing machine",
-      "control panel",
-      "door",
-      "sticker"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img6.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img6.png",
-    "problem_name": "Cleaning Washing Machine",
-    "dense_caption": "The image shows a washing machine with its door open, revealing the interior drum. The context suggests that the user is in the process of cleaning the machine, specifically accessing the filter area.",
-    "detected_objects": [
-      "washing machine",
-      "door",
-      "drum"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img7.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img7.png",
-    "problem_name": "Open Filter Door",
-    "dense_caption": "Using the handle of a pair of scissors to open the filter access door of a Samsung washing machine.",
-    "detected_objects": [
-      "scissors",
-      "hand",
-      "washing machine"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img12.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img12.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "A person is using a pair of scissors to open the filter access door of a Samsung washing machine.",
-    "detected_objects": [
-      "scissors",
-      "hands",
-      "filter door",
-      "washing machine"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img13.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img13.png",
-    "problem_name": "Turn On Washing Machine",
-    "dense_caption": "The image shows a person turning on a Samsung washing machine by pressing the power button.",
-    "detected_objects": [
-      "washing machine control panel",
-      "hand",
-      "power button"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img14.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img14.png",
-    "problem_name": "valid",
-    "dense_caption": "A hand pressing the filter access door of a Samsung washing machine to open it.",
-    "detected_objects": [
-      "hand",
-      "filter access door",
-      "washing machine"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img15.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img15.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "A hand is using scissors to open the filter access door of a Samsung washing machine.",
-    "detected_objects": [
-      "scissors",
-      "hand",
-      "washing machine"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img16.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img16.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "A person is opening the filter access door of a Samsung washing machine to clean the filter.",
-    "detected_objects": [
-      "washing machine",
-      "filter access door",
-      "hand"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img1.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img1.png",
-    "problem_name": "Tool Kit",
-    "dense_caption": "The image shows a Mako Driver Kit with 64 precision bits, which is a comprehensive toolkit for various repairs and tasks.",
-    "detected_objects": [
-      "Mako Driver Kit",
-      "Precision Bits",
-      "Toolbox"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img2.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img2.png",
-    "problem_name": "Tool Kit",
-    "dense_caption": "The image shows a comprehensive tool kit laid out on a white background, likely for promotional or instructional purposes. The kit includes a variety of tools such as screwdrivers, prying tools, a knife, and other equipment necessary for repairs.",
-    "detected_objects": [
-      "screwdrivers",
-      "prying tools",
-      "knife",
-      "cable",
-      "tool kit"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img3.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img3.png",
-    "problem_name": "Prying and Opening Tools",
-    "dense_caption": "This image shows a set of prying and opening tools, likely used for repairing electronic devices. The tools include a set of blue plastic spudgers, a blue plastic opening tool, and two black plastic prying tools.",
-    "detected_objects": [
-      "spudgers",
-      "opening tool",
-      "prying tools"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img4.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img4.png",
-    "problem_name": "Valid Image",
-    "dense_caption": "A selfie of a young woman with dark hair and a blue top.",
-    "detected_objects": [
-      "woman",
-      "face",
-      "selfie"
-    ]
-  },
-  {
-    "id": "detergentL15_p1_img1.png",
-    "file_path": "./extracted_images/detergentL15_p1_img1.png",
-    "problem_name": "valid_image",
-    "dense_caption": "The image shows a close-up of a washing machine's detergent drawer, which is partially open and contains a blue detergent insert. The drawer is white, and the washing machine's control panel is visible in the background. The image appears to be illustrating the proper use of the detergent drawer, specifically highlighting the MAX line that should not be exceeded to prevent immediate drainage into the tub.",
-    "detected_objects": [
-      "washing machine",
-      "detergent drawer",
-      "control panel",
-      "detergent insert"
-    ]
-  },
-  {
-    "id": "detergentL15_p2_img1.png",
-    "file_path": "./extracted_images/detergentL15_p2_img1.png",
-    "problem_name": "valid_image",
-    "dense_caption": "The image shows an open detergent drawer of a Samsung washing machine with its various compartments and a 'MAX' line indicator for additive levels.",
-    "detected_objects": [
-      "detergent drawer",
-      "MAX line indicator",
-      "washing machine"
-    ]
-  },
-  {
-    "id": "detergentL15_p2_img2.png",
-    "file_path": "./extracted_images/detergentL15_p2_img2.png",
-    "problem_name": "Washer Detergent Drawer Issue",
-    "dense_caption": "The image shows a Samsung washing machine's detergent drawer with water splashing out, indicating that detergent or additives are draining immediately. The drawer is open, and the blue detergent container is visible, with water flowing out of it.",
-    "detected_objects": [
-      "washing machine",
-      "detergent drawer",
-      "water splashes"
-    ]
-  },
-  {
-    "id": "detergentL15_p3_img1.png",
-    "file_path": "./extracted_images/detergentL15_p3_img1.png",
-    "problem_name": "VALID_IMAGE",
-    "dense_caption": "A man in a blue jacket and white shirt is sitting outdoors, looking at a purple smartphone with a stylus in his hand, likely accessing the Samsung Support Centre for troubleshooting his washer issue.",
-    "detected_objects": [
-      "man",
-      "smartphone",
-      "stylus",
-      "skyscraper"
-    ]
-  },
-  {
-    "id": "detergentL15_p4_img1.png",
-    "file_path": "./extracted_images/detergentL15_p4_img1.png",
-    "problem_name": "ASL & LSQ Sign Language Interpretation Service For Samsung Technical Support",
-    "dense_caption": "The image shows icons indicating ASL & LSQ Sign Language Interpretation Service For Samsung Technical Support, suggesting support for users with hearing impairments.",
-    "detected_objects": [
-      "Sign Language Symbol",
-      "Computer/Laptop",
-      "Play Button"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img1.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img1.png",
-    "problem_name": "Portrait of a Woman",
-    "dense_caption": "A woman with dark hair and a blue top is looking directly at the camera with a subtle smile.",
-    "detected_objects": [
-      "woman",
-      "hair",
-      "top"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img2.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img2.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "The image shows a pair of scissors, which are required to clean the Samsung DC68 washing machine filter.",
-    "detected_objects": [
-      "scissors"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img3.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img3.png",
-    "problem_name": "Paper Towels",
-    "dense_caption": "The image shows a roll of paper towels, which is a necessary tool for cleaning the Samsung DC68 Washing Machine Filter.",
-    "detected_objects": [
-      "paper towels roll"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img4.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img4.png",
-    "problem_name": "Cleaning Supplies",
-    "dense_caption": "The image shows a stack of red shop towels or rags, which are used for cleaning the Samsung washing machine filter.",
-    "detected_objects": [
-      "towels",
-      "rags"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img1.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img1.png",
-    "problem_name": "Cleaning Washing Machine",
-    "dense_caption": "The image shows a washing machine with its door open, likely in preparation for cleaning the filter.",
-    "detected_objects": [
-      "washing machine"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img6.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img6.png",
-    "problem_name": "Cleaning Washing Machine",
-    "dense_caption": "The image shows a washing machine with its door open, revealing the interior drum. The context suggests that the user is in the process of cleaning the filter, likely the first step involves accessing the filter area.",
-    "detected_objects": [
-      "washing machine",
-      "door",
-      "drum"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img7.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img7.png",
-    "problem_name": "Open Filter Door",
-    "dense_caption": "Using the handle of a pair of scissors to open the filter access door of a Samsung washing machine.",
-    "detected_objects": [
-      "scissors",
-      "hand",
-      "washing machine"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img12.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img12.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "A person is using a pair of scissors to open the filter access door of a Samsung washing machine.",
-    "detected_objects": [
-      "scissors",
-      "hands",
-      "filter access door"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img13.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img13.png",
-    "problem_name": "Turn On Washing Machine",
-    "dense_caption": "The image shows a person turning on a Samsung washing machine by pressing the power button.",
-    "detected_objects": [
-      "washing machine control panel",
-      "hand",
-      "power button"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img14.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img14.png",
-    "problem_name": "valid",
-    "dense_caption": "A hand pressing the filter access door of a Samsung washing machine to open it.",
-    "detected_objects": [
-      "hand",
-      "filter access door",
-      "sticker"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img15.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img15.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "A hand is using scissors to open the filter access door of a Samsung washing machine.",
-    "detected_objects": [
-      "scissors",
-      "hand",
-      "washing machine"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img16.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img16.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "A person is opening the filter access door of a Samsung washing machine to clean the filter.",
-    "detected_objects": [
-      "washing machine",
-      "filter access door",
-      "hand"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img1.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img1.png",
-    "problem_name": "Tool Kit",
-    "dense_caption": "The image shows a Mako Driver Kit with 64 precision bits, which is a comprehensive toolkit for various repairs and tasks.",
-    "detected_objects": [
-      "Mako Driver Kit",
-      "precision bits",
-      "toolbox"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img2.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img2.png",
-    "problem_name": "Tool Kit",
-    "dense_caption": "The image shows a comprehensive tool kit laid out on a white background, likely for promotional or instructional purposes. The kit includes various tools such as screwdrivers, prying tools, a knife, and other equipment, all neatly arranged and branded with the 'iFixit' logo.",
-    "detected_objects": [
-      "screwdrivers",
-      "prying tools",
-      "knife",
-      "tool kit"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img3.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img3.png",
-    "problem_name": "Prying and Opening Tools",
-    "dense_caption": "This image shows a set of prying and opening tools, likely used for repairing electronic devices. The tools include a set of blue plastic spudgers, a blue plastic tool, and two black metal tools. These tools are often used to carefully pry open electronic devices without causing damage.",
-    "detected_objects": [
-      "spudgers",
-      "plastic tool",
-      "metal tools"
-    ]
-  },
-  {
-    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img4.png",
-    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img4.png",
-    "problem_name": "Valid Image",
-    "dense_caption": "A selfie of a young woman with dark hair and a blue top, likely a profile picture or social media post.",
-    "detected_objects": [
-      "face",
-      "woman",
-      "selfie"
+      "component",
+      "wf5m5100aw"
     ]
   },
   {
@@ -457,7 +28,17 @@
     "detected_objects": [
       "paper towels",
       "roll"
-    ]
+    ],
+    "bbox": [
+      59.98,
+      423.96,
+      87.19,
+      451.16
+    ],
+    "page_number": 1,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Container | A\u0001liate link"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p2_img1.png",
@@ -468,7 +49,17 @@
       "washing machine",
       "filter panel",
       "OxiClean box"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      74.81,
+      363.17,
+      314.1
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 1 How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots | Unplug your washer."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p2_img6.png",
@@ -478,7 +69,17 @@
     "detected_objects": [
       "washing machine",
       "filter panel"
-    ]
+    ],
+    "bbox": [
+      362.94,
+      72.99,
+      379.07,
+      86.03
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 1 How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots | Unplug your washer."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p2_img7.png",
@@ -489,7 +90,17 @@
       "hand",
       "washing machine",
       "filter panel"
-    ]
+    ],
+    "bbox": [
+      377.94,
+      74.96,
+      395.03,
+      88.02
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 1 How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots | Unplug your washer."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p2_img8.png",
@@ -500,6 +111,37 @@
       "washing machine",
       "filter",
       "panel"
+    ],
+    "bbox": [
+      394.0,
+      74.97,
+      411.08,
+      88.01
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 1 How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots | Unplug your washer."
+  },
+  {
+    "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p3_img1.png",
+    "file_path": "./extracted_images/How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p3_img1.png",
+    "model": "WF5M5100AW",
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "page_number": 3,
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "caption": "Step 2 | \uf111",
+    "problem_name": "WF5M5100AW Component/Step",
+    "dense_caption": "Instructional diagram on page 3 for WF5M5100AW. Step 2 | \uf111",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wf5m5100aw"
     ]
   },
   {
@@ -512,7 +154,17 @@
       "cap",
       "washing machine",
       "container"
-    ]
+    ],
+    "bbox": [
+      389.0,
+      56.9,
+      417.04,
+      78.01
+    ],
+    "page_number": 3,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 2 | \uf111"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p3_img7.png",
@@ -524,7 +176,17 @@
       "hose",
       "cap",
       "hand"
-    ]
+    ],
+    "bbox": [
+      361.93,
+      59.92,
+      390.1,
+      81.02
+    ],
+    "page_number": 3,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 2 | \uf111"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p4_img1.png",
@@ -535,7 +197,17 @@
       "washing machine filter",
       "hand",
       "towel"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 3 | \uf111"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p4_img6.png",
@@ -546,6 +218,37 @@
       "washing machine filter",
       "hand",
       "towel"
+    ],
+    "bbox": [
+      418.88,
+      56.99,
+      448.05,
+      79.01
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 3 | Remove the \u0001lter by grabbing hold of the handle and turning it counterclockwise."
+  },
+  {
+    "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p4_img7.png",
+    "file_path": "./extracted_images/How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p4_img7.png",
+    "model": "WF5M5100AW",
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "page_number": 4,
+    "bbox": [
+      43.9,
+      338.71,
+      389.61,
+      501.59
+    ],
+    "caption": "Add a comment | The repair revolution in your pocket",
+    "problem_name": "WF5M5100AW Component/Step",
+    "dense_caption": "Instructional diagram on page 4 for WF5M5100AW. Add a comment | The repair revolution in your pocket",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wf5m5100aw"
     ]
   },
   {
@@ -556,7 +259,17 @@
     "detected_objects": [
       "hand",
       "washing machine filter"
-    ]
+    ],
+    "bbox": [
+      361.87,
+      59.91,
+      392.03,
+      82.08
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 3 | Remove the \u0001lter by grabbing hold of the handle and turning it counterclockwise."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p4_img9.png",
@@ -567,7 +280,17 @@
       "hand",
       "filter",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      390.9,
+      59.91,
+      420.08,
+      82.08
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 3 | Remove the \u0001lter by grabbing hold of the handle and turning it counterclockwise."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p5_img1.png",
@@ -580,7 +303,17 @@
       "filter",
       "hand",
       "toothpaste"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 4 | \uf111"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p5_img6.png",
@@ -592,7 +325,17 @@
       "filter",
       "faucet",
       "sink"
-    ]
+    ],
+    "bbox": [
+      362.94,
+      56.91,
+      387.04,
+      76.03
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 4 | Clean the \u0001lter with dish soap and hot water."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p5_img7.png",
@@ -604,7 +347,17 @@
       "faucet",
       "aerator",
       "cleaning brush or cloth"
-    ]
+    ],
+    "bbox": [
+      385.93,
+      59.94,
+      410.03,
+      78.01
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 4 | Clean the \u0001lter with dish soap and hot water."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p6_img1.png",
@@ -616,7 +369,17 @@
       "long hook-like object",
       "clothes",
       "cleaning supplies"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "page_number": 6,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 5 | \ue601"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p6_img6.png",
@@ -628,7 +391,17 @@
       "pole",
       "washing machine",
       "clothes"
-    ]
+    ],
+    "bbox": [
+      380.0,
+      56.98,
+      398.08,
+      71.03
+    ],
+    "page_number": 6,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 5 | \ue601"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p6_img7.png",
@@ -639,7 +412,17 @@
       "hand",
       "washing machine filter housing",
       "long thin object"
-    ]
+    ],
+    "bbox": [
+      361.97,
+      59.97,
+      381.08,
+      73.08
+    ],
+    "page_number": 6,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 5 | \ue601"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p6_img8.png",
@@ -652,7 +435,17 @@
       "white object",
       "towel",
       "clothing"
-    ]
+    ],
+    "bbox": [
+      396.92,
+      59.97,
+      415.08,
+      73.08
+    ],
+    "page_number": 6,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 5 | \ue601"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p7_img1.png",
@@ -663,7 +456,17 @@
       "washing machine",
       "filter",
       "hand"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 6 | \uf111"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p7_img6.png",
@@ -674,7 +477,17 @@
       "hand",
       "filter",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      396.93,
+      56.97,
+      415.01,
+      71.07
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 6 | Place the clean \u0001lter back inside the washer and turn it clockwise until it's fully seated."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p7_img7.png",
@@ -685,7 +498,17 @@
       "washing machine",
       "hand",
       "power button"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      362.61,
+      363.17,
+      602.43
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Add a comment | Step 7"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p7_img8.png",
@@ -695,7 +518,17 @@
     "detected_objects": [
       "hand",
       "filter"
-    ]
+    ],
+    "bbox": [
+      361.96,
+      59.97,
+      381.06,
+      74.06
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 6 | Place the clean \u0001lter back inside the washer and turn it clockwise until it's fully seated."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p7_img9.png",
@@ -706,7 +539,17 @@
       "hand",
       "filter",
       "washer"
-    ]
+    ],
+    "bbox": [
+      379.94,
+      59.97,
+      398.02,
+      74.07
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Step 6 | Place the clean \u0001lter back inside the washer and turn it clockwise until it's fully seated."
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p8_img1.png",
@@ -717,7 +560,17 @@
       "Mako Driver Kit",
       "Precision Bits",
       "Toolkit"
-    ]
+    ],
+    "bbox": [
+      131.94,
+      297.86,
+      230.08,
+      396.0
+    ],
+    "page_number": 8,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Gear Up For Future Repairs | Shop all"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p8_img2.png",
@@ -730,7 +583,17 @@
       "utility knife",
       "cable",
       "tool kit"
-    ]
+    ],
+    "bbox": [
+      263.87,
+      297.86,
+      362.01,
+      396.0
+    ],
+    "page_number": 8,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Gear Up For Future Repairs | Shop all"
   },
   {
     "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p8_img3.png",
@@ -742,6 +605,451 @@
       "Precision Bits",
       "Pro Tech Toolkit",
       "Prying and Opening Tools"
+    ],
+    "bbox": [
+      395.95,
+      297.86,
+      477.12,
+      396.0
+    ],
+    "page_number": 8,
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "model": "WF5M5100AW",
+    "caption": "Gear Up For Future Repairs | Shop all"
+  },
+  {
+    "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p9_img1.png",
+    "file_path": "./extracted_images/How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p9_img1.png",
+    "model": "WF5M5100AW",
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "page_number": 9,
+    "bbox": [
+      59.98,
+      110.99,
+      115.11,
+      166.12
+    ],
+    "caption": "Author with 3 other contributors | Nana Sarpong",
+    "problem_name": "WF5M5100AW Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for WF5M5100AW. Author with 3 other contributors | Nana Sarpong",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wf5m5100aw"
+    ]
+  },
+  {
+    "id": "How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p9_img2.png",
+    "file_path": "./extracted_images/How_to_Clean_Samsung_Washing_Machine_WF5M5100AW_Filter_and_Slots_p9_img2.png",
+    "model": "WF5M5100AW",
+    "source_pdf": "How to Clean Samsung Washing Machine WF5M5100AW Filter and Slots.pdf",
+    "page_number": 9,
+    "bbox": [
+      373.98,
+      110.93,
+      428.15,
+      166.06
+    ],
+    "caption": "Author with 3 other contributors | Nana Sarpong",
+    "problem_name": "WF5M5100AW Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for WF5M5100AW. Author with 3 other contributors | Nana Sarpong",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wf5m5100aw"
+    ]
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img1.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img1.png",
+    "problem_name": "Portrait of a Woman",
+    "dense_caption": "A woman with dark hair and a blue top is looking directly at the camera with a subtle smile.",
+    "detected_objects": [
+      "woman",
+      "hair",
+      "top"
+    ],
+    "bbox": [
+      44.86,
+      170.91,
+      65.26,
+      192.12
+    ],
+    "page_number": 1,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Free Shipping on Domestic Orders $75+ | Samsung Washing Machine Washing Machine Appliance Home Parts Guides Troubleshooting Edit"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img2.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img2.png",
+    "problem_name": "Cleaning Washing Machine Filter",
+    "dense_caption": "The image shows a pair of scissors, which are required to clean the Samsung DC68 washing machine filter.",
+    "detected_objects": [
+      "scissors"
+    ],
+    "bbox": [
+      59.89,
+      293.86,
+      87.02,
+      321.15
+    ],
+    "page_number": 1,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "5 - 10 minutes Easy | What you need"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img3.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img3.png",
+    "problem_name": "Paper Towels",
+    "dense_caption": "The image shows a roll of paper towels, which is a necessary tool for cleaning the Samsung DC68 Washing Machine Filter.",
+    "detected_objects": [
+      "paper towels roll"
+    ],
+    "bbox": [
+      59.98,
+      366.77,
+      87.19,
+      394.34
+    ],
+    "page_number": 1,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Scissors | $5.59 $6.99"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img4.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p1_img4.png",
+    "problem_name": "Cleaning Supplies",
+    "dense_caption": "The image shows a stack of red shop towels or rags, which are used for cleaning the Samsung washing machine filter.",
+    "detected_objects": [
+      "towels",
+      "rags"
+    ],
+    "bbox": [
+      59.98,
+      439.8,
+      87.19,
+      458.05
+    ],
+    "page_number": 1,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Paper Towels | A\u0001liate link"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img1.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img1.png",
+    "problem_name": "Cleaning Washing Machine",
+    "dense_caption": "The image shows a washing machine with its door open, likely in preparation for cleaning the filter.",
+    "detected_objects": [
+      "washing machine"
+    ],
+    "bbox": [
+      43.88,
+      74.81,
+      363.17,
+      314.1
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Step 1 How to Clean a Samsung DC68 Washing Machine Filter | Turn the washing machine o\u0002 and locate the \u0001lter access door."
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img6.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img6.png",
+    "problem_name": "Cleaning Washing Machine",
+    "dense_caption": "The image shows a washing machine with its door open, revealing the interior drum. The context suggests that the user is in the process of cleaning the filter, likely the first step involves accessing the filter area.",
+    "detected_objects": [
+      "washing machine",
+      "door",
+      "drum"
+    ],
+    "bbox": [
+      362.9,
+      72.95,
+      391.01,
+      94.07
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Step 1 How to Clean a Samsung DC68 Washing Machine Filter | Turn the washing machine o\u0002 and locate the \u0001lter access door."
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img7.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img7.png",
+    "problem_name": "Open Filter Door",
+    "dense_caption": "Using the handle of a pair of scissors to open the filter access door of a Samsung washing machine.",
+    "detected_objects": [
+      "scissors",
+      "hand",
+      "washing machine"
+    ],
+    "bbox": [
+      43.88,
+      426.56,
+      363.17,
+      666.39
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Add a comment | Step 2"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img12.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img12.png",
+    "problem_name": "Cleaning Washing Machine Filter",
+    "dense_caption": "A person is using a pair of scissors to open the filter access door of a Samsung washing machine.",
+    "detected_objects": [
+      "scissors",
+      "hands",
+      "filter access door"
+    ],
+    "bbox": [
+      362.94,
+      424.98,
+      387.02,
+      443.01
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Add a comment | Step 2"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img13.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img13.png",
+    "problem_name": "Turn On Washing Machine",
+    "dense_caption": "The image shows a person turning on a Samsung washing machine by pressing the power button.",
+    "detected_objects": [
+      "washing machine control panel",
+      "hand",
+      "power button"
+    ],
+    "bbox": [
+      389.87,
+      74.97,
+      418.12,
+      97.05
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Step 1 How to Clean a Samsung DC68 Washing Machine Filter | Turn the washing machine o\u0002 and locate the \u0001lter access door."
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img14.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img14.png",
+    "problem_name": "valid",
+    "dense_caption": "A hand pressing the filter access door of a Samsung washing machine to open it.",
+    "detected_objects": [
+      "hand",
+      "filter access door",
+      "sticker"
+    ],
+    "bbox": [
+      416.88,
+      74.97,
+      446.09,
+      97.04
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Step 1 How to Clean a Samsung DC68 Washing Machine Filter | Turn the washing machine o\u0002 and locate the \u0001lter access door."
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img15.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img15.png",
+    "problem_name": "Cleaning Washing Machine Filter",
+    "dense_caption": "A hand is using scissors to open the filter access door of a Samsung washing machine.",
+    "detected_objects": [
+      "scissors",
+      "hand",
+      "washing machine"
+    ],
+    "bbox": [
+      385.89,
+      426.92,
+      411.05,
+      446.03
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Add a comment | Step 2"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img16.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p2_img16.png",
+    "problem_name": "Cleaning Washing Machine Filter",
+    "dense_caption": "A person is opening the filter access door of a Samsung washing machine to clean the filter.",
+    "detected_objects": [
+      "washing machine",
+      "filter access door",
+      "hand"
+    ],
+    "bbox": [
+      409.98,
+      426.92,
+      435.02,
+      446.03
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Add a comment | Step 2"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p3_img1.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p3_img1.png",
+    "model": "DC68",
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "page_number": 3,
+    "bbox": [
+      43.9,
+      338.71,
+      389.26,
+      501.25
+    ],
+    "caption": "Add a comment | Meet Your New Repair Assistant",
+    "problem_name": "DC68 Component/Step",
+    "dense_caption": "Instructional diagram on page 3 for DC68. Add a comment | Meet Your New Repair Assistant",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "dc68"
+    ]
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img1.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img1.png",
+    "problem_name": "Tool Kit",
+    "dense_caption": "The image shows a Mako Driver Kit with 64 precision bits, which is a comprehensive toolkit for various repairs and tasks.",
+    "detected_objects": [
+      "Mako Driver Kit",
+      "precision bits",
+      "toolbox"
+    ],
+    "bbox": [
+      131.94,
+      152.91,
+      230.08,
+      251.05
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Gear Up For Future Repairs | Shop all"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img2.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img2.png",
+    "problem_name": "Tool Kit",
+    "dense_caption": "The image shows a comprehensive tool kit laid out on a white background, likely for promotional or instructional purposes. The kit includes various tools such as screwdrivers, prying tools, a knife, and other equipment, all neatly arranged and branded with the 'iFixit' logo.",
+    "detected_objects": [
+      "screwdrivers",
+      "prying tools",
+      "knife",
+      "tool kit"
+    ],
+    "bbox": [
+      263.87,
+      152.91,
+      362.01,
+      251.05
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Gear Up For Future Repairs | Shop all"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img3.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img3.png",
+    "problem_name": "Prying and Opening Tools",
+    "dense_caption": "This image shows a set of prying and opening tools, likely used for repairing electronic devices. The tools include a set of blue plastic spudgers, a blue plastic tool, and two black metal tools. These tools are often used to carefully pry open electronic devices without causing damage.",
+    "detected_objects": [
+      "spudgers",
+      "plastic tool",
+      "metal tools"
+    ],
+    "bbox": [
+      395.95,
+      152.91,
+      477.12,
+      251.05
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Gear Up For Future Repairs | Shop all"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img4.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img4.png",
+    "problem_name": "Valid Image",
+    "dense_caption": "A selfie of a young woman with dark hair and a blue top, likely a profile picture or social media post.",
+    "detected_objects": [
+      "face",
+      "woman",
+      "selfie"
+    ],
+    "bbox": [
+      59.98,
+      655.86,
+      115.11,
+      710.03
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "model": "DC68",
+    "caption": "Author with 5 other contributors | Ishmeet Cheema"
+  },
+  {
+    "id": "How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img5.png",
+    "file_path": "./extracted_images/How_to_Clean_a_Samsung_DC68_Washing_Machine_Filter_p7_img5.png",
+    "model": "DC68",
+    "source_pdf": "How to Clean a Samsung DC68 Washing Machine Filter.pdf",
+    "page_number": 7,
+    "bbox": [
+      374.22,
+      656.1,
+      427.91,
+      709.8
+    ],
+    "caption": "Author with 5 other contributors | Ishmeet Cheema",
+    "problem_name": "DC68 Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for DC68. Author with 5 other contributors | Ishmeet Cheema",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "dc68"
+    ]
+  },
+  {
+    "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p1_img1.png",
+    "file_path": "./extracted_images/How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p1_img1.png",
+    "model": "WF350ANR",
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "page_number": 1,
+    "bbox": [
+      44.86,
+      170.91,
+      65.2,
+      192.06
+    ],
+    "caption": "Free Shipping on Domestic Orders $75+ | Samsung Washing Machine Washing Machine Appliance Home Parts Guides Troubleshooting Edit",
+    "problem_name": "WF350ANR Component/Step",
+    "dense_caption": "Instructional diagram on page 1 for WF350ANR. Free Shipping on Domestic Orders $75+ | Samsung Washing Machine Washing Machine Appliance Home Parts Guides Troubleshooting Edit",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wf350anr"
     ]
   },
   {
@@ -751,7 +1059,17 @@
     "dense_caption": "Using an anti-static brush to clean the filter of a Samsung WF350ANR washing machine",
     "detected_objects": [
       "anti-static brush"
-    ]
+    ],
+    "bbox": [
+      59.89,
+      293.86,
+      87.02,
+      321.15
+    ],
+    "page_number": 1,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "5 minutes Easy | What you need"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p1_img3.png",
@@ -760,7 +1078,17 @@
     "dense_caption": "The image shows a white bucket with a handle, likely used for holding or carrying liquids or solids, in the context of unclogging a Samsung WF350ANR washing machine filter.",
     "detected_objects": [
       "bucket"
-    ]
+    ],
+    "bbox": [
+      59.98,
+      366.77,
+      87.19,
+      394.34
+    ],
+    "page_number": 1,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Anti-Static Brush | $2.99"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p2_img1.png",
@@ -771,7 +1099,17 @@
       "plug",
       "outlet",
       "cord"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      74.81,
+      363.17,
+      314.1
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 1 How to Unclog a Samsung WF350ANR Washing Machine Filter | \ue602"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p2_img6.png",
@@ -782,7 +1120,17 @@
       "plug",
       "outlet",
       "cord"
-    ]
+    ],
+    "bbox": [
+      363.0,
+      72.96,
+      382.01,
+      87.06
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 1 How to Unclog a Samsung WF350ANR Washing Machine Filter | Caution: Before beginning this guide, be sure to turn the washing machine o\u0004 and unplug it from the outlet."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p2_img7.png",
@@ -793,7 +1141,17 @@
       "washing machine",
       "hand",
       "filter cover"
-    ]
+    ],
+    "bbox": [
+      379.96,
+      74.98,
+      399.07,
+      89.0
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 1 How to Unclog a Samsung WF350ANR Washing Machine Filter | Caution: Before beginning this guide, be sure to turn the washing machine o\u0004 and unplug it from the outlet."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p2_img8.png",
@@ -806,7 +1164,17 @@
       "bucket",
       "hose",
       "hand"
-    ]
+    ],
+    "bbox": [
+      398.0,
+      74.98,
+      417.01,
+      89.08
+    ],
+    "page_number": 2,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 1 How to Unclog a Samsung WF350ANR Washing Machine Filter | Caution: Before beginning this guide, be sure to turn the washing machine o\u0004 and unplug it from the outlet."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p3_img1.png",
@@ -817,7 +1185,17 @@
       "hand",
       "washing machine",
       "water filter compartment"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "page_number": 3,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 2 | \uf111"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p3_img6.png",
@@ -828,7 +1206,17 @@
       "hand",
       "washing machine part",
       "wooden surface"
-    ]
+    ],
+    "bbox": [
+      362.94,
+      56.9,
+      387.03,
+      76.08
+    ],
+    "page_number": 3,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 2 | Jiggle the water \u0001lter compartment while pulling it towards yourself to remove the compartment."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p3_img7.png",
@@ -839,6 +1227,37 @@
       "hand",
       "washing machine",
       "water filter compartment"
+    ],
+    "bbox": [
+      43.88,
+      362.61,
+      363.17,
+      602.43
+    ],
+    "page_number": 3,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Add a comment | Step 3"
+  },
+  {
+    "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p3_img12.png",
+    "file_path": "./extracted_images/How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p3_img12.png",
+    "model": "WF350ANR",
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "page_number": 3,
+    "bbox": [
+      43.9,
+      641.97,
+      389.26,
+      804.17
+    ],
+    "caption": "With your other hand, hold the bucket underneath the \u0001lter to capture the excess water. | Add a comment",
+    "problem_name": "WF350ANR Component/Step",
+    "dense_caption": "Instructional diagram on page 3 for WF350ANR. With your other hand, hold the bucket underneath the \u0001lter to capture the excess water. | Add a comment",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wf350anr"
     ]
   },
   {
@@ -849,7 +1268,17 @@
     "detected_objects": [
       "hand",
       "water filter compartment"
-    ]
+    ],
+    "bbox": [
+      385.91,
+      59.94,
+      410.02,
+      78.07
+    ],
+    "page_number": 3,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 2 | Jiggle the water \u0001lter compartment while pulling it towards yourself to remove the compartment."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p3_img14.png",
@@ -860,7 +1289,17 @@
       "hand",
       "water filter knob",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      408.95,
+      59.94,
+      434.11,
+      78.07
+    ],
+    "page_number": 3,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 2 | Jiggle the water \u0001lter compartment while pulling it towards yourself to remove the compartment."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p4_img1.png",
@@ -871,7 +1310,17 @@
       "hand",
       "water filter",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 4 | Remove the water \u0001lter."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p4_img6.png",
@@ -881,7 +1330,17 @@
     "detected_objects": [
       "hand",
       "washing machine filter"
-    ]
+    ],
+    "bbox": [
+      362.98,
+      56.96,
+      383.08,
+      73.06
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 4 | Remove the water \u0001lter."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p4_img7.png",
@@ -892,7 +1351,17 @@
       "toothbrush",
       "washing machine",
       "filter slot"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      362.61,
+      363.17,
+      602.43
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Add a comment | Step 5"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p4_img12.png",
@@ -904,7 +1373,17 @@
       "water filter",
       "toothbrush",
       "bucket"
-    ]
+    ],
+    "bbox": [
+      362.88,
+      360.88,
+      393.03,
+      383.13
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Clean hard-to- reach places in the \u0001lter with a toothbrush and excess water that was captured with the bucket. | Add a comment"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p4_img13.png",
@@ -915,7 +1394,17 @@
       "hand",
       "washing machine",
       "filter"
-    ]
+    ],
+    "bbox": [
+      381.93,
+      59.96,
+      403.01,
+      75.09
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 4 | Remove the water \u0001lter."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p4_img14.png",
@@ -926,7 +1415,17 @@
       "hand",
       "water filter",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      401.93,
+      59.96,
+      422.04,
+      75.09
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 4 | Remove the water \u0001lter."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p4_img15.png",
@@ -936,7 +1435,17 @@
     "detected_objects": [
       "toothbrush",
       "washing machine filter slot"
-    ]
+    ],
+    "bbox": [
+      391.98,
+      362.88,
+      422.13,
+      386.01
+    ],
+    "page_number": 4,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Add a comment | Step 5"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p5_img1.png",
@@ -947,7 +1456,17 @@
       "water filter housing",
       "black hose",
       "white circular component"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 6 | \uf111"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p5_img6.png",
@@ -957,7 +1476,17 @@
     "detected_objects": [
       "water filter",
       "washing machine parts"
-    ]
+    ],
+    "bbox": [
+      362.97,
+      57.0,
+      385.01,
+      74.03
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 6 | Inspect the inside to make sure there is no leftover lint or unnecessary objects that can clog the water \u0001lter."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p5_img7.png",
@@ -968,7 +1497,17 @@
       "hand",
       "water filter",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      362.61,
+      363.17,
+      602.43
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Add a comment | Step 7"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p5_img12.png",
@@ -979,7 +1518,17 @@
       "hand",
       "water filter",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      362.93,
+      360.94,
+      380.03,
+      374.0
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Add a comment | Step 7"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p5_img13.png",
@@ -990,7 +1539,17 @@
       "washing machine filter",
       "tubing",
       "metal interior"
-    ]
+    ],
+    "bbox": [
+      382.94,
+      59.95,
+      405.09,
+      76.04
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 6 | Inspect the inside to make sure there is no leftover lint or unnecessary objects that can clog the water \u0001lter."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p5_img14.png",
@@ -1000,7 +1559,17 @@
     "detected_objects": [
       "washing machine filter",
       "black hose"
-    ]
+    ],
+    "bbox": [
+      403.94,
+      59.95,
+      426.09,
+      76.04
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 6 | Inspect the inside to make sure there is no leftover lint or unnecessary objects that can clog the water \u0001lter."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p5_img15.png",
@@ -1011,7 +1580,17 @@
       "hand",
       "washing machine filter",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      378.95,
+      362.99,
+      397.05,
+      376.05
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Add a comment | Step 7"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p5_img16.png",
@@ -1022,7 +1601,17 @@
       "hand",
       "water filter",
       "washing machine"
-    ]
+    ],
+    "bbox": [
+      395.98,
+      362.99,
+      413.0,
+      376.04
+    ],
+    "page_number": 5,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Add a comment | Step 7"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p6_img1.png",
@@ -1033,7 +1622,17 @@
       "bucket",
       "drain",
       "concrete floor"
-    ]
+    ],
+    "bbox": [
+      43.88,
+      59.88,
+      363.17,
+      299.17
+    ],
+    "page_number": 6,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 8 | \uf111"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p6_img6.png",
@@ -1044,7 +1643,17 @@
       "bucket",
       "drain",
       "water"
-    ]
+    ],
+    "bbox": [
+      362.95,
+      56.93,
+      386.06,
+      75.09
+    ],
+    "page_number": 6,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 8 | Pour the bucket of excess water down a drain."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p6_img7.png",
@@ -1055,7 +1664,17 @@
       "bucket",
       "drain",
       "water"
-    ]
+    ],
+    "bbox": [
+      384.98,
+      59.94,
+      409.01,
+      77.09
+    ],
+    "page_number": 6,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Step 8 | Pour the bucket of excess water down a drain."
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p7_img1.png",
@@ -1066,7 +1685,17 @@
       "Mako Driver Kit",
       "Precision Bits",
       "Toolkit"
-    ]
+    ],
+    "bbox": [
+      131.94,
+      98.0,
+      230.08,
+      196.13
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Gear Up For Future Repairs | Shop all"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p7_img2.png",
@@ -1082,7 +1711,17 @@
       "cleaning cloths",
       "spudgers",
       "prying tools"
-    ]
+    ],
+    "bbox": [
+      263.87,
+      98.0,
+      362.01,
+      196.13
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Gear Up For Future Repairs | Shop all"
   },
   {
     "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p7_img3.png",
@@ -1093,6 +1732,3018 @@
       "iFixit toolkit",
       "Prying tools",
       "Opening tools"
+    ],
+    "bbox": [
+      395.95,
+      98.0,
+      477.12,
+      196.13
+    ],
+    "page_number": 7,
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "model": "WF350ANR",
+    "caption": "Gear Up For Future Repairs | Shop all"
+  },
+  {
+    "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p7_img4.png",
+    "file_path": "./extracted_images/How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p7_img4.png",
+    "model": "WF350ANR",
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "page_number": 7,
+    "bbox": [
+      59.98,
+      599.97,
+      115.11,
+      655.09
+    ],
+    "caption": "Author with 2 other contributors | Jasmine Andrade",
+    "problem_name": "WF350ANR Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for WF350ANR. Author with 2 other contributors | Jasmine Andrade",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wf350anr"
+    ]
+  },
+  {
+    "id": "How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p7_img5.png",
+    "file_path": "./extracted_images/How_to_Unclog_a_Samsung_WF350ANR_Washing_Machine_Filter_p7_img5.png",
+    "model": "WF350ANR",
+    "source_pdf": "How to Unclog a Samsung WF350ANR Washing Machine Filter.pdf",
+    "page_number": 7,
+    "bbox": [
+      373.98,
+      599.91,
+      428.15,
+      655.03
+    ],
+    "caption": "Author with 2 other contributors | Jasmine Andrade",
+    "problem_name": "WF350ANR Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for WF350ANR. Author with 2 other contributors | Jasmine Andrade",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wf350anr"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p2_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p2_img1.png",
+    "problem_name": "Samsung Washer Troubleshooting",
+    "dense_caption": "The image shows a front-loading Samsung washing machine with a digital display and control panel, likely related to troubleshooting the SC or 5C error code for drainage issues.",
+    "detected_objects": [
+      "washing machine"
+    ],
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "page_number": 2,
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "model": "General",
+    "caption": "Samsung Washer SC Code | Bill Gilbert and 4 contributors Last updated on August 11, 2023"
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p2_img2.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Samsung Washer SC Code | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Samsung Washer SC Code | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p4_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p4_img1.png",
+    "problem_name": "Cleaning Washing Machine Filter",
+    "dense_caption": "A person is removing and cleaning the filter from a washing machine, inspecting it for clogs or debris.",
+    "detected_objects": [
+      "washing machine filter",
+      "hand",
+      "sink"
+    ],
+    "bbox": [
+      70.0,
+      319.96,
+      118.0,
+      357.46
+    ],
+    "page_number": 4,
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "model": "General",
+    "caption": "\u2022 If the \u0001lter and housing were already clean when you opened it, replace it and skip to the next step. | 2 Drain Hose Problems"
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p5_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p5_img1.png",
+    "problem_name": "Clogged Pump Hose",
+    "dense_caption": "The image shows a close-up view of a pump hose, highlighted within a red rectangle, connected to a pump with a filter assembly. The hose appears to be a curved, black, flexible tube, possibly made of rubber or plastic, which is part of a washing machine's drainage system.",
+    "detected_objects": [
+      "pump hose",
+      "pump",
+      "filter assembly",
+      "red rectangle"
+    ],
+    "bbox": [
+      191.54,
+      606.35,
+      404.45,
+      765.69
+    ],
+    "page_number": 5,
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "model": "General",
+    "caption": "\u2022 Access the interior of the machine. | 5 of 11 12/16/25, 12:51 AM"
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p7_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p7_img1.png",
+    "problem_name": "valid_image",
+    "dense_caption": "Inspecting the impeller of a drain pump assembly, checking for damage or blockages.",
+    "detected_objects": [
+      "impeller",
+      "pump assembly",
+      "motor shaft"
+    ],
+    "bbox": [
+      192.25,
+      754.59,
+      403.75,
+      913.21
+    ],
+    "page_number": 7,
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "model": "General",
+    "caption": "\u2022 Usually, if the housing is not cracked, the rubbing from the impeller is not a problem\u2013you can just replace the pump. | Here is a picture of an impeller. The impeller is circled in red. Sometimes there are 4 blades sometimes 3."
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p8_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p8_img1.png",
+    "problem_name": "Washing Machine Pump Issue",
+    "dense_caption": "The image shows a washing machine pump housing with the impeller and surrounding components. The red circle highlights the area of focus, likely indicating a part that needs inspection or replacement. Based on the context, it appears that the user is troubleshooting a Samsung washing machine issue, possibly related to drainage or water level errors.",
+    "detected_objects": [
+      "pump housing",
+      "impeller",
+      "washing machine parts"
+    ],
+    "bbox": [
+      191.54,
+      35.35,
+      404.45,
+      144.62
+    ],
+    "page_number": 8,
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "model": "General",
+    "caption": "Samsung Washer SC Code - iFixit Troubleshooting https://www.i\ufb01xit.com/Troubleshooting/Samsung_Washi..."
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p8_img2.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p8_img2.png",
+    "problem_name": "Washing Machine Pump Repair",
+    "dense_caption": "Reassembling or repairing a washing machine pump by reconnecting electrical connectors and handling the pump housing.",
+    "detected_objects": [
+      "hands",
+      "washing machine pump",
+      "electrical connectors"
+    ],
+    "bbox": [
+      70.0,
+      236.71,
+      118.0,
+      274.21
+    ],
+    "page_number": 8,
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "model": "General",
+    "caption": "5 Other Causes | Washing Machine Pump Teardown"
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      588.96,
+      135.0,
+      648.24
+    ],
+    "caption": "Samsung Washing Machine | 10 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Samsung Washing Machine | 10 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img2.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      165.49,
+      114.4,
+      208.07
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img3.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img3.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      235.49,
+      114.4,
+      278.07
+    ],
+    "caption": "Washing Machine | Washing Machine Has No Water",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Has No Water",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img4.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img4.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      165.49,
+      114.4,
+      208.07
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img5.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img5.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      375.49,
+      114.4,
+      418.08
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img6.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img6.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      445.49,
+      114.4,
+      488.08
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img7.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p9_img7.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      375.49,
+      114.4,
+      418.08
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p10_img2.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p10_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code - iFixit Troubleshooting.pdf",
+    "page_number": 10,
+    "bbox": [
+      42.0,
+      687.5,
+      176.0,
+      734.5
+    ],
+    "caption": "Download the app | Stay in the loop",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Download the app | Stay in the loop",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p2_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Samsung Washer SC Code | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Samsung Washer SC Code | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p2_img2.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Samsung Washer SC Code | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Samsung Washer SC Code | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p4_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p4_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 4,
+    "bbox": [
+      70.0,
+      319.96,
+      118.0,
+      357.46
+    ],
+    "caption": "\u2022 If the \u0001lter and housing were already clean when you opened it, replace it and skip to the next step. | 2 Drain Hose Problems",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 4 for General. \u2022 If the \u0001lter and housing were already clean when you opened it, replace it and skip to the next step. | 2 Drain Hose Problems",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p5_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p5_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 5,
+    "bbox": [
+      191.54,
+      606.35,
+      404.45,
+      765.69
+    ],
+    "caption": "\u2022 Access the interior of the machine. | 5 of 11 12/16/25, 1:05 AM",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 5 for General. \u2022 Access the interior of the machine. | 5 of 11 12/16/25, 1:05 AM",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p7_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p7_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 7,
+    "bbox": [
+      192.25,
+      754.59,
+      403.75,
+      913.21
+    ],
+    "caption": "\u2022 Usually, if the housing is not cracked, the rubbing from the impeller is not a problem\u2013you can just replace the pump. | Here is a picture of an impeller. The impeller is circled in red. Sometimes there are 4 blades sometimes 3.",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. \u2022 Usually, if the housing is not cracked, the rubbing from the impeller is not a problem\u2013you can just replace the pump. | Here is a picture of an impeller. The impeller is circled in red. Sometimes there are 4 blades sometimes 3.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p8_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p8_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 8,
+    "bbox": [
+      191.54,
+      35.35,
+      404.45,
+      144.62
+    ],
+    "caption": "Samsung Washer SC Code - iFixit Troubleshooting https://www.i\ufb01xit.com/Troubleshooting/Samsung_Washi...",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. Samsung Washer SC Code - iFixit Troubleshooting https://www.i\ufb01xit.com/Troubleshooting/Samsung_Washi...",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p8_img2.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p8_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 8,
+    "bbox": [
+      70.0,
+      236.71,
+      118.0,
+      274.21
+    ],
+    "caption": "5 Other Causes | Washing Machine Pump Teardown",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. 5 Other Causes | Washing Machine Pump Teardown",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p9_img1.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p9_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      588.96,
+      135.0,
+      648.24
+    ],
+    "caption": "Samsung Washing Machine | 10 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Samsung Washing Machine | 10 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p9_img2.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p9_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      165.49,
+      114.4,
+      208.07
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p9_img3.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p9_img3.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      235.49,
+      114.4,
+      278.07
+    ],
+    "caption": "Washing Machine | Washing Machine Has No Water",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Has No Water",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p9_img4.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p9_img4.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      165.49,
+      114.4,
+      208.07
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p9_img5.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p9_img5.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      375.49,
+      114.4,
+      418.08
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p9_img6.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p9_img6.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      445.49,
+      114.4,
+      488.08
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p9_img7.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p9_img7.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      375.49,
+      114.4,
+      418.08
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washer_SC_Code_p10_img2.png",
+    "file_path": "./extracted_images/Samsung_Washer_SC_Code_p10_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washer SC Code.pdf",
+    "page_number": 10,
+    "bbox": [
+      42.0,
+      687.5,
+      176.0,
+      734.5
+    ],
+    "caption": "Download the app | Stay in the loop",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Download the app | Stay in the loop",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p2_img1.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Samsung Washing Machine Error Codes | Matt Zieminski and 2 contributors Last updated on August 30, 2024",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Samsung Washing Machine Error Codes | Matt Zieminski and 2 contributors Last updated on August 30, 2024",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p2_img2.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Samsung Washing Machine Error Codes | Matt Zieminski and 2 contributors Last updated on August 30, 2024",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Samsung Washing Machine Error Codes | Matt Zieminski and 2 contributors Last updated on August 30, 2024",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p5_img1.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p5_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 5,
+    "bbox": [
+      58.0,
+      572.82,
+      114.4,
+      615.41
+    ],
+    "caption": "Related Problems | Samsung Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 5 for General. Related Problems | Samsung Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p5_img2.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p5_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 5,
+    "bbox": [
+      58.0,
+      642.82,
+      114.4,
+      685.41
+    ],
+    "caption": "Samsung Washing Machine | Samsung Washer SC Code",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 5 for General. Samsung Washing Machine | Samsung Washer SC Code",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p5_img3.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p5_img3.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 5,
+    "bbox": [
+      58.0,
+      712.82,
+      114.4,
+      755.41
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 5 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p5_img4.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p5_img4.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 5,
+    "bbox": [
+      58.0,
+      782.82,
+      114.4,
+      806.42
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 5 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p6_img1.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p6_img1.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 6,
+    "bbox": [
+      58.0,
+      225.97,
+      135.0,
+      285.01
+    ],
+    "caption": "Samsung Washing Machine | 10 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 6 for General. Samsung Washing Machine | 10 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p6_img2.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p6_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 6,
+    "bbox": [
+      58.0,
+      35.85,
+      114.4,
+      55.41
+    ],
+    "caption": "Washing Machine Not Draining | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 6 for General. Washing Machine Not Draining | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p6_img3.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p6_img3.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 6,
+    "bbox": [
+      58.0,
+      82.82,
+      114.4,
+      125.41
+    ],
+    "caption": "Washing Machine Not Draining | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 6 for General. Washing Machine Not Draining | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p6_img4.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p6_img4.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 6,
+    "bbox": [
+      58.0,
+      152.82,
+      114.4,
+      195.41
+    ],
+    "caption": "Samsung Washing Machine | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 6 for General. Samsung Washing Machine | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Samsung_Washing_Machine_Error_Codes_p7_img2.png",
+    "file_path": "./extracted_images/Samsung_Washing_Machine_Error_Codes_p7_img2.png",
+    "model": "General",
+    "source_pdf": "Samsung Washing Machine Error Codes.pdf",
+    "page_number": 7,
+    "bbox": [
+      42.0,
+      448.0,
+      176.0,
+      496.0
+    ],
+    "caption": "Download the app Stay in the loop | Learn something new every month!",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Download the app Stay in the loop | Learn something new every month!",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "The_optimal_laundry_load_size_for_your_Samsung_washer15_p1_img1.png",
+    "file_path": "./extracted_images/The_optimal_laundry_load_size_for_your_Samsung_washer15_p1_img1.png",
+    "model": "General",
+    "source_pdf": "The optimal laundry load size for your Samsung washer15.pdf",
+    "page_number": 1,
+    "bbox": [
+      101.81,
+      356.84,
+      308.31,
+      497.26
+    ],
+    "caption": "The optimal laundry load size for your Samsung washer | Last Update date : Mar 08. 2024",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 1 for General. The optimal laundry load size for your Samsung washer | Last Update date : Mar 08. 2024",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "The_optimal_laundry_load_size_for_your_Samsung_washer15_p2_img1.png",
+    "file_path": "./extracted_images/The_optimal_laundry_load_size_for_your_Samsung_washer15_p2_img1.png",
+    "model": "General",
+    "source_pdf": "The optimal laundry load size for your Samsung washer15.pdf",
+    "page_number": 2,
+    "bbox": [
+      306.25,
+      28.5,
+      485.9,
+      178.21
+    ],
+    "caption": "to 1 pound (450 g) of laundry per cubic foot of washer capacity. | Large Load: The tub is about 3/4 full, or 3 pounds (1.36 kg) of laundry per cubic foot of washer capacity.",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. to 1 pound (450 g) of laundry per cubic foot of washer capacity. | Large Load: The tub is about 3/4 full, or 3 pounds (1.36 kg) of laundry per cubic foot of washer capacity.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "The_optimal_laundry_load_size_for_your_Samsung_washer15_p2_img2.png",
+    "file_path": "./extracted_images/The_optimal_laundry_load_size_for_your_Samsung_washer15_p2_img2.png",
+    "model": "General",
+    "source_pdf": "The optimal laundry load size for your Samsung washer15.pdf",
+    "page_number": 2,
+    "bbox": [
+      126.59,
+      382.14,
+      306.25,
+      531.85
+    ],
+    "caption": "If weighing your laundry isn't feasible, you can approximate the weight based on common clothing items: | Bath towels: Approximately 1.5 pounds (680 g) each.",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. If weighing your laundry isn't feasible, you can approximate the weight based on common clothing items: | Bath towels: Approximately 1.5 pounds (680 g) each.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "The_optimal_laundry_load_size_for_your_Samsung_washer15_p3_img1.png",
+    "file_path": "./extracted_images/The_optimal_laundry_load_size_for_your_Samsung_washer15_p3_img1.png",
+    "model": "General",
+    "source_pdf": "The optimal laundry load size for your Samsung washer15.pdf",
+    "page_number": 3,
+    "bbox": [
+      101.81,
+      28.5,
+      510.68,
+      114.71
+    ],
+    "caption": "Related Questions | Need More Support?",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 3 for General. Related Questions | Need More Support?",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "The_optimal_laundry_load_size_for_your_Samsung_washer15_p4_img1.png",
+    "file_path": "./extracted_images/The_optimal_laundry_load_size_for_your_Samsung_washer15_p4_img1.png",
+    "model": "General",
+    "source_pdf": "The optimal laundry load size for your Samsung washer15.pdf",
+    "page_number": 4,
+    "bbox": [
+      28.5,
+      614.45,
+      133.3,
+      632.52
+    ],
+    "caption": "Copyright\u00a9 1995-2026 Samsung. All rights reserved. | Terms & Conditions of Sale Privacy Legal Vendor Code of Conduct Sitemap Stay in the Loop? Canada/English(EN)",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 4 for General. Copyright\u00a9 1995-2026 Samsung. All rights reserved. | Terms & Conditions of Sale Privacy Legal Vendor Code of Conduct Sitemap Stay in the Loop? Canada/English(EN)",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "The_optimal_laundry_load_size_for_your_Samsung_washer15_p4_img2.png",
+    "file_path": "./extracted_images/The_optimal_laundry_load_size_for_your_Samsung_washer15_p4_img2.png",
+    "model": "General",
+    "source_pdf": "The optimal laundry load size for your Samsung washer15.pdf",
+    "page_number": 4,
+    "bbox": [
+      502.94,
+      545.79,
+      571.6,
+      566.96
+    ],
+    "caption": "Monitors Shop Picks | Shop FAQ",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 4 for General. Monitors Shop Picks | Shop FAQ",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "User_Manual_of_WA5471ABP-03050A-04_XAA_p1_img1.jpeg",
+    "file_path": "./extracted_images/User_Manual_of_WA5471ABP-03050A-04_XAA_p1_img1.jpeg",
+    "model": "WA5471ABP",
+    "source_pdf": "User Manual of WA5471ABP-03050A-04_XAA.pdf",
+    "page_number": 1,
+    "bbox": [
+      40.94,
+      39.45,
+      440.98,
+      473.57
+    ],
+    "caption": "imagine the possibilities | WA5471AB* WA5451AN*",
+    "problem_name": "WA5471ABP Component/Step",
+    "dense_caption": "Instructional diagram on page 1 for WA5471ABP. imagine the possibilities | WA5471AB* WA5451AN*",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wa5471abp"
+    ]
+  },
+  {
+    "id": "User_Manual_of_WA5471ABP-03050A-04_XAA_p30_img2.png",
+    "file_path": "./extracted_images/User_Manual_of_WA5471ABP-03050A-04_XAA_p30_img2.png",
+    "model": "WA5471ABP",
+    "source_pdf": "User Manual of WA5471ABP-03050A-04_XAA.pdf",
+    "page_number": 30,
+    "bbox": [
+      354.26,
+      248.49,
+      390.78,
+      283.79
+    ],
+    "caption": "\u2022 Once the Pure Cycle button is pressed, the only  function that can be set is Delay Start. | 3. Press the Start/Pause button.",
+    "problem_name": "WA5471ABP Component/Step",
+    "dense_caption": "Instructional diagram on page 30 for WA5471ABP. \u2022 Once the Pure Cycle button is pressed, the only  function that can be set is Delay Start. | 3. Press the Start/Pause button.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wa5471abp"
+    ]
+  },
+  {
+    "id": "User_Manual_of_WA5471ABP-03050A-04_XAA_p45_img1.jpeg",
+    "file_path": "./extracted_images/User_Manual_of_WA5471ABP-03050A-04_XAA_p45_img1.jpeg",
+    "model": "WA5471ABP",
+    "source_pdf": "User Manual of WA5471ABP-03050A-04_XAA.pdf",
+    "page_number": 45,
+    "bbox": [
+      40.94,
+      39.45,
+      440.98,
+      473.57
+    ],
+    "caption": "imagine las posibilidades | WA5471AB* WA5451AN*",
+    "problem_name": "WA5471ABP Component/Step",
+    "dense_caption": "Instructional diagram on page 45 for WA5471ABP. imagine las posibilidades | WA5471AB* WA5451AN*",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wa5471abp"
+    ]
+  },
+  {
+    "id": "User_Manual_of_WA5471ABP-03050A-04_XAA_p74_img2.png",
+    "file_path": "./extracted_images/User_Manual_of_WA5471ABP-03050A-04_XAA_p74_img2.png",
+    "model": "WA5471ABP",
+    "source_pdf": "User Manual of WA5471ABP-03050A-04_XAA.pdf",
+    "page_number": 74,
+    "bbox": [
+      354.26,
+      260.07,
+      390.78,
+      295.36
+    ],
+    "caption": "\u2022 Una vez presionado el bot\u00f3n Pure Cycle, la \u00fanica  funci\u00f3n que se puede con\ufb01 gurar es Delay Start (Inicio  Retardado). | 3. Presione el bot\u00f3n Start/Pause (Inicio/Pausa).",
+    "problem_name": "WA5471ABP Component/Step",
+    "dense_caption": "Instructional diagram on page 74 for WA5471ABP. \u2022 Una vez presionado el bot\u00f3n Pure Cycle, la \u00fanica  funci\u00f3n que se puede con\ufb01 gurar es Delay Start (Inicio  Retardado). | 3. Presione el bot\u00f3n Start/Pause (Inicio/Pausa).",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wa5471abp"
+    ]
+  },
+  {
+    "id": "User_Manual_of_WA5471ABP-03050A-04_XAA_p89_img1.jpeg",
+    "file_path": "./extracted_images/User_Manual_of_WA5471ABP-03050A-04_XAA_p89_img1.jpeg",
+    "model": "WA5471ABP",
+    "source_pdf": "User Manual of WA5471ABP-03050A-04_XAA.pdf",
+    "page_number": 89,
+    "bbox": [
+      40.94,
+      39.45,
+      440.98,
+      473.57
+    ],
+    "caption": "Un monde de possibilit\u00e9s | Nous vous remercions d'avoir choisi ce produit Samsung.",
+    "problem_name": "WA5471ABP Component/Step",
+    "dense_caption": "Instructional diagram on page 89 for WA5471ABP. Un monde de possibilit\u00e9s | Nous vous remercions d'avoir choisi ce produit Samsung.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wa5471abp"
+    ]
+  },
+  {
+    "id": "User_Manual_of_WA5471ABP-03050A-04_XAA_p118_img2.png",
+    "file_path": "./extracted_images/User_Manual_of_WA5471ABP-03050A-04_XAA_p118_img2.png",
+    "model": "WA5471ABP",
+    "source_pdf": "User Manual of WA5471ABP-03050A-04_XAA.pdf",
+    "page_number": 118,
+    "bbox": [
+      354.26,
+      218.79,
+      390.78,
+      254.08
+    ],
+    "caption": "1. Appuyez sur le bouton Power (Marche/Arr\u00eat). | 2. Appuyez sur le bouton Pure Cycle.",
+    "problem_name": "WA5471ABP Component/Step",
+    "dense_caption": "Instructional diagram on page 118 for WA5471ABP. 1. Appuyez sur le bouton Power (Marche/Arr\u00eat). | 2. Appuyez sur le bouton Pure Cycle.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wa5471abp"
+    ]
+  },
+  {
+    "id": "User_Manual_of_WA5471ABP_p1_img1.jpeg",
+    "file_path": "./extracted_images/User_Manual_of_WA5471ABP_p1_img1.jpeg",
+    "model": "WA5471ABP",
+    "source_pdf": "User Manual of WA5471ABP.pdf",
+    "page_number": 1,
+    "bbox": [
+      40.94,
+      39.45,
+      440.98,
+      473.57
+    ],
+    "caption": "imagine the possibilities | WA5471AB* WA5451AN*",
+    "problem_name": "WA5471ABP Component/Step",
+    "dense_caption": "Instructional diagram on page 1 for WA5471ABP. imagine the possibilities | WA5471AB* WA5451AN*",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wa5471abp"
+    ]
+  },
+  {
+    "id": "User_Manual_of_WA5471ABP_p30_img2.png",
+    "file_path": "./extracted_images/User_Manual_of_WA5471ABP_p30_img2.png",
+    "model": "WA5471ABP",
+    "source_pdf": "User Manual of WA5471ABP.pdf",
+    "page_number": 30,
+    "bbox": [
+      354.26,
+      248.49,
+      390.78,
+      283.79
+    ],
+    "caption": "\u2022 Once the Pure Cycle button is pressed, the only  function that can be set is Delay Start. | 3. Press the Start/Pause button.",
+    "problem_name": "WA5471ABP Component/Step",
+    "dense_caption": "Instructional diagram on page 30 for WA5471ABP. \u2022 Once the Pure Cycle button is pressed, the only  function that can be set is Delay Start. | 3. Press the Start/Pause button.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "wa5471abp"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p2_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Washing Machine Door Is Locked | Bill Gilbert and 2 contributors Last updated on August 9, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Door Is Locked | Bill Gilbert and 2 contributors Last updated on August 9, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p2_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Washing Machine Door Is Locked | Bill Gilbert and 2 contributors Last updated on August 9, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Door Is Locked | Bill Gilbert and 2 contributors Last updated on August 9, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p9_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p9_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      748.97,
+      135.0,
+      806.21
+    ],
+    "caption": "Washing Machine | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p9_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p9_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      325.82,
+      114.4,
+      368.41
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p9_img3.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p9_img3.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      395.82,
+      114.4,
+      438.41
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p9_img4.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p9_img4.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      465.82,
+      114.4,
+      508.41
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p9_img5.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p9_img5.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      395.82,
+      114.4,
+      438.41
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p9_img6.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p9_img6.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      465.82,
+      114.4,
+      508.41
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p9_img7.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p9_img7.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      395.82,
+      114.4,
+      438.41
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Door_Is_Locked_p11_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Door_Is_Locked_p11_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Door Is Locked.pdf",
+    "page_number": 11,
+    "bbox": [
+      42.0,
+      103.0,
+      176.0,
+      151.0
+    ],
+    "caption": "Download the app | Stay in the loop",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 11 for General. Download the app | Stay in the loop",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p2_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Washing Machine Is Leaking | Bill Gilbert and 2 contributors Last updated on March 26, 2025",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Is Leaking | Bill Gilbert and 2 contributors Last updated on March 26, 2025",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p2_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Washing Machine Is Leaking | Bill Gilbert and 2 contributors Last updated on March 26, 2025",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Is Leaking | Bill Gilbert and 2 contributors Last updated on March 26, 2025",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p8_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p8_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 8,
+    "bbox": [
+      70.0,
+      617.71,
+      118.0,
+      655.21
+    ],
+    "caption": "6 Door Seal Failure | GE Washing Machine Leaking Water Into Tub - Water Valve Replacement",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. 6 Door Seal Failure | GE Washing Machine Leaking Water Into Tub - Water Valve Replacement",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p10_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p10_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      528.77,
+      135.0,
+      587.04
+    ],
+    "caption": "Washing Machine | 8 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | 8 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p10_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p10_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      105.62,
+      114.4,
+      148.21
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p10_img3.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p10_img3.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      175.62,
+      114.4,
+      218.21
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p10_img4.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p10_img4.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      245.62,
+      114.4,
+      288.21
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p10_img5.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p10_img5.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      175.62,
+      114.4,
+      218.21
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p10_img6.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p10_img6.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      245.62,
+      114.4,
+      288.21
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p10_img7.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p10_img7.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      105.62,
+      114.4,
+      148.21
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Is_Leaking_p11_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Is_Leaking_p11_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Is Leaking.pdf",
+    "page_number": 11,
+    "bbox": [
+      42.0,
+      656.5,
+      176.0,
+      704.5
+    ],
+    "caption": "Download the app | Stay in the loop",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 11 for General. Download the app | Stay in the loop",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p2_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Washing Machine Not Draining | Bill Gilbert and 1 contributor Last updated on March 26, 2025",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Not Draining | Bill Gilbert and 1 contributor Last updated on March 26, 2025",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p2_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Washing Machine Not Draining | Bill Gilbert and 1 contributor Last updated on March 26, 2025",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Not Draining | Bill Gilbert and 1 contributor Last updated on March 26, 2025",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p3_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p3_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 3,
+    "bbox": [
+      66.76,
+      774.03,
+      291.76,
+      942.78
+    ],
+    "caption": "3 of 12 12/16/25, 12:55 AM",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 3 for General. 3 of 12 12/16/25, 12:55 AM",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p3_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p3_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 3,
+    "bbox": [
+      304.01,
+      774.03,
+      529.01,
+      942.78
+    ],
+    "caption": "3 of 12 12/16/25, 12:55 AM",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 3 for General. 3 of 12 12/16/25, 12:55 AM",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p4_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p4_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 4,
+    "bbox": [
+      66.76,
+      4.02,
+      291.76,
+      172.77
+    ],
+    "caption": "Start by checking the pump motor. This is a likely failure when you don\u2019t hear the pump run at all. | Pump Motor (red) on Pump Body Impeller on Pump Motor",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 4 for General. Start by checking the pump motor. This is a likely failure when you don\u2019t hear the pump run at all. | Pump Motor (red) on Pump Body Impeller on Pump Motor",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p4_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p4_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 4,
+    "bbox": [
+      304.01,
+      4.02,
+      529.01,
+      172.77
+    ],
+    "caption": "Start by checking the pump motor. This is a likely failure when you don\u2019t hear the pump run at all. | Pump Motor (red) on Pump Body Impeller on Pump Motor",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 4 for General. Start by checking the pump motor. This is a likely failure when you don\u2019t hear the pump run at all. | Pump Motor (red) on Pump Body Impeller on Pump Motor",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p5_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p5_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 5,
+    "bbox": [
+      70.0,
+      524.53,
+      118.0,
+      562.03
+    ],
+    "caption": "\u2022 If the pump is belt-driven, make sure the pulley is on tightly | If everything now looks good on the pump, move on to the next step.",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 5 for General. \u2022 If the pump is belt-driven, make sure the pulley is on tightly | If everything now looks good on the pump, move on to the next step.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p5_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p5_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 5,
+    "bbox": [
+      70.0,
+      604.76,
+      118.0,
+      642.26
+    ],
+    "caption": "2 Clogged Hoses | GE Front Load Washing Machine Not Draining - Drain Pump Replacement",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 5 for General. 2 Clogged Hoses | GE Front Load Washing Machine Not Draining - Drain Pump Replacement",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p6_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p6_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 6,
+    "bbox": [
+      70.0,
+      781.69,
+      118.0,
+      806.19
+    ],
+    "caption": "LG Front Load Washing Machine Drain Hose Replacement | 30 45 minutes Moderate",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 6 for General. LG Front Load Washing Machine Drain Hose Replacement | 30 45 minutes Moderate",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p7_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p7_img1.png",
+    "problem_name": "Washing Machine Pump Hose Replacement",
+    "dense_caption": "Replacing or inspecting the pump hose of a washing machine, specifically checking for breaks, cuts, or disconnections in the hose.",
+    "detected_objects": [
+      "hand",
+      "hose",
+      "washing machine"
+    ],
+    "bbox": [
+      66.88,
+      390.72,
+      291.88,
+      559.47
+    ],
+    "page_number": 7,
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "model": "General",
+    "caption": "Pressure Hose | The main culprit in these malfunctions is the pressure hose."
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p7_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p7_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 7,
+    "bbox": [
+      304.12,
+      390.72,
+      529.12,
+      559.47
+    ],
+    "caption": "Pressure Hose | The main culprit in these malfunctions is the pressure hose.",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Pressure Hose | The main culprit in these malfunctions is the pressure hose.",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p7_img3.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p7_img3.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 7,
+    "bbox": [
+      70.0,
+      12.69,
+      118.0,
+      48.69
+    ],
+    "caption": "30 - 45 minutes Moderate | LG Front Load Washing Machine Pump Hose Replacement",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. 30 - 45 minutes Moderate | LG Front Load Washing Machine Pump Hose Replacement",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p7_img4.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p7_img4.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 7,
+    "bbox": [
+      70.0,
+      91.93,
+      118.0,
+      129.43
+    ],
+    "caption": "3 Water Level Sensing System Malfunction | 30 - 45 minutes Moderate",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. 3 Water Level Sensing System Malfunction | 30 - 45 minutes Moderate",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p10_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p10_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      399.57,
+      114.4,
+      442.16
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p10_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p10_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      469.57,
+      114.4,
+      512.16
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p10_img3.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p10_img3.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      469.57,
+      114.4,
+      512.16
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p10_img4.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p10_img4.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      609.57,
+      114.4,
+      652.16
+    ],
+    "caption": "Washing Machine | Washing Machine Won't Turn On",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Won't Turn On",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p10_img5.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p10_img5.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      469.57,
+      114.4,
+      512.16
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p10_img6.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p10_img6.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      399.57,
+      114.4,
+      442.16
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p11_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p11_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 11,
+    "bbox": [
+      58.0,
+      52.79,
+      135.0,
+      112.08
+    ],
+    "caption": "Washing Machine | 8 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 11 for General. Washing Machine | 8 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Draining_p12_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p12_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Draining.pdf",
+    "page_number": 12,
+    "bbox": [
+      42.0,
+      251.5,
+      176.0,
+      298.5
+    ],
+    "caption": "Download the app | Stay in the loop",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 12 for General. Download the app | Stay in the loop",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p2_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Washing Machine Not Spinning | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Not Spinning | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p2_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Washing Machine Not Spinning | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Not Spinning | Bill Gilbert and 4 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p7_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p7_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 7,
+    "bbox": [
+      70.0,
+      166.52,
+      118.0,
+      204.02
+    ],
+    "caption": "If all these parts have checked out, go to the next item. | 4 Washing Machine Not Draining Fully",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. If all these parts have checked out, go to the next item. | 4 Washing Machine Not Draining Fully",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p13_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p13_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 13,
+    "bbox": [
+      58.0,
+      606.9,
+      135.0,
+      666.19
+    ],
+    "caption": "Washing Machine | 8 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 13 for General. Washing Machine | 8 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p13_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p13_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 13,
+    "bbox": [
+      58.0,
+      183.75,
+      114.4,
+      226.34
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 13 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p13_img3.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p13_img3.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 13,
+    "bbox": [
+      58.0,
+      253.75,
+      114.4,
+      296.34
+    ],
+    "caption": "Washing Machine | Washing Machine Won't Turn On",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 13 for General. Washing Machine | Washing Machine Won't Turn On",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p13_img4.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p13_img4.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 13,
+    "bbox": [
+      58.0,
+      323.75,
+      114.4,
+      366.34
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 13 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p13_img5.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p13_img5.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 13,
+    "bbox": [
+      58.0,
+      323.75,
+      114.4,
+      366.34
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 13 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p13_img6.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p13_img6.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 13,
+    "bbox": [
+      58.0,
+      183.75,
+      114.4,
+      226.34
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 13 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p13_img7.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p13_img7.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 13,
+    "bbox": [
+      58.0,
+      253.75,
+      114.4,
+      296.34
+    ],
+    "caption": "Washing Machine | Washing Machine Won't Turn On",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 13 for General. Washing Machine | Washing Machine Won't Turn On",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Not_Spinning_p14_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Not_Spinning_p14_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Not Spinning.pdf",
+    "page_number": 14,
+    "bbox": [
+      42.0,
+      704.5,
+      176.0,
+      752.5
+    ],
+    "caption": "Download the app | Stay in the loop",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 14 for General. Download the app | Stay in the loop",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p2_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Washing Machine Shaking | Bill Gilbert and 2 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Shaking | Bill Gilbert and 2 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p2_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Washing Machine Shaking | Bill Gilbert and 2 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Shaking | Bill Gilbert and 2 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p6_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p6_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 6,
+    "bbox": [
+      70.0,
+      482.78,
+      118.0,
+      520.28
+    ],
+    "caption": "Here is a link to a guide for replacing these rods on a Whirlpool top loader. | Here is a link to a video with more explanation on Suspension Rods",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 6 for General. Here is a link to a guide for replacing these rods on a Whirlpool top loader. | Here is a link to a video with more explanation on Suspension Rods",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p10_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p10_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      799.22,
+      135.0,
+      856.97
+    ],
+    "caption": "Washing Machine | Washing Machine Has No Water",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Has No Water",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p10_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p10_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      375.56,
+      114.4,
+      418.15
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p10_img3.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p10_img3.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      445.56,
+      114.4,
+      488.15
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p10_img4.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p10_img4.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      375.56,
+      114.4,
+      418.15
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p10_img5.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p10_img5.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      445.56,
+      114.4,
+      488.15
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p10_img6.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p10_img6.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      375.56,
+      114.4,
+      418.15
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p10_img7.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p10_img7.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 10,
+    "bbox": [
+      58.0,
+      725.56,
+      114.4,
+      768.15
+    ],
+    "caption": "Washing Machine | Washing Machine Is Leaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Washing Machine | Washing Machine Is Leaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p11_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p11_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 11,
+    "bbox": [
+      58.0,
+      29.22,
+      135.0,
+      86.97
+    ],
+    "caption": "Washing Machine | 8 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 11 for General. Washing Machine | 8 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Shaking_p12_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Shaking_p12_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Shaking.pdf",
+    "page_number": 12,
+    "bbox": [
+      42.0,
+      251.5,
+      176.0,
+      298.5
+    ],
+    "caption": "Download the app Stay in the loop | Learn something new every month!",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 12 for General. Download the app Stay in the loop | Learn something new every month!",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p2_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Washing Machine Troubleshooting | Matt Zieminski Last updated on January 19, 2024",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Troubleshooting | Matt Zieminski Last updated on January 19, 2024",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p2_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Washing Machine Troubleshooting | Matt Zieminski Last updated on January 19, 2024",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Troubleshooting | Matt Zieminski Last updated on January 19, 2024",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p8_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p8_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 8,
+    "bbox": [
+      58.0,
+      413.76,
+      114.4,
+      456.35
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p8_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p8_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 8,
+    "bbox": [
+      58.0,
+      483.76,
+      114.4,
+      526.35
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p8_img3.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p8_img3.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 8,
+    "bbox": [
+      58.0,
+      553.76,
+      114.4,
+      596.35
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p8_img4.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p8_img4.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 8,
+    "bbox": [
+      58.0,
+      483.76,
+      114.4,
+      526.35
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p8_img5.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p8_img5.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 8,
+    "bbox": [
+      58.0,
+      483.76,
+      114.4,
+      526.35
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p8_img6.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p8_img6.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 8,
+    "bbox": [
+      58.0,
+      413.76,
+      114.4,
+      456.35
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p9_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p9_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 9,
+    "bbox": [
+      58.0,
+      66.91,
+      135.0,
+      126.2
+    ],
+    "caption": "Washing Machine | 8 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 9 for General. Washing Machine | 8 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Troubleshooting_p10_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Troubleshooting_p10_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Troubleshooting.pdf",
+    "page_number": 10,
+    "bbox": [
+      42.0,
+      251.5,
+      176.0,
+      298.5
+    ],
+    "caption": "Download the app | Stay in the loop",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 10 for General. Download the app | Stay in the loop",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p2_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p2_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 2,
+    "bbox": [
+      47.91,
+      35.91,
+      138.09,
+      104.14
+    ],
+    "caption": "Washing Machine Won't Turn On | Bill Gilbert and 2 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Won't Turn On | Bill Gilbert and 2 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p2_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p2_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 2,
+    "bbox": [
+      147.75,
+      68.88,
+      176.25,
+      97.0
+    ],
+    "caption": "Washing Machine Won't Turn On | Bill Gilbert and 2 contributors Last updated on August 11, 2023",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Washing Machine Won't Turn On | Bill Gilbert and 2 contributors Last updated on August 11, 2023",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p5_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p5_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 5,
+    "bbox": [
+      70.0,
+      418.65,
+      118.0,
+      456.15
+    ],
+    "caption": "4 Start Switch Failure | Kenmore 80 Series Washing Machine Lid Switch Replacement",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 5 for General. 4 Start Switch Failure | Kenmore 80 Series Washing Machine Lid Switch Replacement",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p7_img1.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p7_img1.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 7,
+    "bbox": [
+      58.0,
+      524.16,
+      135.0,
+      581.91
+    ],
+    "caption": "Washing Machine | 8 common problems View all",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Washing Machine | 8 common problems View all",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p7_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p7_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 7,
+    "bbox": [
+      58.0,
+      100.5,
+      114.4,
+      143.09
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p7_img3.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p7_img3.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 7,
+    "bbox": [
+      58.0,
+      170.5,
+      114.4,
+      213.09
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p7_img4.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p7_img4.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 7,
+    "bbox": [
+      58.0,
+      240.5,
+      114.4,
+      283.09
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p7_img5.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p7_img5.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 7,
+    "bbox": [
+      58.0,
+      240.5,
+      114.4,
+      283.09
+    ],
+    "caption": "Washing Machine | Washing Machine Shaking",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Washing Machine | Washing Machine Shaking",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p7_img6.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p7_img6.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 7,
+    "bbox": [
+      58.0,
+      100.5,
+      114.4,
+      143.09
+    ],
+    "caption": "Related Problems | Washing Machine",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Related Problems | Washing Machine",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p7_img7.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p7_img7.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 7,
+    "bbox": [
+      58.0,
+      170.5,
+      114.4,
+      213.09
+    ],
+    "caption": "Washing Machine | Washing Machine Not Spinning",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 7 for General. Washing Machine | Washing Machine Not Spinning",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
+    ]
+  },
+  {
+    "id": "Washing_Machine_Won't_Turn_On_p8_img2.png",
+    "file_path": "./extracted_images/Washing_Machine_Won't_Turn_On_p8_img2.png",
+    "model": "General",
+    "source_pdf": "Washing Machine Won't Turn On.pdf",
+    "page_number": 8,
+    "bbox": [
+      42.0,
+      656.5,
+      176.0,
+      704.5
+    ],
+    "caption": "Download the app | Stay in the loop",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 8 for General. Download the app | Stay in the loop",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
     ]
   },
   {
@@ -1106,7 +4757,17 @@
       "Resistors",
       "ICs",
       "Connectors"
-    ]
+    ],
+    "bbox": [
+      100.45,
+      299.65,
+      324.29,
+      422.05
+    ],
+    "page_number": 17,
+    "source_pdf": "ilide.info-washer-repair-manual-samsung-pr_0b39fd9d3a756a63c1083f74bcf34d13.pdf",
+    "model": "General",
+    "caption": "Thermistor Check Check Resistance at Pin #9 and #7 of CN8 Tester Check = 47\u33c0"
   },
   {
     "id": "ilide.info-washer-repair-manual-samsung-pr_0b39fd9d3a756a63c1083f74bcf34d13_p17_img2.jpeg",
@@ -1118,82 +4779,100 @@
       "connectors",
       "wires",
       "components"
+    ],
+    "bbox": [
+      92.12,
+      149.51,
+      340.41,
+      248.77
+    ],
+    "page_number": 17,
+    "source_pdf": "ilide.info-washer-repair-manual-samsung-pr_0b39fd9d3a756a63c1083f74bcf34d13.pdf",
+    "model": "General",
+    "caption": "PROBLEM CHECKING AND METHOD OF PCB - If you plug in the power cord and turn Power S/W on, memorized data is displayed. | If any data is not displayed, check the followings."
+  },
+  {
+    "id": "washer_fresh_and_odour_free15_p1_img1.png",
+    "file_path": "./extracted_images/washer_fresh_and_odour_free15_p1_img1.png",
+    "model": "General",
+    "source_pdf": "washer fresh and odour free15.pdf",
+    "page_number": 1,
+    "bbox": [
+      101.81,
+      356.84,
+      308.31,
+      497.26
+    ],
+    "caption": "How to keep your Samsung washer fresh and odor-free | Last Update date : Jun 10. 2025",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 1 for General. How to keep your Samsung washer fresh and odor-free | Last Update date : Jun 10. 2025",
+    "detected_objects": [
+      "washing machine",
+      "component",
+      "general"
     ]
   },
   {
-    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p2_img1.png",
-    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p2_img1.png",
-    "problem_name": "Samsung Washer Troubleshooting",
-    "dense_caption": "The image shows a front-loading Samsung washing machine with a digital display and control panel, likely related to troubleshooting the SC or 5C error code for drainage issues.",
+    "id": "washer_fresh_and_odour_free15_p2_img1.png",
+    "file_path": "./extracted_images/washer_fresh_and_odour_free15_p2_img1.png",
+    "model": "General",
+    "source_pdf": "washer fresh and odour free15.pdf",
+    "page_number": 2,
+    "bbox": [
+      101.81,
+      573.15,
+      510.68,
+      659.37
+    ],
+    "caption": "Related Questions | Need More Support?",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 2 for General. Related Questions | Need More Support?",
     "detected_objects": [
-      "washing machine"
+      "washing machine",
+      "component",
+      "general"
     ]
   },
   {
-    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p4_img1.png",
-    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p4_img1.png",
-    "problem_name": "Cleaning Washing Machine Filter",
-    "dense_caption": "A person is removing and cleaning the filter from a washing machine, inspecting it for clogs or debris.",
+    "id": "washer_fresh_and_odour_free15_p4_img1.png",
+    "file_path": "./extracted_images/washer_fresh_and_odour_free15_p4_img1.png",
+    "model": "General",
+    "source_pdf": "washer fresh and odour free15.pdf",
+    "page_number": 4,
+    "bbox": [
+      28.5,
+      410.53,
+      133.3,
+      428.6
+    ],
+    "caption": "Copyright\u00a9 1995-2026 Samsung. All rights reserved. | Terms & Conditions of Sale Privacy Legal Vendor Code of Conduct Sitemap Stay in the Loop? Canada/English(EN)",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 4 for General. Copyright\u00a9 1995-2026 Samsung. All rights reserved. | Terms & Conditions of Sale Privacy Legal Vendor Code of Conduct Sitemap Stay in the Loop? Canada/English(EN)",
     "detected_objects": [
-      "washing machine filter",
-      "hand",
-      "sink"
+      "washing machine",
+      "component",
+      "general"
     ]
   },
   {
-    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p5_img1.png",
-    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p5_img1.png",
-    "problem_name": "Clogged Pump Hose",
-    "dense_caption": "The image shows a close-up view of a pump hose, highlighted within a red rectangle, connected to a pump with a filter assembly. The hose appears to be a curved, black, flexible tube, possibly made of rubber or plastic, which is part of a washing machine's drainage system.",
+    "id": "washer_fresh_and_odour_free15_p4_img2.png",
+    "file_path": "./extracted_images/washer_fresh_and_odour_free15_p4_img2.png",
+    "model": "General",
+    "source_pdf": "washer fresh and odour free15.pdf",
+    "page_number": 4,
+    "bbox": [
+      502.94,
+      341.87,
+      571.6,
+      363.03
+    ],
+    "caption": "Monitors Shop Picks | Shop FAQ",
+    "problem_name": "General Component/Step",
+    "dense_caption": "Instructional diagram on page 4 for General. Monitors Shop Picks | Shop FAQ",
     "detected_objects": [
-      "pump hose",
-      "pump",
-      "filter assembly",
-      "red rectangle"
-    ]
-  },
-  {
-    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p7_img1.png",
-    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p7_img1.png",
-    "problem_name": "valid_image",
-    "dense_caption": "Inspecting the impeller of a drain pump assembly, checking for damage or blockages.",
-    "detected_objects": [
-      "impeller",
-      "pump assembly",
-      "motor shaft"
-    ]
-  },
-  {
-    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p8_img1.png",
-    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p8_img1.png",
-    "problem_name": "Washing Machine Pump Issue",
-    "dense_caption": "The image shows a washing machine pump housing with the impeller and surrounding components. The red circle highlights the area of focus, likely indicating a part that needs inspection or replacement. Based on the context, it appears that the user is troubleshooting a Samsung washing machine issue, possibly related to drainage or water level errors.",
-    "detected_objects": [
-      "pump housing",
-      "impeller",
-      "washing machine parts"
-    ]
-  },
-  {
-    "id": "Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p8_img2.png",
-    "file_path": "./extracted_images/Samsung_Washer_SC_Code_-_iFixit_Troubleshooting_p8_img2.png",
-    "problem_name": "Washing Machine Pump Repair",
-    "dense_caption": "Reassembling or repairing a washing machine pump by reconnecting electrical connectors and handling the pump housing.",
-    "detected_objects": [
-      "hands",
-      "washing machine pump",
-      "electrical connectors"
-    ]
-  },
-  {
-    "id": "Washing_Machine_Not_Draining_p7_img1.png",
-    "file_path": "./extracted_images/Washing_Machine_Not_Draining_p7_img1.png",
-    "problem_name": "Washing Machine Pump Hose Replacement",
-    "dense_caption": "Replacing or inspecting the pump hose of a washing machine, specifically checking for breaks, cuts, or disconnections in the hose.",
-    "detected_objects": [
-      "hand",
-      "hose",
-      "washing machine"
+      "washing machine",
+      "component",
+      "general"
     ]
   }
 ]

@@ -1,16 +1,95 @@
-.env
-__pycache__/
-media/
-Samsung_Prism/
+# ==============================================================================
+# Samsung PRISM Grounded Multimodal RAG - .gitignore
+# ==============================================================================
+
+# ===== Python Virtual Environments (CRITICAL: Prevents 5.4+ GB bloat) =====
+.venv/
 venv/
-data/
-# ===== Vector DB / Chroma =====
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== Bytecode, Compilers & Cache =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Vector Databases & Embedding Stores =====
 chroma_db_store/
 backend/chroma_db_store/
-
-# ===== Binary & DB files =====
-*.bin
 *.sqlite3
+*.bin
+*.index
+*.parquet
 **/chroma_db_store.7z
 
+# ===== Runtime Generated Assets =====
+extracted_images/
+backend/extracted_images/
+guide.txt
+*.log
+
+# ===== Node / Frontend (Vite / React) =====
+node_modules/
+frontend/node_modules/
+.npm/
+frontend/dist/
+frontend/build/
+
+# ===== Environment & Secret Keys =====
 .env
+.env.local
+.env.*.local
+*.env
+!backend/.env.example
+
+# ===== Archives & Dumps =====
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# ===== Operating System & IDE Files =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ===== IDE / AI Agent Local System Logs =====
+.system_generated/

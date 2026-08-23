@@ -1,92 +1,119 @@
 import os
+import re
 import sys
-# We use try-except to give friendly error messages if libraries are missing
+from pathlib import Path
+
 try:
-    from langchain_community.document_loaders import PyPDFLoader
+    import fitz  # PyMuPDF
     from langchain_text_splitters import RecursiveCharacterTextSplitter
     from langchain_community.vectorstores import Chroma
-    from langchain_huggingface import HuggingFaceEmbeddings # Updated import for better stability
+    from langchain_huggingface import HuggingFaceEmbeddings
+    from langchain_core.documents import Document
 except ImportError as e:
     print(f"❌ Library Error: {e}")
-    print("Run this command: pip install langchain-community langchain-huggingface chromadb pypdf sentence-transformers")
+    print("Run: pip install langchain-community langchain-huggingface chromadb pymupdf sentence-transformers")
     sys.exit(1)
-
 
 # CONFIGURATION
 PDF_DIRECTORY = "./Knowledge_Base/text"
 DB_PATH = "./chroma_db_store"
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
-def create_vector_db():
-    print(f"--- 🚀 Starting Knowledge Base Ingestion ---")
+# KNOWN SAMSUNG WASHING MACHINE MODELS
+KNOWN_MODELS = ["WA5471ABP", "WF5M5100AW", "WF350ANR", "DC68", "WW90T504DAN", "WD80T654DBX"]
+
+def extract_model_from_filename(filename: str) -> str:
+    """Extracts Samsung model name from filename using known models or regex patterns."""
+    for model in KNOWN_MODELS:
+        if model.lower() in filename.lower():
+            return model
     
-    # 1. CHECK: Does the directory exist?
-    if not os.path.exists(PDF_DIRECTORY):
-        os.makedirs(PDF_DIRECTORY)
-        print(f"⚠️ Created folder {PDF_DIRECTORY}.")
-        print(f"❌ ACTION REQUIRED: Please put your PDF manuals inside '{PDF_DIRECTORY}' and run this script again.")
-        return
+    # Generic regex for Samsung appliance models
+    match = re.search(r"\b(?:WA|WW|WD|WF|DC|DV|WT)\d+[A-Za-z0-9-]*\b", filename, re.IGNORECASE)
+    if match:
+        return match.group(0).upper()
+    
+    return "General"
 
-    # 2. CHECK: Are there any PDF files?
-    files = [f for f in os.listdir(PDF_DIRECTORY) if f.lower().endswith('.pdf')]
-    if not files:
-        print(f"❌ No PDF files found in {PDF_DIRECTORY}.")
-        print("Please add at least one .pdf file.")
-        return
+def extract_documents_from_pdfs(pdf_dir: str):
+    """
+    Extracts text from all PDFs with page-level tracking and model tagging.
+    """
+    if not os.path.exists(pdf_dir):
+        os.makedirs(pdf_dir, exist_ok=True)
+        print(f"⚠️ Created folder '{pdf_dir}'. Please add PDF manuals and re-run.")
+        return []
 
-    print(f"✅ Found {len(files)} PDFs: {files}")
+    pdf_files = [f for f in os.listdir(pdf_dir) if f.lower().endswith(".pdf")]
+    if not pdf_files:
+        print(f"❌ No PDF files found in '{pdf_dir}'.")
+        return []
 
-    # 3. Load all PDFs
+    print(f"✅ Found {len(pdf_files)} PDF manuals.")
     documents = []
-    for pdf_file in files:
-        file_path = os.path.join(PDF_DIRECTORY, pdf_file)
-        print(f"   📄 Processing: {pdf_file}...")
-        
+
+    for pdf_file in sorted(pdf_files):
+        pdf_path = os.path.join(pdf_dir, pdf_file)
+        model = extract_model_from_filename(pdf_file)
+        print(f"   📄 Processing: {pdf_file} (Model: {model})")
+
         try:
-            loader = PyPDFLoader(file_path)
-            docs = loader.load()
-            
-            # Add metadata so the AI knows which manual this came from
-            for doc in docs:
-                doc.metadata["filename"] = pdf_file
-                doc.metadata["category"] = "User Manual"
-            
-            documents.extend(docs)
+            doc = fitz.open(pdf_path)
+            for page_idx in range(len(doc)):
+                page = doc[page_idx]
+                page_text = page.get_text("text")
+                if not page_text.strip():
+                    continue
+
+                metadata = {
+                    "source": pdf_path,
+                    "filename": pdf_file,
+                    "model": model,
+                    "page_number": page_idx + 1,
+                    "total_pages": len(doc),
+                    "category": "User Manual"
+                }
+                documents.append(Document(page_content=page_text, metadata=metadata))
+            doc.close()
         except Exception as e:
-            print(f"   ⚠️ Warning: Could not read {pdf_file}. Error: {e}")
+            print(f"   ⚠️ Warning: Failed to parse '{pdf_file}': {e}")
             continue
 
-    if not documents:
-        print("❌ Error: No text could be extracted from the PDFs.")
+    return documents
+
+def create_vector_db():
+    print("--- 🚀 Starting Knowledge Base Ingestion ---")
+    
+    # 1. Extract documents with page-level metadata
+    raw_docs = extract_documents_from_pdfs(PDF_DIRECTORY)
+    if not raw_docs:
+        print("❌ Error: No text could be extracted.")
         return
 
-    # 4. Split Text into Chunks
-    print(f"--- ✂️  Splitting text into chunks... ---")
+    # 2. Chunk text preserving metadata
+    print("--- ✂️  Splitting text into structured chunks... ---")
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200,
-        separators=["\n\n", "\n", ".", " ", ""]
+        chunk_size=900,
+        chunk_overlap=150,
+        separators=["\n\n", "\n", ". ", " ", ""]
     )
-    chunks = text_splitter.split_documents(documents)
-    print(f"✅ Created {len(chunks)} text chunks.")
+    chunks = text_splitter.split_documents(raw_docs)
+    print(f"✅ Created {len(chunks)} text chunks across {len(raw_docs)} pages.")
 
-    # 5. Create Embeddings & Store in ChromaDB
-    print("--- 🧠 Generating Embeddings (This will take a moment)... ---")
-    
-    # Using the updated HuggingFace class
-    embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    # 3. Generate Embeddings & Store in ChromaDB
+    print(f"--- 🧠 Generating Embeddings with '{EMBEDDING_MODEL_NAME}'... ---")
+    embedding_model = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME)
 
-    # Save to disk
     if os.path.exists(DB_PATH):
-        print(f"   ℹ️  Updating existing database at {DB_PATH}...")
-    
+        print(f"   ℹ️  Updating existing database at '{DB_PATH}'...")
+
     vector_db = Chroma.from_documents(
-        documents=chunks, 
-        embedding=embedding_model, 
+        documents=chunks,
+        embedding=embedding_model,
         persist_directory=DB_PATH
     )
-    
-    print(f"\n--- 🎉 SUCCESS! Knowledge Base saved to {DB_PATH} ---")
-    print(f"You can now run 'python main.py'")
+
+    print(f"\n--- 🎉 SUCCESS! Knowledge Base saved to '{DB_PATH}' with model tagging & page tracking ---")
 
 if __name__ == "__main__":
     create_vector_db()

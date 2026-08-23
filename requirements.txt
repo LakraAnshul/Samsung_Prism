@@ -1,12 +1,14 @@
 chromadb
 langchain
 langchain-community
-pypdf
+langchain-huggingface
+langchain_ollama
+pymupdf
 sentence-transformers
+scikit-learn
+pandas
 groq
 google-generativeai
 python-dotenv
-langchain_ollama
 flask
 flask-cors
-
