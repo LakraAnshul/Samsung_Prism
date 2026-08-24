@@ -1,0 +1,625 @@
+{
+    "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "01_Starting_Power_Problems_Detailed.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_section_02",
+                "title": "1. Washer does not turn on",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_section_03",
+                "title": "2. Washer does not start",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_section_04",
+                "title": "3. Start/Pause button not responding",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_section_05",
+                "title": "4. Washer stops immediately after starting",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_section_06",
+                "title": "5. Child Lock preventing operation",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_section_07",
+                "title": "6. Circuit breaker / fuse trips",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_section_08",
+                "title": "7. Washer turns off unexpectedly",
+                "subsections": []
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Starting / Power Problems\nPage 1\nSamsung WA5471ABP/XAA\nStarting / Power Problems — Detailed Troubleshooting\nManual\nThis manual is organized as seven independent troubleshooting topics. Each topic begins on a new page and\nprovides a sequential procedure, including small checks that should be completed before moving to the next\nstep.\nModel basis: Samsung's official support page lists the WA5471ABP/XAA User Manual, version 4, modified May 3, 2016. The manual's\ntroubleshooting section specifically covers the 'Will not start' condition and includes checks for the door, power connection, water faucets,\nStart/Pause, Child Lock, and circuit protection. turn0search4I\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 2",
+            "token_count": 185,
+            "child_chunk_ids": [
+                "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_002",
+            "section": "1. Washer does not turn on",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01",
+            "problem_name": "Washer does not turn on",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "1. Washer does not turn on\nProblem description: The control panel remains completely dark or pressing the Power button produces no\nresponse.\nProcedure\n\nStep 1. Make sure the washer is not currently in a power interruption. Check whether lights or another\nappliance on the same electrical circuit are working.\n\nStep 2. Go to the washer's power cord and confirm that the plug is fully inserted into the electrical outlet. Do\nnot rely only on looking at the plug; make sure it has not become partially disconnected.\n\nStep 3. Inspect the plug and the visible portion of the power cord without touching exposed conductors. Look\nfor cuts, melted areas, discoloration, loose parts, or signs of overheating.\n\nStep 4. If the cord and plug appear normal, press the Power button once. Wait a few seconds and observe the\ncontrol panel for any lights or display activity.\n\nStep 5. If there is still no response, check the electrical outlet using a safe method. If you are not comfortable\ntesting an outlet, have a qualified person verify that the outlet is supplying power.\n\nStep 6. If the outlet has no power, do not attempt to repair the household wiring yourself. Restore the\nhousehold electrical supply or contact a qualified electrician.\n\nStep 7. If the outlet has power, disconnect the washer from the outlet before doing any further external\ninspection. Wait briefly, reconnect it securely, and press Power again.\n\nStep 8. If the washer remains completely unresponsive even though the outlet has power, stop the procedure.\nThe problem may be inside the washer's power/control system and should be diagnosed by service\npersonnel.\nAfter completing the steps\nDo not remove the washer's electrical covers or attempt to test live internal components as a DIY repair.\n\nSafety: Do not bypass a fuse, circuit breaker, grounding connection, or other protective device.\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 3",
+            "token_count": 400,
+            "child_chunk_ids": [
+                "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_003",
+            "section": "2. Washer does not start",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02",
+            "problem_name": "Washer does not start",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "2. Washer does not start\nProblem description: The control panel powers on, but the washer does not begin the selected wash cycle.\nProcedure\n\nStep 1. Press Power and confirm that the control panel turns on normally.\n\nStep 2. Make sure the washer door/lid is fully closed. Open it and close it again firmly so the machine can\ndetect the closed position.\n\nStep 3. Check both water-source faucets. Make sure they are open so the washer can obtain the water\nrequired to begin the cycle.\n\nStep 4. Check that the water inlet hoses are connected and are not obviously kinked or crushed.\n\nStep 5. Select the required wash cycle and any desired options.\n\nStep 6. Press the Start/Pause button deliberately once. Do not assume that selecting a cycle alone starts the\nwasher.\n\nStep 7. After pressing Start/Pause, wait briefly. The washer may make clicking sounds before filling because it\nchecks the door lock and performs a quick drain. This is described in the model's troubleshooting guidance\nand is not by itself evidence of a failure. \n\nStep 8. If the washer still does not start, check whether Child Lock is active. If the Child Lock indicator is\npresent, follow the Child Lock procedure in Topic 5.\n\nStep 9. If the display shows an information/error code, record the exact code before attempting additional\ntroubleshooting.\n\nStep 10. If all external checks are normal and the washer still refuses to start, stop the procedure and arrange\nservice rather than opening the machine.\nAfter completing the steps\nSamsung's model-specific troubleshooting lists the closed door, plugged-in washer, open water faucets,\nStart/Pause, Child Lock, and fuse/circuit-breaker checks for a washer that will not start.\nturn0search24I\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 4",
+            "token_count": 403,
+            "child_chunk_ids": [
+                "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_004",
+            "section": "3. Start/Pause button not responding",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03",
+            "problem_name": "Start/Pause button not responding",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "3. Start/Pause button not responding\nProblem description: The washer has power, but pressing Start/Pause does not start or resume the\noperation.\nProcedure\n\nStep 1. Look at the control panel and confirm that the washer is powered on.\n\nStep 2. Check the Child Lock indicator. If Child Lock is active, the other buttons are locked and pressing them\nmay cause the Child Lock indicator to blink.\n\nStep 3. If Child Lock is active, press and hold the Spin and Soil Level buttons simultaneously for\napproximately 3 seconds.\n\nStep 4. Wait for the Child Lock indicator to turn off. Then press Start/Pause once and observe whether the\nwasher responds.\n\nStep 5. If Child Lock was not active, make sure the control panel is dry and clean. Do not press buttons with\nwet hands or while liquid is present on the panel.\n\nStep 6. Confirm that you have selected a valid wash cycle before pressing Start/Pause.\n\nStep 7. Press Start/Pause once and wait. Avoid repeatedly pressing the button because repeated inputs can\nmake it harder to determine whether the washer has accepted the command.\n\nStep 8. If the washer still does not respond to Start/Pause, check whether another information/error code is\ndisplayed.\n\nStep 9. If the Power button works but Start/Pause consistently does not respond after these checks, the\ncontrol interface or another control component may require service diagnosis.\nAfter completing the steps\nOn this model, Child Lock specifically prevents the other buttons from operating while Power remains\navailable. The manual specifies Spin + Soil Level held for about 3 seconds to activate/deactivate it.\n\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 5",
+            "token_count": 363,
+            "child_chunk_ids": [
+                "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_005",
+            "section": "4. Washer stops immediately after starting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04",
+            "problem_name": "Washer stops immediately after starting",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "4. Washer stops immediately after starting\nProblem description: The washer appears to accept the start command but stops almost immediately or\ndoes not proceed into normal washing.\nProcedure\n\nStep 1. Observe the display immediately after the washer stops. If an information/error code appears, write it\ndown exactly.\n\nStep 2. Open and close the door/lid firmly. Make sure no clothing or other object is preventing it from closing\ncorrectly.\n\nStep 3. Press Start/Pause again and observe whether the washer begins operation.\n\nStep 4. Check that both water-source faucets are open.\n\nStep 5. Look at the inlet hoses and make sure they are connected and not sharply kinked or crushed.\n\nStep 6. Check whether Child Lock is active. If it is, deactivate it using the procedure in Topic 5.\n\nStep 7. Listen to the washer during the first moments after starting. Clicking sounds before filling can be part\nof the normal start sequence because the washer checks the door lock and performs a quick drain.\n\n\nStep 8. If the washer repeatedly stops at the same point, do not continue restarting it over and over. Record\nthe exact sequence of events and any displayed code.\n\nStep 9. If the washer stops with no obvious external cause, service diagnosis may be required.\nAfter completing the steps\nRepeated immediate stopping should not be treated as a normal operating condition if the basic door, water,\ncontrols, and information-code checks do not resolve it.\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 6",
+            "token_count": 328,
+            "child_chunk_ids": [
+                "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_006",
+            "section": "5. Child Lock preventing operation",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05",
+            "problem_name": "Child Lock preventing operation",
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "5. Child Lock preventing operation\nProblem description: The washer appears powered, but buttons other than Power do not respond. The Child\nLock indicator may illuminate or blink.\nProcedure\n\nStep 1. Look at the control panel and identify whether the Child Lock indicator is illuminated.\n\nStep 2. Press a button other than Power once. If the buttons are locked, the Child Lock indicator may blink\ninstead of allowing the command.\n\nStep 3. To deactivate Child Lock, press and hold the Spin and Soil Level buttons simultaneously.\n\nStep 4. Continue holding both buttons for approximately 3 seconds.\n\nStep 5. Release both buttons and check the control panel. The Child Lock indicator should no longer indicate\nthat the controls are locked.\n\nStep 6. Press Start/Pause once to check whether normal operation has returned.\n\nStep 7. If the Child Lock function was intentionally enabled for safety, do not deactivate it until you are ready to\noperate the washer.\n\nStep 8. Remember that the Child Lock setting can remain active even after the washer is powered off and\nback on. \n\nStep 9. If the controls remain locked even after the specified button combination is performed correctly, record\nthe behavior and arrange service.\nAfter completing the steps\nThe model manual states that Child Lock locks the buttons except Power, and that Spin + Soil Level held\nsimultaneously for approximately 3 seconds controls the function. \nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 7",
+            "token_count": 319,
+            "child_chunk_ids": [
+                "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_007",
+            "section": "6. Circuit breaker / fuse trips",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06",
+            "problem_name": "Circuit breaker / fuse trips",
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "6. Circuit breaker / fuse trips\nProblem description: The electrical circuit supplying the washer trips a breaker or a fuse opens when the\nwasher is used.\nProcedure\n\nStep 1. Stop using the washer immediately if the breaker trips or the fuse opens.\n\nStep 2. Do not repeatedly reset the breaker or replace the fuse while the washer remains connected if the\nprotective device continues to trip.\n\nStep 3. Disconnect the washer from the electrical outlet if this can be done safely and there is no sign of\nburning, arcing, or physical damage.\n\nStep 4. Look only at the accessible plug, cord, and outlet. Check for visible melting, discoloration, smoke\nresidue, or a burning smell.\n\nStep 5. If there is visible damage, smoke, burning odor, sparking, or heat around the plug/outlet, do not\nreconnect the washer.\n\nStep 6. If there is no visible damage and the household circuit is otherwise normal, have the circuit and outlet\nchecked by a qualified electrician before returning the washer to service.\n\nStep 7. Do not substitute a fuse with one of a different rating and do not bypass the circuit breaker.\n\nStep 8. If a qualified person confirms the outlet/circuit is suitable but the washer continues to trip the protection\ndevice, the washer requires service diagnosis.\n\nStep 9. Do not open the control panel or attempt internal electrical measurements unless you are a qualified\nservice professional using the appropriate service procedure.\nAfter completing the steps\nSamsung's user troubleshooting guidance includes checking the fuse or resetting the circuit breaker for a\nwasher that will not start; repeated trips should be treated as an electrical fault rather than repeatedly reset.\n\n\nSafety: Electrical protection devices exist to prevent hazardous conditions. Never bypass or defeat them.\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 8",
+            "token_count": 388,
+            "child_chunk_ids": [
+                "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_007_child_007"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_008",
+            "section": "7. Washer turns off unexpectedly",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07",
+            "problem_name": "Washer turns off unexpectedly",
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "7. Washer turns off unexpectedly\nProblem description: The washer loses power or the control panel becomes inactive during a cycle without\nthe user intentionally turning it off.\nProcedure\n\nStep 1. Note exactly when the washer turns off: during filling, washing, draining, spinning, or another part of\nthe cycle.\n\nStep 2. Check whether other electrical devices in the same area also lost power. If they did, the issue may be\nwith the household electrical supply.\n\nStep 3. Check the household circuit breaker only if it can be done safely. If it has tripped, do not repeatedly\nreset it if it trips again.\n\nStep 4. If household power is available, inspect the washer's accessible plug and cord for obvious damage\nwithout touching damaged areas.\n\nStep 5. If power returns to the washer, observe the control panel and check whether an information/error code\nis displayed.\n\nStep 6. Record the exact code, if any, before switching the washer off again.\n\nStep 7. Try to determine whether the shutdown happens at the same point in the same cycle. A repeatable\nshutdown is useful information for service diagnosis.\n\nStep 8. If the washer operates normally after a household power interruption, monitor it for recurrence rather\nthan repeatedly restarting an unstable machine.\n\nStep 9. If the washer repeatedly shuts down while the household electrical supply remains stable, stop using it\nand arrange service diagnosis.\n\nStep 10. If there is a burning smell, smoke, visible electrical damage, abnormal heat, or repeated breaker\noperation, disconnect the washer if safe and do not use it again until it has been inspected.\nAfter completing the steps\nUnexpected shutdowns can have causes outside the washer, such as a household power interruption, so\nidentifying whether other devices also lost power is an important first check.",
+            "token_count": 369,
+            "child_chunk_ids": [
+                "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_008_child_008"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_001",
+            "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "01_Starting_Power_Problems_Detailed.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 1\nSamsung WA5471ABP/XAA\nStarting / Power Problems — Detailed Troubleshooting\nManual\nThis manual is organized as seven independent troubleshooting topics. Each topic begins on a new page and\nprovides a sequential procedure, including small checks that should be completed before moving to the next\nstep.\nModel basis: Samsung's official support page lists the WA5471ABP/XAA User Manual, version 4, modified May 3, 2016. The manual's\ntroubleshooting section specifically covers the 'Will not start' condition and includes checks for the door, power connection, water faucets,\nStart/Pause, Child Lock, and circuit protection. turn0search4I\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 2",
+            "token_count": 188,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_002",
+            "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "01_Starting_Power_Problems_Detailed.pdf",
+            "section": "1. Washer does not turn on",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01",
+            "problem_name": "Washer does not turn on",
+            "step_start": 1,
+            "step_end": 8,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "1. Washer does not turn on\nProblem description: The control panel remains completely dark or pressing the Power button produces no\nresponse.\nProcedure\n\nStep 1. Make sure the washer is not currently in a power interruption. Check whether lights or another\nappliance on the same electrical circuit are working.\n\nStep 2. Go to the washer's power cord and confirm that the plug is fully inserted into the electrical outlet. Do\nnot rely only on looking at the plug; make sure it has not become partially disconnected.\n\nStep 3. Inspect the plug and the visible portion of the power cord without touching exposed conductors. Look\nfor cuts, melted areas, discoloration, loose parts, or signs of overheating.\n\nStep 4. If the cord and plug appear normal, press the Power button once. Wait a few seconds and observe the\ncontrol panel for any lights or display activity.\n\nStep 5. If there is still no response, check the electrical outlet using a safe method. If you are not comfortable\ntesting an outlet, have a qualified person verify that the outlet is supplying power.\n\nStep 6. If the outlet has no power, do not attempt to repair the household wiring yourself. Restore the\nhousehold electrical supply or contact a qualified electrician.\n\nStep 7. If the outlet has power, disconnect the washer from the outlet before doing any further external\ninspection. Wait briefly, reconnect it securely, and press Power again.\n\nStep 8. If the washer remains completely unresponsive even though the outlet has power, stop the procedure.\nThe problem may be inside the washer's power/control system and should be diagnosed by service\npersonnel.\nAfter completing the steps\nDo not remove the washer's electrical covers or attempt to test live internal components as a DIY repair.\n\nSafety: Do not bypass a fuse, circuit breaker, grounding connection, or other protective device.\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 3",
+            "token_count": 400,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01_step_07",
+                    "step_number": 7
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_01_step_08",
+                    "step_number": 8
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_003",
+            "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "01_Starting_Power_Problems_Detailed.pdf",
+            "section": "2. Washer does not start",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02",
+            "problem_name": "Washer does not start",
+            "step_start": 1,
+            "step_end": 10,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "2. Washer does not start\nProblem description: The control panel powers on, but the washer does not begin the selected wash cycle.\nProcedure\n\nStep 1. Press Power and confirm that the control panel turns on normally.\n\nStep 2. Make sure the washer door/lid is fully closed. Open it and close it again firmly so the machine can\ndetect the closed position.\n\nStep 3. Check both water-source faucets. Make sure they are open so the washer can obtain the water\nrequired to begin the cycle.\n\nStep 4. Check that the water inlet hoses are connected and are not obviously kinked or crushed.\n\nStep 5. Select the required wash cycle and any desired options.\n\nStep 6. Press the Start/Pause button deliberately once. Do not assume that selecting a cycle alone starts the\nwasher.\n\nStep 7. After pressing Start/Pause, wait briefly. The washer may make clicking sounds before filling because it\nchecks the door lock and performs a quick drain. This is described in the model's troubleshooting guidance\nand is not by itself evidence of a failure. \n\nStep 8. If the washer still does not start, check whether Child Lock is active. If the Child Lock indicator is\npresent, follow the Child Lock procedure in Topic 5.\n\nStep 9. If the display shows an information/error code, record the exact code before attempting additional\ntroubleshooting.\n\nStep 10. If all external checks are normal and the washer still refuses to start, stop the procedure and arrange\nservice rather than opening the machine.\nAfter completing the steps\nSamsung's model-specific troubleshooting lists the closed door, plugged-in washer, open water faucets,\nStart/Pause, Child Lock, and fuse/circuit-breaker checks for a washer that will not start.\nturn0search24I\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 4",
+            "token_count": 403,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_07",
+                    "step_number": 7
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_08",
+                    "step_number": 8
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_09",
+                    "step_number": 9
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_02_step_10",
+                    "step_number": 10
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_004",
+            "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "01_Starting_Power_Problems_Detailed.pdf",
+            "section": "3. Start/Pause button not responding",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03",
+            "problem_name": "Start/Pause button not responding",
+            "step_start": 1,
+            "step_end": 9,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "3. Start/Pause button not responding\nProblem description: The washer has power, but pressing Start/Pause does not start or resume the\noperation.\nProcedure\n\nStep 1. Look at the control panel and confirm that the washer is powered on.\n\nStep 2. Check the Child Lock indicator. If Child Lock is active, the other buttons are locked and pressing them\nmay cause the Child Lock indicator to blink.\n\nStep 3. If Child Lock is active, press and hold the Spin and Soil Level buttons simultaneously for\napproximately 3 seconds.\n\nStep 4. Wait for the Child Lock indicator to turn off. Then press Start/Pause once and observe whether the\nwasher responds.\n\nStep 5. If Child Lock was not active, make sure the control panel is dry and clean. Do not press buttons with\nwet hands or while liquid is present on the panel.\n\nStep 6. Confirm that you have selected a valid wash cycle before pressing Start/Pause.\n\nStep 7. Press Start/Pause once and wait. Avoid repeatedly pressing the button because repeated inputs can\nmake it harder to determine whether the washer has accepted the command.\n\nStep 8. If the washer still does not respond to Start/Pause, check whether another information/error code is\ndisplayed.\n\nStep 9. If the Power button works but Start/Pause consistently does not respond after these checks, the\ncontrol interface or another control component may require service diagnosis.\nAfter completing the steps\nOn this model, Child Lock specifically prevents the other buttons from operating while Power remains\navailable. The manual specifies Spin + Soil Level held for about 3 seconds to activate/deactivate it.\n\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 5",
+            "token_count": 363,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_07",
+                    "step_number": 7
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_08",
+                    "step_number": 8
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_03_step_09",
+                    "step_number": 9
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_005",
+            "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "01_Starting_Power_Problems_Detailed.pdf",
+            "section": "4. Washer stops immediately after starting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04",
+            "problem_name": "Washer stops immediately after starting",
+            "step_start": 1,
+            "step_end": 9,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "4. Washer stops immediately after starting\nProblem description: The washer appears to accept the start command but stops almost immediately or\ndoes not proceed into normal washing.\nProcedure\n\nStep 1. Observe the display immediately after the washer stops. If an information/error code appears, write it\ndown exactly.\n\nStep 2. Open and close the door/lid firmly. Make sure no clothing or other object is preventing it from closing\ncorrectly.\n\nStep 3. Press Start/Pause again and observe whether the washer begins operation.\n\nStep 4. Check that both water-source faucets are open.\n\nStep 5. Look at the inlet hoses and make sure they are connected and not sharply kinked or crushed.\n\nStep 6. Check whether Child Lock is active. If it is, deactivate it using the procedure in Topic 5.\n\nStep 7. Listen to the washer during the first moments after starting. Clicking sounds before filling can be part\nof the normal start sequence because the washer checks the door lock and performs a quick drain.\n\n\nStep 8. If the washer repeatedly stops at the same point, do not continue restarting it over and over. Record\nthe exact sequence of events and any displayed code.\n\nStep 9. If the washer stops with no obvious external cause, service diagnosis may be required.\nAfter completing the steps\nRepeated immediate stopping should not be treated as a normal operating condition if the basic door, water,\ncontrols, and information-code checks do not resolve it.\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 6",
+            "token_count": 328,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_07",
+                    "step_number": 7
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_08",
+                    "step_number": 8
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_04_step_09",
+                    "step_number": 9
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_006",
+            "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "01_Starting_Power_Problems_Detailed.pdf",
+            "section": "5. Child Lock preventing operation",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05",
+            "problem_name": "Child Lock preventing operation",
+            "step_start": 1,
+            "step_end": 9,
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "5. Child Lock preventing operation\nProblem description: The washer appears powered, but buttons other than Power do not respond. The Child\nLock indicator may illuminate or blink.\nProcedure\n\nStep 1. Look at the control panel and identify whether the Child Lock indicator is illuminated.\n\nStep 2. Press a button other than Power once. If the buttons are locked, the Child Lock indicator may blink\ninstead of allowing the command.\n\nStep 3. To deactivate Child Lock, press and hold the Spin and Soil Level buttons simultaneously.\n\nStep 4. Continue holding both buttons for approximately 3 seconds.\n\nStep 5. Release both buttons and check the control panel. The Child Lock indicator should no longer indicate\nthat the controls are locked.\n\nStep 6. Press Start/Pause once to check whether normal operation has returned.\n\nStep 7. If the Child Lock function was intentionally enabled for safety, do not deactivate it until you are ready to\noperate the washer.\n\nStep 8. Remember that the Child Lock setting can remain active even after the washer is powered off and\nback on. \n\nStep 9. If the controls remain locked even after the specified button combination is performed correctly, record\nthe behavior and arrange service.\nAfter completing the steps\nThe model manual states that Child Lock locks the buttons except Power, and that Spin + Soil Level held\nsimultaneously for approximately 3 seconds controls the function. \nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 7",
+            "token_count": 319,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_07",
+                    "step_number": 7
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_08",
+                    "step_number": 8
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_05_step_09",
+                    "step_number": 9
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_007",
+            "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "01_Starting_Power_Problems_Detailed.pdf",
+            "section": "6. Circuit breaker / fuse trips",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06",
+            "problem_name": "Circuit breaker / fuse trips",
+            "step_start": 1,
+            "step_end": 9,
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "6. Circuit breaker / fuse trips\nProblem description: The electrical circuit supplying the washer trips a breaker or a fuse opens when the\nwasher is used.\nProcedure\n\nStep 1. Stop using the washer immediately if the breaker trips or the fuse opens.\n\nStep 2. Do not repeatedly reset the breaker or replace the fuse while the washer remains connected if the\nprotective device continues to trip.\n\nStep 3. Disconnect the washer from the electrical outlet if this can be done safely and there is no sign of\nburning, arcing, or physical damage.\n\nStep 4. Look only at the accessible plug, cord, and outlet. Check for visible melting, discoloration, smoke\nresidue, or a burning smell.\n\nStep 5. If there is visible damage, smoke, burning odor, sparking, or heat around the plug/outlet, do not\nreconnect the washer.\n\nStep 6. If there is no visible damage and the household circuit is otherwise normal, have the circuit and outlet\nchecked by a qualified electrician before returning the washer to service.\n\nStep 7. Do not substitute a fuse with one of a different rating and do not bypass the circuit breaker.\n\nStep 8. If a qualified person confirms the outlet/circuit is suitable but the washer continues to trip the protection\ndevice, the washer requires service diagnosis.\n\nStep 9. Do not open the control panel or attempt internal electrical measurements unless you are a qualified\nservice professional using the appropriate service procedure.\nAfter completing the steps\nSamsung's user troubleshooting guidance includes checking the fuse or resetting the circuit breaker for a\nwasher that will not start; repeated trips should be treated as an electrical fault rather than repeatedly reset.\n\n\nSafety: Electrical protection devices exist to prevent hazardous conditions. Never bypass or defeat them.\nSamsung WA5471ABP/XAA — Starting / Power Problems\nPage 8",
+            "token_count": 388,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_07",
+                    "step_number": 7
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_08",
+                    "step_number": 8
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_06_step_09",
+                    "step_number": 9
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_008_child_008",
+            "parent_chunk_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_parent_008",
+            "document_id": "WA5471ABP_01_Starting_Power_Problems_Detailed",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "01_Starting_Power_Problems_Detailed.pdf",
+            "section": "7. Washer turns off unexpectedly",
+            "subsection": null,
+            "problem_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07",
+            "problem_name": "Washer turns off unexpectedly",
+            "step_start": 1,
+            "step_end": 10,
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7. Washer turns off unexpectedly\nProblem description: The washer loses power or the control panel becomes inactive during a cycle without\nthe user intentionally turning it off.\nProcedure\n\nStep 1. Note exactly when the washer turns off: during filling, washing, draining, spinning, or another part of\nthe cycle.\n\nStep 2. Check whether other electrical devices in the same area also lost power. If they did, the issue may be\nwith the household electrical supply.\n\nStep 3. Check the household circuit breaker only if it can be done safely. If it has tripped, do not repeatedly\nreset it if it trips again.\n\nStep 4. If household power is available, inspect the washer's accessible plug and cord for obvious damage\nwithout touching damaged areas.\n\nStep 5. If power returns to the washer, observe the control panel and check whether an information/error code\nis displayed.\n\nStep 6. Record the exact code, if any, before switching the washer off again.\n\nStep 7. Try to determine whether the shutdown happens at the same point in the same cycle. A repeatable\nshutdown is useful information for service diagnosis.\n\nStep 8. If the washer operates normally after a household power interruption, monitor it for recurrence rather\nthan repeatedly restarting an unstable machine.\n\nStep 9. If the washer repeatedly shuts down while the household electrical supply remains stable, stop using it\nand arrange service diagnosis.\n\nStep 10. If there is a burning smell, smoke, visible electrical damage, abnormal heat, or repeated breaker\noperation, disconnect the washer if safe and do not use it again until it has been inspected.\nAfter completing the steps\nUnexpected shutdowns can have causes outside the washer, such as a household power interruption, so\nidentifying whether other devices also lost power is an important first check.",
+            "token_count": 369,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_07",
+                    "step_number": 7
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_08",
+                    "step_number": 8
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_09",
+                    "step_number": 9
+                },
+                {
+                    "step_id": "WA5471ABP_01_Starting_Power_Problems_Detailed_problem_07_step_10",
+                    "step_number": 10
+                }
+            ]
+        }
+    ]
+}

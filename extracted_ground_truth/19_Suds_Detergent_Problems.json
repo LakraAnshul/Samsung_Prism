@@ -1,0 +1,52 @@
+{
+    "document_id": "WA5471ABP_19_Suds_Detergent_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "19_Suds_Detergent_Problems.pdf",
+        "file_path": "ground_truth/19_Suds_Detergent_Problems.pdf",
+        "file_type": "pdf",
+        "extraction_method": "pymupdf"
+    },
+    "page_count": 6,
+    "pages": [
+        {
+            "page_number": 1,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Suds / Detergent Problems\nPage 1\nSamsung WA5471ABP/XAA\n19. Suds / Detergent Problems — Detailed\nTroubleshooting Manual\nThis document contains 5 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. IciteIturn0search1Iturn0search13I"
+        },
+        {
+            "page_number": 2,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Suds / Detergent Problems\nPage 2\n19.1. Excessive suds\nWhat this means: Excessive suds is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 3,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Suds / Detergent Problems\nPage 3\n19.2. Too much detergent\nWhat this means: Too much detergent is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 4,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Suds / Detergent Problems\nPage 4\n19.3. Washer pauses because of excessive suds\nWhat this means: Washer pauses because of excessive suds is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 5,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Suds / Detergent Problems\nPage 5\n19.4. Poor rinsing due to excessive detergent\nWhat this means: Poor rinsing due to excessive detergent is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 6,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Suds / Detergent Problems\nPage 6\n19.5. Detergent buildup\nWhat this means: Detergent buildup is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        }
+    ],
+    "statistics": {
+        "page_count": 6,
+        "pages_with_text": 6,
+        "pages_without_text": 0,
+        "total_characters": 8030,
+        "total_words": 1201
+    }
+}

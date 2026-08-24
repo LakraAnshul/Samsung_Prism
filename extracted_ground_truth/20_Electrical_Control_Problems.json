@@ -1,0 +1,62 @@
+{
+    "document_id": "WA5471ABP_20_Electrical_Control_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "20_Electrical_Control_Problems.pdf",
+        "file_path": "ground_truth/20_Electrical_Control_Problems.pdf",
+        "file_type": "pdf",
+        "extraction_method": "pymupdf"
+    },
+    "page_count": 8,
+    "pages": [
+        {
+            "page_number": 1,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Electrical / Control Problems\nPage 1\nSamsung WA5471ABP/XAA\n20. Electrical / Control Problems — Detailed\nTroubleshooting Manual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. IciteIturn0search1Iturn0search13I"
+        },
+        {
+            "page_number": 2,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Electrical / Control Problems\nPage 2\n20.1. Jammed/stuck button\nWhat this means: Jammed/stuck button is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Press the Power button and observe whether the display and control panel respond normally.\nStep 2. Check whether Child Lock is active. On this model, Child Lock can prevent normal operation of the other\nbuttons.\nStep 3. Press the affected control once and observe whether the correct indicator or display response appears.\nDo not repeatedly force or press a button that feels physically stuck.\nStep 4. If the display shows an information/error code, record the exact code and do not guess at its meaning.\nStep 5. If the problem is intermittent, note when it occurs and which buttons, cycle, or operation were active at the\ntime.\nStep 6. Do not remove the control panel or attempt live electrical measurements unless you are a qualified\ntechnician.\nStep 7. If the controls remain unresponsive, behave unpredictably, or show a recurring electrical/control fault,\narrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 3,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Electrical / Control Problems\nPage 3\n20.2. Main PCB failure\nWhat this means: Main PCB failure is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Press the Power button and observe whether the display and control panel respond normally.\nStep 2. Check whether Child Lock is active. On this model, Child Lock can prevent normal operation of the other\nbuttons.\nStep 3. Press the affected control once and observe whether the correct indicator or display response appears.\nDo not repeatedly force or press a button that feels physically stuck.\nStep 4. If the display shows an information/error code, record the exact code and do not guess at its meaning.\nStep 5. If the problem is intermittent, note when it occurs and which buttons, cycle, or operation were active at the\ntime.\nStep 6. Do not remove the control panel or attempt live electrical measurements unless you are a qualified\ntechnician.\nStep 7. If the controls remain unresponsive, behave unpredictably, or show a recurring electrical/control fault,\narrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 4,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Electrical / Control Problems\nPage 4\n20.3. Sub-PCB failure\nWhat this means: Sub-PCB failure is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Press the Power button and observe whether the display and control panel respond normally.\nStep 2. Check whether Child Lock is active. On this model, Child Lock can prevent normal operation of the other\nbuttons.\nStep 3. Press the affected control once and observe whether the correct indicator or display response appears.\nDo not repeatedly force or press a button that feels physically stuck.\nStep 4. If the display shows an information/error code, record the exact code and do not guess at its meaning.\nStep 5. If the problem is intermittent, note when it occurs and which buttons, cycle, or operation were active at the\ntime.\nStep 6. Do not remove the control panel or attempt live electrical measurements unless you are a qualified\ntechnician.\nStep 7. If the controls remain unresponsive, behave unpredictably, or show a recurring electrical/control fault,\narrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 5,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Electrical / Control Problems\nPage 5\n20.4. Temperature sensor fault\nWhat this means: Temperature sensor fault is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and identify the selected temperature setting.\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 6,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Electrical / Control Problems\nPage 6\n20.5. Wiring/connector problem\nWhat this means: Wiring/connector problem is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 7,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Electrical / Control Problems\nPage 7\n20.6. Control signal failure\nWhat this means: Control signal failure is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Press the Power button and observe whether the display and control panel respond normally.\nStep 2. Check whether Child Lock is active. On this model, Child Lock can prevent normal operation of the other\nbuttons.\nStep 3. Press the affected control once and observe whether the correct indicator or display response appears.\nDo not repeatedly force or press a button that feels physically stuck.\nStep 4. If the display shows an information/error code, record the exact code and do not guess at its meaning.\nStep 5. If the problem is intermittent, note when it occurs and which buttons, cycle, or operation were active at the\ntime.\nStep 6. Do not remove the control panel or attempt live electrical measurements unless you are a qualified\ntechnician.\nStep 7. If the controls remain unresponsive, behave unpredictably, or show a recurring electrical/control fault,\narrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 8,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Electrical / Control Problems\nPage 8\n20.7. Washer detects abnormal electrical current\nWhat this means: Washer detects abnormal electrical current is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Press the Power button and observe whether the display and control panel respond normally.\nStep 2. Check whether Child Lock is active. On this model, Child Lock can prevent normal operation of the other\nbuttons.\nStep 3. Press the affected control once and observe whether the correct indicator or display response appears.\nDo not repeatedly force or press a button that feels physically stuck.\nStep 4. If the display shows an information/error code, record the exact code and do not guess at its meaning.\nStep 5. If the problem is intermittent, note when it occurs and which buttons, cycle, or operation were active at the\ntime.\nStep 6. Do not remove the control panel or attempt live electrical measurements unless you are a qualified\ntechnician.\nStep 7. If the controls remain unresponsive, behave unpredictably, or show a recurring electrical/control fault,\narrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        }
+    ],
+    "statistics": {
+        "page_count": 8,
+        "pages_with_text": 8,
+        "pages_without_text": 0,
+        "total_characters": 10279,
+        "total_words": 1599
+    }
+}

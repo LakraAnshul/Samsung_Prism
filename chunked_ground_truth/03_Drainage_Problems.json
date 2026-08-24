@@ -1,0 +1,601 @@
+{
+    "document_id": "WA5471ABP_03_Drainage_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "03_Drainage_Problems.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_03_Drainage_Problems_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_03_Drainage_Problems_section_02",
+                "title": "3. Drainage Problems — Detailed Troubleshooting",
+                "subsections": [
+                    {
+                        "subsection_id": "WA5471ABP_03_Drainage_Problems_problem_01",
+                        "title": "3.1. Washer does not drain"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_03_Drainage_Problems_problem_02",
+                        "title": "3.2. Washer drains slowly"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_03_Drainage_Problems_problem_03",
+                        "title": "3.3. Water remains inside after cycle"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_03_Drainage_Problems_problem_04",
+                        "title": "3.4. Drain hose blocked"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_03_Drainage_Problems_problem_05",
+                        "title": "3.5. Drain hose kinked"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_03_Drainage_Problems_problem_06",
+                        "title": "3.6. Washer stops before draining"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_03_Drainage_Problems_problem_07",
+                        "title": "3.7. Washer cannot enter spin cycle because water hasn't"
+                    }
+                ]
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Drainage Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 25,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_002",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_01",
+            "problem_name": "Drainage Problems — Detailed Troubleshooting",
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "3. Drainage Problems — Detailed Troubleshooting\nManual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 2",
+            "token_count": 154,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_003",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.1. Washer does not drain",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_02",
+            "problem_name": "Washer does not drain",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "3.1. Washer does not drain\nWhat this means: Washer does not drain is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 3",
+            "token_count": 346,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_004",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.2. Washer drains slowly",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_03",
+            "problem_name": "Washer drains slowly",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "3.2. Washer drains slowly\nWhat this means: Washer drains slowly is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 4",
+            "token_count": 344,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_005",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.3. Water remains inside after cycle",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_04",
+            "problem_name": "Water remains inside after cycle",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "3.3. Water remains inside after cycle\nWhat this means: Water remains inside after cycle is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 5",
+            "token_count": 347,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_006",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.4. Drain hose blocked",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_05",
+            "problem_name": "Drain hose blocked",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "3.4. Drain hose blocked\nWhat this means: Drain hose blocked is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 6",
+            "token_count": 344,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_007",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.5. Drain hose kinked",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_06",
+            "problem_name": "Drain hose kinked",
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "3.5. Drain hose kinked\nWhat this means: Drain hose kinked is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 7",
+            "token_count": 348,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_007_child_007"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_008",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.6. Washer stops before draining",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_07",
+            "problem_name": "Washer stops before draining",
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "3.6. Washer stops before draining\nWhat this means: Washer stops before draining is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 8",
+            "token_count": 346,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_008_child_008"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_009",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.7. Washer cannot enter spin cycle because water hasn't",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_08",
+            "problem_name": "Washer cannot enter spin cycle because water hasn't",
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "3.7. Washer cannot enter spin cycle because water hasn't\ndrained\nWhat this means: Washer cannot enter spin cycle because water hasn't drained is treated as the observed\nsymptom or fault condition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 345,
+            "child_chunk_ids": [
+                "WA5471ABP_03_Drainage_Problems_parent_009_child_009"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_001",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 28,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_002",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_01",
+            "problem_name": "Drainage Problems — Detailed Troubleshooting",
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "3. Drainage Problems — Detailed Troubleshooting\nManual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 2",
+            "token_count": 154,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_003",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.1. Washer does not drain",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_02",
+            "problem_name": "Washer does not drain",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "3.1. Washer does not drain\nWhat this means: Washer does not drain is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 3",
+            "token_count": 346,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_02_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_004",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.2. Washer drains slowly",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_03",
+            "problem_name": "Washer drains slowly",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "3.2. Washer drains slowly\nWhat this means: Washer drains slowly is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 4",
+            "token_count": 344,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_03_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_005",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.3. Water remains inside after cycle",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_04",
+            "problem_name": "Water remains inside after cycle",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "3.3. Water remains inside after cycle\nWhat this means: Water remains inside after cycle is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 5",
+            "token_count": 347,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_04_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_006",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.4. Drain hose blocked",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_05",
+            "problem_name": "Drain hose blocked",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "3.4. Drain hose blocked\nWhat this means: Drain hose blocked is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 6",
+            "token_count": 344,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_05_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_007",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.5. Drain hose kinked",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_06",
+            "problem_name": "Drain hose kinked",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "3.5. Drain hose kinked\nWhat this means: Drain hose kinked is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 7",
+            "token_count": 348,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_06_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_008_child_008",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_008",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.6. Washer stops before draining",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_07",
+            "problem_name": "Washer stops before draining",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "3.6. Washer stops before draining\nWhat this means: Washer stops before draining is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Drainage Problems\nPage 8",
+            "token_count": 346,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_07_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_07_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_07_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_07_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_07_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_07_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_07_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_03_Drainage_Problems_parent_009_child_009",
+            "parent_chunk_id": "WA5471ABP_03_Drainage_Problems_parent_009",
+            "document_id": "WA5471ABP_03_Drainage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "03_Drainage_Problems.pdf",
+            "section": "3. Drainage Problems — Detailed Troubleshooting",
+            "subsection": "3.7. Washer cannot enter spin cycle because water hasn't",
+            "problem_id": "WA5471ABP_03_Drainage_Problems_problem_08",
+            "problem_name": "Washer cannot enter spin cycle because water hasn't",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "3.7. Washer cannot enter spin cycle because water hasn't\ndrained\nWhat this means: Washer cannot enter spin cycle because water hasn't drained is treated as the observed\nsymptom or fault condition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and switch the washer off. If water remains in the tub, do not force the washer into another\ncycle.\n\nStep 2. Inspect the visible drain hose from the washer to the household drain. Look for sharp bends, crushing,\nkinks, blockage, or a hose that has become displaced.\n\nStep 3. Check the drain outlet and household standpipe/drain point for obvious blockage. Make sure the hose is\npositioned according to the installation requirements.\n\nStep 4. If the hose is kinked, straighten it without sharply bending it. If a visible external obstruction is present,\nremove it only when it can be done safely.\n\nStep 5. Restart the washer and select an appropriate drain/spin operation. Observe whether the water level falls\nand whether the drain flow is continuous.\n\nStep 6. If the washer hums but water does not leave, or if draining repeatedly stops, do not dismantle the drain\npump unless you are a qualified service technician.\n\nStep 7. If the problem persists, service diagnosis may be required for the drain pump, wiring, control system, or\nan internal obstruction.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 345,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_08_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_08_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_08_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_08_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_08_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_08_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_03_Drainage_Problems_problem_08_step_07",
+                    "step_number": 7
+                }
+            ]
+        }
+    ]
+}

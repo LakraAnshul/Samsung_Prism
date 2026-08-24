@@ -1,0 +1,601 @@
+{
+    "document_id": "WA5471ABP_12_Maintenance_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "12_Maintenance_Problems.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_12_Maintenance_Problems_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_12_Maintenance_Problems_section_02",
+                "title": "12. Maintenance Problems — Detailed Troubleshooting",
+                "subsections": [
+                    {
+                        "subsection_id": "WA5471ABP_12_Maintenance_Problems_problem_01",
+                        "title": "12.1. Bad odor from washer"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_12_Maintenance_Problems_problem_02",
+                        "title": "12.2. Mold/mildew buildup"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_12_Maintenance_Problems_problem_03",
+                        "title": "12.3. Tub needs cleaning"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_12_Maintenance_Problems_problem_04",
+                        "title": "12.4. Dispenser buildup"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_12_Maintenance_Problems_problem_05",
+                        "title": "12.5. Washer interior needs cleaning"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_12_Maintenance_Problems_problem_06",
+                        "title": "12.6. Water inlet screens need cleaning"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_12_Maintenance_Problems_problem_07",
+                        "title": "12.7. Washer not maintained regularly"
+                    }
+                ]
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Maintenance Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 24,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_002",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_01",
+            "problem_name": "Maintenance Problems — Detailed Troubleshooting",
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "12. Maintenance Problems — Detailed Troubleshooting\nManual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 2",
+            "token_count": 152,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_003",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.1. Bad odor from washer",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_02",
+            "problem_name": "Bad odor from washer",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "12.1. Bad odor from washer\nWhat this means: Bad odor from washer is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\n\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\n\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\n\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\n\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\n\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\n\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 3",
+            "token_count": 261,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_004",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.2. Mold/mildew buildup",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_03",
+            "problem_name": "Mold/mildew buildup",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "12.2. Mold/mildew buildup\nWhat this means: Mold/mildew buildup is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\n\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\n\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\n\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\n\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\n\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\n\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 4",
+            "token_count": 263,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_005",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.3. Tub needs cleaning",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_04",
+            "problem_name": "Tub needs cleaning",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "12.3. Tub needs cleaning\nWhat this means: Tub needs cleaning is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 5",
+            "token_count": 297,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_006",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.4. Dispenser buildup",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_05",
+            "problem_name": "Dispenser buildup",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "12.4. Dispenser buildup\nWhat this means: Dispenser buildup is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\n\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\n\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\n\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\n\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\n\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\n\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 6",
+            "token_count": 259,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_007",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.5. Washer interior needs cleaning",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_06",
+            "problem_name": "Washer interior needs cleaning",
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "12.5. Washer interior needs cleaning\nWhat this means: Washer interior needs cleaning is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 7",
+            "token_count": 298,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_007_child_007"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_008",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.6. Water inlet screens need cleaning",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_07",
+            "problem_name": "Water inlet screens need cleaning",
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "12.6. Water inlet screens need cleaning\nWhat this means: Water inlet screens need cleaning is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off using the Power button and wait until the controls are no longer active before\ninspecting external water connections.\n\nStep 2. Confirm that the household water supply is available. Open the appropriate water faucet fully and check\nthat water can flow normally.\n\nStep 3. Inspect the hot and cold inlet hoses along their full visible length. Make sure neither hose is sharply bent,\ncrushed, twisted, or trapped against the washer.\n\nStep 4. Check both hose connections at the washer and at the water supply. Each connection should be seated\ncorrectly and should not show leakage.\n\nStep 5. If the problem involves slow or no filling, inspect the inlet screens at the hose connections for visible dirt or\nsediment. Clean only the accessible screens using the procedure recommended by the manual; do not damage\nor remove internal components.\n\nStep 6. Reconnect the hoses securely, restore the water supply, and run a short test cycle. Observe whether\nwater enters normally.\n\nStep 7. If the washer still has a fill problem after the external checks, the cause may involve the water valve,\npressure sensing system, wiring, or control board. These are service-level checks and should not be opened or\ntested as a DIY repair.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 8",
+            "token_count": 365,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_008_child_008"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_009",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.7. Washer not maintained regularly",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_08",
+            "problem_name": "Washer not maintained regularly",
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "12.7. Washer not maintained regularly\nWhat this means: Washer not maintained regularly is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\n\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\n\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\n\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\n\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\n\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\n\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 245,
+            "child_chunk_ids": [
+                "WA5471ABP_12_Maintenance_Problems_parent_009_child_009"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_001",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 27,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_002",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_01",
+            "problem_name": "Maintenance Problems — Detailed Troubleshooting",
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "12. Maintenance Problems — Detailed Troubleshooting\nManual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 2",
+            "token_count": 152,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_003",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.1. Bad odor from washer",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_02",
+            "problem_name": "Bad odor from washer",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "12.1. Bad odor from washer\nWhat this means: Bad odor from washer is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\n\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\n\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\n\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\n\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\n\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\n\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 3",
+            "token_count": 261,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_02_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_004",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.2. Mold/mildew buildup",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_03",
+            "problem_name": "Mold/mildew buildup",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "12.2. Mold/mildew buildup\nWhat this means: Mold/mildew buildup is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\n\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\n\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\n\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\n\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\n\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\n\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 4",
+            "token_count": 263,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_03_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_005",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.3. Tub needs cleaning",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_04",
+            "problem_name": "Tub needs cleaning",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "12.3. Tub needs cleaning\nWhat this means: Tub needs cleaning is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 5",
+            "token_count": 297,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_04_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_006",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.4. Dispenser buildup",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_05",
+            "problem_name": "Dispenser buildup",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "12.4. Dispenser buildup\nWhat this means: Dispenser buildup is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\n\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\n\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\n\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\n\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\n\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\n\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 6",
+            "token_count": 259,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_05_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_007",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.5. Washer interior needs cleaning",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_06",
+            "problem_name": "Washer interior needs cleaning",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "12.5. Washer interior needs cleaning\nWhat this means: Washer interior needs cleaning is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 7",
+            "token_count": 298,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_06_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_008_child_008",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_008",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.6. Water inlet screens need cleaning",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_07",
+            "problem_name": "Water inlet screens need cleaning",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "12.6. Water inlet screens need cleaning\nWhat this means: Water inlet screens need cleaning is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off using the Power button and wait until the controls are no longer active before\ninspecting external water connections.\n\nStep 2. Confirm that the household water supply is available. Open the appropriate water faucet fully and check\nthat water can flow normally.\n\nStep 3. Inspect the hot and cold inlet hoses along their full visible length. Make sure neither hose is sharply bent,\ncrushed, twisted, or trapped against the washer.\n\nStep 4. Check both hose connections at the washer and at the water supply. Each connection should be seated\ncorrectly and should not show leakage.\n\nStep 5. If the problem involves slow or no filling, inspect the inlet screens at the hose connections for visible dirt or\nsediment. Clean only the accessible screens using the procedure recommended by the manual; do not damage\nor remove internal components.\n\nStep 6. Reconnect the hoses securely, restore the water supply, and run a short test cycle. Observe whether\nwater enters normally.\n\nStep 7. If the washer still has a fill problem after the external checks, the cause may involve the water valve,\npressure sensing system, wiring, or control board. These are service-level checks and should not be opened or\ntested as a DIY repair.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Maintenance Problems\nPage 8",
+            "token_count": 365,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_07_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_07_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_07_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_07_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_07_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_07_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_07_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_009_child_009",
+            "parent_chunk_id": "WA5471ABP_12_Maintenance_Problems_parent_009",
+            "document_id": "WA5471ABP_12_Maintenance_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "12_Maintenance_Problems.pdf",
+            "section": "12. Maintenance Problems — Detailed Troubleshooting",
+            "subsection": "12.7. Washer not maintained regularly",
+            "problem_id": "WA5471ABP_12_Maintenance_Problems_problem_08",
+            "problem_name": "Washer not maintained regularly",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "12.7. Washer not maintained regularly\nWhat this means: Washer not maintained regularly is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\n\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\n\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\n\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\n\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\n\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\n\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 245,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_08_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_08_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_08_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_08_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_08_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_08_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_12_Maintenance_Problems_problem_08_step_07",
+                    "step_number": 7
+                }
+            ]
+        }
+    ]
+}

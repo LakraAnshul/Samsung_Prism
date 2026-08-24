@@ -1,0 +1,601 @@
+{
+    "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "11_Error_Code_Sensor_Problems.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_11_Error_Code_Sensor_Problems_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_11_Error_Code_Sensor_Problems_section_02",
+                "title": "11. Error-Code / Sensor Problems — Detailed",
+                "subsections": [
+                    {
+                        "subsection_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_01",
+                        "title": "11.1. Unbalanced-load condition"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02",
+                        "title": "11.2. Door-open condition"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03",
+                        "title": "11.3. Door-lock failure"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04",
+                        "title": "11.4. Water-temperature-control problem"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05",
+                        "title": "11.5. Heater-control problem"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06",
+                        "title": "11.6. Water-level/sensor-related faults"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07",
+                        "title": "11.7. Excessive-suds detection"
+                    }
+                ]
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 28,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_002",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": null,
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_01",
+            "problem_name": "Error-Code / Sensor Problems — Detailed",
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "11. Error-Code / Sensor Problems — Detailed\nTroubleshooting Manual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 2",
+            "token_count": 160,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_003",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.1. Unbalanced-load condition",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02",
+            "problem_name": "Unbalanced-load condition",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "11.1. Unbalanced-load condition\nWhat this means: Unbalanced-load condition is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and wait until the washer is safe to open.\n\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\n\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\n\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\n\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\n\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\n\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 3",
+            "token_count": 297,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_004",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.2. Door-open condition",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03",
+            "problem_name": "Door-open condition",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "11.2. Door-open condition\nWhat this means: Door-open condition is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 4",
+            "token_count": 304,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_005",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.3. Door-lock failure",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04",
+            "problem_name": "Door-lock failure",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "11.3. Door-lock failure\nWhat this means: Door-lock failure is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 5",
+            "token_count": 304,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_006",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.4. Water-temperature-control problem",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05",
+            "problem_name": "Water-temperature-control problem",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "11.4. Water-temperature-control problem\nWhat this means: Water-temperature-control problem is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 6",
+            "token_count": 288,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_007",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.5. Heater-control problem",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06",
+            "problem_name": "Heater-control problem",
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "11.5. Heater-control problem\nWhat this means: Heater-control problem is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 7",
+            "token_count": 285,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_007_child_007"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_008",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.6. Water-level/sensor-related faults",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07",
+            "problem_name": "Water-level/sensor-related faults",
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "11.6. Water-level/sensor-related faults\nWhat this means: Water-level/sensor-related faults is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and wait until the tub has stopped moving completely.\n\nStep 2. Inspect the floor beneath and around the washer. The washer should stand on a solid, stable surface and\nshould not rock when gently checked.\n\nStep 3. Check each leveling foot and make sure the washer is stable. If leveling is required, follow the model's\ninstallation/leveling procedure rather than forcing the cabinet.\n\nStep 4. Open the washer and redistribute the load if clothing has collected on one side.\n\nStep 5. Run the washer again and listen carefully. Separate normal operating sounds from a new scraping,\ngrinding, banging, or repeated metallic sound.\n\nStep 6. If the noise appears only with a particular load, remove the load and inspect pockets, garments, and the\ntub area for loose objects.\n\nStep 7. If abnormal noise or vibration continues with a balanced load and a stable, level washer, stop using the\nmachine and arrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 8",
+            "token_count": 312,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_008_child_008"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_009",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.7. Excessive-suds detection",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08",
+            "problem_name": "Excessive-suds detection",
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "11.7. Excessive-suds detection\nWhat this means: Excessive-suds detection is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 286,
+            "child_chunk_ids": [
+                "WA5471ABP_11_Error_Code_Sensor_Problems_parent_009_child_009"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_001",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 31,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_002",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": null,
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_01",
+            "problem_name": "Error-Code / Sensor Problems — Detailed",
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "11. Error-Code / Sensor Problems — Detailed\nTroubleshooting Manual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 2",
+            "token_count": 160,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_003",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.1. Unbalanced-load condition",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02",
+            "problem_name": "Unbalanced-load condition",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "11.1. Unbalanced-load condition\nWhat this means: Unbalanced-load condition is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and wait until the washer is safe to open.\n\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\n\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\n\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\n\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\n\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\n\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 3",
+            "token_count": 297,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_02_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_004",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.2. Door-open condition",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03",
+            "problem_name": "Door-open condition",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "11.2. Door-open condition\nWhat this means: Door-open condition is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 4",
+            "token_count": 304,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_03_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_005",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.3. Door-lock failure",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04",
+            "problem_name": "Door-lock failure",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "11.3. Door-lock failure\nWhat this means: Door-lock failure is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 5",
+            "token_count": 304,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_04_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_006",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.4. Water-temperature-control problem",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05",
+            "problem_name": "Water-temperature-control problem",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "11.4. Water-temperature-control problem\nWhat this means: Water-temperature-control problem is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 6",
+            "token_count": 288,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_05_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_007",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.5. Heater-control problem",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06",
+            "problem_name": "Heater-control problem",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "11.5. Heater-control problem\nWhat this means: Heater-control problem is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 7",
+            "token_count": 285,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_06_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_008_child_008",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_008",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.6. Water-level/sensor-related faults",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07",
+            "problem_name": "Water-level/sensor-related faults",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "11.6. Water-level/sensor-related faults\nWhat this means: Water-level/sensor-related faults is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and wait until the tub has stopped moving completely.\n\nStep 2. Inspect the floor beneath and around the washer. The washer should stand on a solid, stable surface and\nshould not rock when gently checked.\n\nStep 3. Check each leveling foot and make sure the washer is stable. If leveling is required, follow the model's\ninstallation/leveling procedure rather than forcing the cabinet.\n\nStep 4. Open the washer and redistribute the load if clothing has collected on one side.\n\nStep 5. Run the washer again and listen carefully. Separate normal operating sounds from a new scraping,\ngrinding, banging, or repeated metallic sound.\n\nStep 6. If the noise appears only with a particular load, remove the load and inspect pockets, garments, and the\ntub area for loose objects.\n\nStep 7. If abnormal noise or vibration continues with a balanced load and a stable, level washer, stop using the\nmachine and arrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Error-Code / Sensor Problems\nPage 8",
+            "token_count": 312,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_07_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_009_child_009",
+            "parent_chunk_id": "WA5471ABP_11_Error_Code_Sensor_Problems_parent_009",
+            "document_id": "WA5471ABP_11_Error_Code_Sensor_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "11_Error_Code_Sensor_Problems.pdf",
+            "section": "11. Error-Code / Sensor Problems — Detailed",
+            "subsection": "11.7. Excessive-suds detection",
+            "problem_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08",
+            "problem_name": "Excessive-suds detection",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "11.7. Excessive-suds detection\nWhat this means: Excessive-suds detection is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 286,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_11_Error_Code_Sensor_Problems_problem_08_step_07",
+                    "step_number": 7
+                }
+            ]
+        }
+    ]
+}

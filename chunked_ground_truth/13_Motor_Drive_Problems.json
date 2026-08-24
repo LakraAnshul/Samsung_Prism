@@ -1,0 +1,531 @@
+{
+    "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "13_Motor_Drive_Problems.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_13_Motor_Drive_Problems_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_13_Motor_Drive_Problems_section_02",
+                "title": "13. Motor / Drive Problems — Detailed Troubleshooting",
+                "subsections": [
+                    {
+                        "subsection_id": "WA5471ABP_13_Motor_Drive_Problems_problem_01",
+                        "title": "13.1. Motor not running properly"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02",
+                        "title": "13.2. Motor fails to start"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03",
+                        "title": "13.3. Motor stops during cycle"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04",
+                        "title": "13.4. High current detected"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05",
+                        "title": "13.5. Washer gets stuck before spinning"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06",
+                        "title": "13.6. Spin operation fails"
+                    }
+                ]
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Motor / Drive Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 26,
+            "child_chunk_ids": [
+                "WA5471ABP_13_Motor_Drive_Problems_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_002",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_01",
+            "problem_name": "Motor / Drive Problems — Detailed Troubleshooting",
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "13. Motor / Drive Problems — Detailed Troubleshooting\nManual\nThis document contains 6 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 2",
+            "token_count": 156,
+            "child_chunk_ids": [
+                "WA5471ABP_13_Motor_Drive_Problems_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_003",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.1. Motor not running properly",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02",
+            "problem_name": "Motor not running properly",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "13.1. Motor not running properly\nWhat this means: Motor not running properly is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and allow the drum/tub to stop completely.\n\nStep 2. Check whether the washer can perform basic Power and cycle-selection functions.\n\nStep 3. Check the load for severe imbalance and confirm that the washer is level.\n\nStep 4. Check whether water remains in the tub; a drainage problem can prevent normal spin operation.\n\nStep 5. Run an appropriate cycle and observe whether the motor starts, stops, or fails at a repeatable stage.\n\nStep 6. Record any information code and any unusual sound, odor, or repeated stopping.\n\nStep 7. Motor, Hall-sensor, wiring, PCB, and drive-system tests are service-level procedures. Do not open the\nmachine for these checks.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 3",
+            "token_count": 258,
+            "child_chunk_ids": [
+                "WA5471ABP_13_Motor_Drive_Problems_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_004",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.2. Motor fails to start",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03",
+            "problem_name": "Motor fails to start",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "13.2. Motor fails to start\nWhat this means: Motor fails to start is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and allow the drum/tub to stop completely.\n\nStep 2. Check whether the washer can perform basic Power and cycle-selection functions.\n\nStep 3. Check the load for severe imbalance and confirm that the washer is level.\n\nStep 4. Check whether water remains in the tub; a drainage problem can prevent normal spin operation.\n\nStep 5. Run an appropriate cycle and observe whether the motor starts, stops, or fails at a repeatable stage.\n\nStep 6. Record any information code and any unusual sound, odor, or repeated stopping.\n\nStep 7. Motor, Hall-sensor, wiring, PCB, and drive-system tests are service-level procedures. Do not open the\nmachine for these checks.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 4",
+            "token_count": 258,
+            "child_chunk_ids": [
+                "WA5471ABP_13_Motor_Drive_Problems_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_005",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.3. Motor stops during cycle",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04",
+            "problem_name": "Motor stops during cycle",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "13.3. Motor stops during cycle\nWhat this means: Motor stops during cycle is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and allow the drum/tub to stop completely.\n\nStep 2. Check whether the washer can perform basic Power and cycle-selection functions.\n\nStep 3. Check the load for severe imbalance and confirm that the washer is level.\n\nStep 4. Check whether water remains in the tub; a drainage problem can prevent normal spin operation.\n\nStep 5. Run an appropriate cycle and observe whether the motor starts, stops, or fails at a repeatable stage.\n\nStep 6. Record any information code and any unusual sound, odor, or repeated stopping.\n\nStep 7. Motor, Hall-sensor, wiring, PCB, and drive-system tests are service-level procedures. Do not open the\nmachine for these checks.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 5",
+            "token_count": 258,
+            "child_chunk_ids": [
+                "WA5471ABP_13_Motor_Drive_Problems_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_006",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.4. High current detected",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05",
+            "problem_name": "High current detected",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "13.4. High current detected\nWhat this means: High current detected is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Press the Power button and observe whether the display and control panel respond normally.\n\nStep 2. Check whether Child Lock is active. On this model, Child Lock can prevent normal operation of the other\nbuttons.\n\nStep 3. Press the affected control once and observe whether the correct indicator or display response appears.\nDo not repeatedly force or press a button that feels physically stuck.\n\nStep 4. If the display shows an information/error code, record the exact code and do not guess at its meaning.\n\nStep 5. If the problem is intermittent, note when it occurs and which buttons, cycle, or operation were active at the\ntime.\n\nStep 6. Do not remove the control panel or attempt live electrical measurements unless you are a qualified\ntechnician.\n\nStep 7. If the controls remain unresponsive, behave unpredictably, or show a recurring electrical/control fault,\narrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 6",
+            "token_count": 289,
+            "child_chunk_ids": [
+                "WA5471ABP_13_Motor_Drive_Problems_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_007",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.5. Washer gets stuck before spinning",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06",
+            "problem_name": "Washer gets stuck before spinning",
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "13.5. Washer gets stuck before spinning\nWhat this means: Washer gets stuck before spinning is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and wait until the washer is safe to open.\n\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\n\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\n\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\n\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\n\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\n\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 7",
+            "token_count": 296,
+            "child_chunk_ids": [
+                "WA5471ABP_13_Motor_Drive_Problems_parent_007_child_007"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_008",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.6. Spin operation fails",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07",
+            "problem_name": "Spin operation fails",
+            "page_start": 7,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "13.6. Spin operation fails\nWhat this means: Spin operation fails is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and wait until the washer is safe to open.\n\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\n\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\n\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\n\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\n\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\n\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 276,
+            "child_chunk_ids": [
+                "WA5471ABP_13_Motor_Drive_Problems_parent_008_child_008"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_001",
+            "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "13_Motor_Drive_Problems.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 29,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_002",
+            "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "13_Motor_Drive_Problems.pdf",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_01",
+            "problem_name": "Motor / Drive Problems — Detailed Troubleshooting",
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "13. Motor / Drive Problems — Detailed Troubleshooting\nManual\nThis document contains 6 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 2",
+            "token_count": 156,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_003",
+            "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "13_Motor_Drive_Problems.pdf",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.1. Motor not running properly",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02",
+            "problem_name": "Motor not running properly",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "13.1. Motor not running properly\nWhat this means: Motor not running properly is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and allow the drum/tub to stop completely.\n\nStep 2. Check whether the washer can perform basic Power and cycle-selection functions.\n\nStep 3. Check the load for severe imbalance and confirm that the washer is level.\n\nStep 4. Check whether water remains in the tub; a drainage problem can prevent normal spin operation.\n\nStep 5. Run an appropriate cycle and observe whether the motor starts, stops, or fails at a repeatable stage.\n\nStep 6. Record any information code and any unusual sound, odor, or repeated stopping.\n\nStep 7. Motor, Hall-sensor, wiring, PCB, and drive-system tests are service-level procedures. Do not open the\nmachine for these checks.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 3",
+            "token_count": 258,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_02_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_004",
+            "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "13_Motor_Drive_Problems.pdf",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.2. Motor fails to start",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03",
+            "problem_name": "Motor fails to start",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "13.2. Motor fails to start\nWhat this means: Motor fails to start is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and allow the drum/tub to stop completely.\n\nStep 2. Check whether the washer can perform basic Power and cycle-selection functions.\n\nStep 3. Check the load for severe imbalance and confirm that the washer is level.\n\nStep 4. Check whether water remains in the tub; a drainage problem can prevent normal spin operation.\n\nStep 5. Run an appropriate cycle and observe whether the motor starts, stops, or fails at a repeatable stage.\n\nStep 6. Record any information code and any unusual sound, odor, or repeated stopping.\n\nStep 7. Motor, Hall-sensor, wiring, PCB, and drive-system tests are service-level procedures. Do not open the\nmachine for these checks.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 4",
+            "token_count": 258,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_03_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_005",
+            "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "13_Motor_Drive_Problems.pdf",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.3. Motor stops during cycle",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04",
+            "problem_name": "Motor stops during cycle",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "13.3. Motor stops during cycle\nWhat this means: Motor stops during cycle is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off and allow the drum/tub to stop completely.\n\nStep 2. Check whether the washer can perform basic Power and cycle-selection functions.\n\nStep 3. Check the load for severe imbalance and confirm that the washer is level.\n\nStep 4. Check whether water remains in the tub; a drainage problem can prevent normal spin operation.\n\nStep 5. Run an appropriate cycle and observe whether the motor starts, stops, or fails at a repeatable stage.\n\nStep 6. Record any information code and any unusual sound, odor, or repeated stopping.\n\nStep 7. Motor, Hall-sensor, wiring, PCB, and drive-system tests are service-level procedures. Do not open the\nmachine for these checks.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 5",
+            "token_count": 258,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_04_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_006",
+            "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "13_Motor_Drive_Problems.pdf",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.4. High current detected",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05",
+            "problem_name": "High current detected",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "13.4. High current detected\nWhat this means: High current detected is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Press the Power button and observe whether the display and control panel respond normally.\n\nStep 2. Check whether Child Lock is active. On this model, Child Lock can prevent normal operation of the other\nbuttons.\n\nStep 3. Press the affected control once and observe whether the correct indicator or display response appears.\nDo not repeatedly force or press a button that feels physically stuck.\n\nStep 4. If the display shows an information/error code, record the exact code and do not guess at its meaning.\n\nStep 5. If the problem is intermittent, note when it occurs and which buttons, cycle, or operation were active at the\ntime.\n\nStep 6. Do not remove the control panel or attempt live electrical measurements unless you are a qualified\ntechnician.\n\nStep 7. If the controls remain unresponsive, behave unpredictably, or show a recurring electrical/control fault,\narrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 6",
+            "token_count": 289,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_05_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_007",
+            "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "13_Motor_Drive_Problems.pdf",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.5. Washer gets stuck before spinning",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06",
+            "problem_name": "Washer gets stuck before spinning",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "13.5. Washer gets stuck before spinning\nWhat this means: Washer gets stuck before spinning is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and wait until the washer is safe to open.\n\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\n\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\n\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\n\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\n\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\n\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Motor / Drive Problems\nPage 7",
+            "token_count": 296,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_06_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_008_child_008",
+            "parent_chunk_id": "WA5471ABP_13_Motor_Drive_Problems_parent_008",
+            "document_id": "WA5471ABP_13_Motor_Drive_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "13_Motor_Drive_Problems.pdf",
+            "section": "13. Motor / Drive Problems — Detailed Troubleshooting",
+            "subsection": "13.6. Spin operation fails",
+            "problem_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07",
+            "problem_name": "Spin operation fails",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 7,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "13.6. Spin operation fails\nWhat this means: Spin operation fails is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and wait until the washer is safe to open.\n\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\n\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\n\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\n\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\n\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\n\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 276,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_13_Motor_Drive_Problems_problem_07_step_07",
+                    "step_number": 7
+                }
+            ]
+        }
+    ]
+}

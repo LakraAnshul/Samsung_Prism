@@ -1,0 +1,57 @@
+{
+    "document_id": "WA5471ABP_04_Spin_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "04_Spin_Problems.pdf",
+        "file_path": "ground_truth/04_Spin_Problems.pdf",
+        "file_type": "pdf",
+        "extraction_method": "pymupdf"
+    },
+    "page_count": 7,
+    "pages": [
+        {
+            "page_number": 1,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Spin Problems\nPage 1\nSamsung WA5471ABP/XAA\n4. Spin Problems — Detailed Troubleshooting Manual\nThis document contains 6 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. IciteIturn0search1Iturn0search13I"
+        },
+        {
+            "page_number": 2,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Spin Problems\nPage 2\n4.1. Washer does not spin\nWhat this means: Washer does not spin is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and wait until the washer is safe to open.\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 3,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Spin Problems\nPage 3\n4.2. Clothes remain excessively wet\nWhat this means: Clothes remain excessively wet is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and wait until the washer is safe to open.\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 4,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Spin Problems\nPage 4\n4.3. Spin cycle stops\nWhat this means: Spin cycle stops is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and wait until the washer is safe to open.\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 5,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Spin Problems\nPage 5\n4.4. Washer refuses to spin because of unbalanced load\nWhat this means: Washer refuses to spin because of unbalanced load is treated as the observed symptom or\nfault condition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and wait until the washer is safe to open.\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 6,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Spin Problems\nPage 6\n4.5. Spin speed is unexpectedly low\nWhat this means: Spin speed is unexpectedly low is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and wait until the washer is safe to open.\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 7,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Spin Problems\nPage 7\n4.6. Excessive movement during spin\nWhat this means: Excessive movement during spin is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and wait until the washer is safe to open.\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        }
+    ],
+    "statistics": {
+        "page_count": 7,
+        "pages_with_text": 7,
+        "pages_without_text": 0,
+        "total_characters": 9005,
+        "total_words": 1477
+    }
+}

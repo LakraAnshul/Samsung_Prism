@@ -1,0 +1,671 @@
+{
+    "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "07_Detergent_Washing_Problems.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_07_Detergent_Washing_Problems_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_07_Detergent_Washing_Problems_section_02",
+                "title": "7. Detergent / Washing Problems — Detailed",
+                "subsections": [
+                    {
+                        "subsection_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_01",
+                        "title": "7.1. Detergent remains in dispenser"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02",
+                        "title": "7.2. Detergent does not dissolve properly"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03",
+                        "title": "7.3. Excessive detergent"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04",
+                        "title": "7.4. Excessive suds"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05",
+                        "title": "7.5. Poor cleaning performance"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06",
+                        "title": "7.6. Clothes still dirty after cycle"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07",
+                        "title": "7.7. Detergent/softener buildup in dispenser"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08",
+                        "title": "7.8. Incorrect detergent type"
+                    }
+                ]
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 28,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_002",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": null,
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_01",
+            "problem_name": "Detergent / Washing Problems — Detailed",
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "7. Detergent / Washing Problems — Detailed\nTroubleshooting Manual\nThis document contains 8 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 2",
+            "token_count": 160,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_003",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.1. Detergent remains in dispenser",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02",
+            "problem_name": "Detergent remains in dispenser",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "7.1. Detergent remains in dispenser\nWhat this means: Detergent remains in dispenser is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 3",
+            "token_count": 306,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_004",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.2. Detergent does not dissolve properly",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03",
+            "problem_name": "Detergent does not dissolve properly",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "7.2. Detergent does not dissolve properly\nWhat this means: Detergent does not dissolve properly is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 4",
+            "token_count": 308,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_005",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.3. Excessive detergent",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04",
+            "problem_name": "Excessive detergent",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "7.3. Excessive detergent\nWhat this means: Excessive detergent is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 5",
+            "token_count": 301,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_006",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.4. Excessive suds",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05",
+            "problem_name": "Excessive suds",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "7.4. Excessive suds\nWhat this means: Excessive suds is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 6",
+            "token_count": 303,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_007",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.5. Poor cleaning performance",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06",
+            "problem_name": "Poor cleaning performance",
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "7.5. Poor cleaning performance\nWhat this means: Poor cleaning performance is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 7",
+            "token_count": 301,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_007_child_007"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_008",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.6. Clothes still dirty after cycle",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07",
+            "problem_name": "Clothes still dirty after cycle",
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "7.6. Clothes still dirty after cycle\nWhat this means: Clothes still dirty after cycle is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 8",
+            "token_count": 305,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_008_child_008"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_009",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.7. Detergent/softener buildup in dispenser",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08",
+            "problem_name": "Detergent/softener buildup in dispenser",
+            "page_start": 8,
+            "page_end": 9,
+            "chunk_type": "procedure",
+            "text": "7.7. Detergent/softener buildup in dispenser\nWhat this means: Detergent/softener buildup in dispenser is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 9",
+            "token_count": 313,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_009_child_009"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_010",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.8. Incorrect detergent type",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09",
+            "problem_name": "Incorrect detergent type",
+            "page_start": 9,
+            "page_end": 9,
+            "chunk_type": "procedure",
+            "text": "7.8. Incorrect detergent type\nWhat this means: Incorrect detergent type is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 282,
+            "child_chunk_ids": [
+                "WA5471ABP_07_Detergent_Washing_Problems_parent_010_child_010"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_001",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 31,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_002",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": null,
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_01",
+            "problem_name": "Detergent / Washing Problems — Detailed",
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "7. Detergent / Washing Problems — Detailed\nTroubleshooting Manual\nThis document contains 8 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 2",
+            "token_count": 160,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_003",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.1. Detergent remains in dispenser",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02",
+            "problem_name": "Detergent remains in dispenser",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7.1. Detergent remains in dispenser\nWhat this means: Detergent remains in dispenser is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 3",
+            "token_count": 306,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_02_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_004",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.2. Detergent does not dissolve properly",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03",
+            "problem_name": "Detergent does not dissolve properly",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7.2. Detergent does not dissolve properly\nWhat this means: Detergent does not dissolve properly is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 4",
+            "token_count": 308,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_03_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_005",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.3. Excessive detergent",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04",
+            "problem_name": "Excessive detergent",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7.3. Excessive detergent\nWhat this means: Excessive detergent is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 5",
+            "token_count": 301,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_04_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_006",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.4. Excessive suds",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05",
+            "problem_name": "Excessive suds",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7.4. Excessive suds\nWhat this means: Excessive suds is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 6",
+            "token_count": 303,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_05_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_007",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.5. Poor cleaning performance",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06",
+            "problem_name": "Poor cleaning performance",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7.5. Poor cleaning performance\nWhat this means: Poor cleaning performance is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 7",
+            "token_count": 301,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_06_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_008_child_008",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_008",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.6. Clothes still dirty after cycle",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07",
+            "problem_name": "Clothes still dirty after cycle",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7.6. Clothes still dirty after cycle\nWhat this means: Clothes still dirty after cycle is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 8",
+            "token_count": 305,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_07_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_009_child_009",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_009",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.7. Detergent/softener buildup in dispenser",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08",
+            "problem_name": "Detergent/softener buildup in dispenser",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 8,
+            "page_end": 9,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7.7. Detergent/softener buildup in dispenser\nWhat this means: Detergent/softener buildup in dispenser is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Detergent / Washing Problems\nPage 9",
+            "token_count": 313,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_08_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_010_child_010",
+            "parent_chunk_id": "WA5471ABP_07_Detergent_Washing_Problems_parent_010",
+            "document_id": "WA5471ABP_07_Detergent_Washing_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "07_Detergent_Washing_Problems.pdf",
+            "section": "7. Detergent / Washing Problems — Detailed",
+            "subsection": "7.8. Incorrect detergent type",
+            "problem_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09",
+            "problem_name": "Incorrect detergent type",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 9,
+            "page_end": 9,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "7.8. Incorrect detergent type\nWhat this means: Incorrect detergent type is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify whether the problem is caused by detergent quantity, detergent type,\ndispenser buildup, or washing conditions.\n\nStep 2. Check the detergent package instructions and use only the detergent type and quantity appropriate for the\nwasher and load.\n\nStep 3. Inspect the dispenser. Remove visible residue and clean the accessible dispenser components according\nto the manual.\n\nStep 4. If excessive suds are present, allow the washer to complete its appropriate suds-management/rinse\nbehavior rather than adding more detergent.\n\nStep 5. For poor cleaning, check load size, cycle selection, water supply, and whether heavily soiled items need\npretreatment.\n\nStep 6. Run a suitable rinse or cleaning cycle after correcting the detergent issue and observe whether residue or\nsuds remain.\n\nStep 7. If the problem continues despite correct detergent use and a clean dispenser, investigate water supply,\ncycle selection, and service-level causes.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 282,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_07_Detergent_Washing_Problems_problem_09_step_07",
+                    "step_number": 7
+                }
+            ]
+        }
+    ]
+}

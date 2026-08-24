@@ -1,0 +1,62 @@
+{
+    "document_id": "WA5471ABP_05_Vibration_Noise_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "05_Vibration_Noise_Problems.pdf",
+        "file_path": "ground_truth/05_Vibration_Noise_Problems.pdf",
+        "file_type": "pdf",
+        "extraction_method": "pymupdf"
+    },
+    "page_count": 8,
+    "pages": [
+        {
+            "page_number": 1,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Vibration / Noise Problems\nPage 1\nSamsung WA5471ABP/XAA\n5. Vibration / Noise Problems — Detailed\nTroubleshooting Manual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. IciteIturn0search1Iturn0search13I"
+        },
+        {
+            "page_number": 2,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Vibration / Noise Problems\nPage 2\n5.1. Washer vibrates excessively\nWhat this means: Washer vibrates excessively is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the washer and wait until the tub has stopped moving completely.\nStep 2. Inspect the floor beneath and around the washer. The washer should stand on a solid, stable surface and\nshould not rock when gently checked.\nStep 3. Check each leveling foot and make sure the washer is stable. If leveling is required, follow the model's\ninstallation/leveling procedure rather than forcing the cabinet.\nStep 4. Open the washer and redistribute the load if clothing has collected on one side.\nStep 5. Run the washer again and listen carefully. Separate normal operating sounds from a new scraping,\ngrinding, banging, or repeated metallic sound.\nStep 6. If the noise appears only with a particular load, remove the load and inspect pockets, garments, and the\ntub area for loose objects.\nStep 7. If abnormal noise or vibration continues with a balanced load and a stable, level washer, stop using the\nmachine and arrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 3,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Vibration / Noise Problems\nPage 3\n5.2. Washer shakes during spin\nWhat this means: Washer shakes during spin is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the cycle and wait until the washer is safe to open.\nStep 2. Open the washer and inspect the load. Separate items that have become tightly wrapped together or\nhave collected on one side.\nStep 3. Redistribute the laundry evenly around the tub. Avoid washing one very heavy item by itself when the\nselected cycle requires a balanced load.\nStep 4. Confirm that the washer is standing level and that all feet are firmly contacting the floor.\nStep 5. Close the washer and run the spin operation again. Observe whether the tub accelerates smoothly.\nStep 6. If the washer repeatedly stops, remains at a very low spin speed, or leaves the clothes unusually wet,\ncheck for a drainage problem because the washer may not enter full spin until water has drained.\nStep 7. If abnormal behavior continues with a balanced load and a properly leveled machine, service diagnosis\nmay be required.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 4,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Vibration / Noise Problems\nPage 4\n5.3. Washer makes loud noises\nWhat this means: Washer makes loud noises is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the washer and wait until the tub has stopped moving completely.\nStep 2. Inspect the floor beneath and around the washer. The washer should stand on a solid, stable surface and\nshould not rock when gently checked.\nStep 3. Check each leveling foot and make sure the washer is stable. If leveling is required, follow the model's\ninstallation/leveling procedure rather than forcing the cabinet.\nStep 4. Open the washer and redistribute the load if clothing has collected on one side.\nStep 5. Run the washer again and listen carefully. Separate normal operating sounds from a new scraping,\ngrinding, banging, or repeated metallic sound.\nStep 6. If the noise appears only with a particular load, remove the load and inspect pockets, garments, and the\ntub area for loose objects.\nStep 7. If abnormal noise or vibration continues with a balanced load and a stable, level washer, stop using the\nmachine and arrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 5,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Vibration / Noise Problems\nPage 5\n5.4. Washer walks/moves from its position\nWhat this means: Washer walks/moves from its position is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the washer and wait until the tub has stopped moving completely.\nStep 2. Inspect the floor beneath and around the washer. The washer should stand on a solid, stable surface and\nshould not rock when gently checked.\nStep 3. Check each leveling foot and make sure the washer is stable. If leveling is required, follow the model's\ninstallation/leveling procedure rather than forcing the cabinet.\nStep 4. Open the washer and redistribute the load if clothing has collected on one side.\nStep 5. Run the washer again and listen carefully. Separate normal operating sounds from a new scraping,\ngrinding, banging, or repeated metallic sound.\nStep 6. If the noise appears only with a particular load, remove the load and inspect pockets, garments, and the\ntub area for loose objects.\nStep 7. If abnormal noise or vibration continues with a balanced load and a stable, level washer, stop using the\nmachine and arrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 6,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Vibration / Noise Problems\nPage 6\n5.5. Washer is not level\nWhat this means: Washer is not level is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the washer and wait until the tub has stopped moving completely.\nStep 2. Inspect the floor beneath and around the washer. The washer should stand on a solid, stable surface and\nshould not rock when gently checked.\nStep 3. Check each leveling foot and make sure the washer is stable. If leveling is required, follow the model's\ninstallation/leveling procedure rather than forcing the cabinet.\nStep 4. Open the washer and redistribute the load if clothing has collected on one side.\nStep 5. Run the washer again and listen carefully. Separate normal operating sounds from a new scraping,\ngrinding, banging, or repeated metallic sound.\nStep 6. If the noise appears only with a particular load, remove the load and inspect pockets, garments, and the\ntub area for loose objects.\nStep 7. If abnormal noise or vibration continues with a balanced load and a stable, level washer, stop using the\nmachine and arrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 7,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Vibration / Noise Problems\nPage 7\n5.6. Load is distributed unevenly\nWhat this means: Load is distributed unevenly is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 8,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Vibration / Noise Problems\nPage 8\n5.7. Foreign object causing noise\nWhat this means: Foreign object causing noise is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Stop the washer and wait until the tub has stopped moving completely.\nStep 2. Inspect the floor beneath and around the washer. The washer should stand on a solid, stable surface and\nshould not rock when gently checked.\nStep 3. Check each leveling foot and make sure the washer is stable. If leveling is required, follow the model's\ninstallation/leveling procedure rather than forcing the cabinet.\nStep 4. Open the washer and redistribute the load if clothing has collected on one side.\nStep 5. Run the washer again and listen carefully. Separate normal operating sounds from a new scraping,\ngrinding, banging, or repeated metallic sound.\nStep 6. If the noise appears only with a particular load, remove the load and inspect pockets, garments, and the\ntub area for loose objects.\nStep 7. If abnormal noise or vibration continues with a balanced load and a stable, level washer, stop using the\nmachine and arrange service.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        }
+    ],
+    "statistics": {
+        "page_count": 8,
+        "pages_with_text": 8,
+        "pages_without_text": 0,
+        "total_characters": 10509,
+        "total_words": 1685
+    }
+}

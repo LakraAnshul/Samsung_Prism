@@ -1,0 +1,62 @@
+{
+    "document_id": "WA5471ABP_18_Water_Inlet_Hoses_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "18_Water_Inlet_Hoses_Problems.pdf",
+        "file_path": "ground_truth/18_Water_Inlet_Hoses_Problems.pdf",
+        "file_type": "pdf",
+        "extraction_method": "pymupdf"
+    },
+    "page_count": 8,
+    "pages": [
+        {
+            "page_number": 1,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Water Inlet / Hoses Problems\nPage 1\nSamsung WA5471ABP/XAA\n18. Water Inlet / Hoses Problems — Detailed\nTroubleshooting Manual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. IciteIturn0search1Iturn0search13I"
+        },
+        {
+            "page_number": 2,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Water Inlet / Hoses Problems\nPage 2\n18.1. Washer fails to fill\nWhat this means: Washer fails to fill is treated as the observed symptom or fault condition. Follow the steps\nin order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 3,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Water Inlet / Hoses Problems\nPage 3\n18.2. Fill attempt unsuccessful\nWhat this means: Fill attempt unsuccessful is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 4,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Water Inlet / Hoses Problems\nPage 4\n18.3. Hot-water hose disconnected\nWhat this means: Hot-water hose disconnected is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off using the Power button and wait until the controls are no longer active before\ninspecting external water connections.\nStep 2. Confirm that the household water supply is available. Open the appropriate water faucet fully and check\nthat water can flow normally.\nStep 3. Inspect the hot and cold inlet hoses along their full visible length. Make sure neither hose is sharply bent,\ncrushed, twisted, or trapped against the washer.\nStep 4. Check both hose connections at the washer and at the water supply. Each connection should be seated\ncorrectly and should not show leakage.\nStep 5. If the problem involves slow or no filling, inspect the inlet screens at the hose connections for visible dirt or\nsediment. Clean only the accessible screens using the procedure recommended by the manual; do not damage\nor remove internal components.\nStep 6. Reconnect the hoses securely, restore the water supply, and run a short test cycle. Observe whether\nwater enters normally.\nStep 7. If the washer still has a fill problem after the external checks, the cause may involve the water valve,\npressure sensing system, wiring, or control board. These are service-level checks and should not be opened or\ntested as a DIY repair.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 5,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Water Inlet / Hoses Problems\nPage 5\n18.4. Hot/cold hoses connected incorrectly\nWhat this means: Hot/cold hoses connected incorrectly is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 6,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Water Inlet / Hoses Problems\nPage 6\n18.5. Inlet screens clogged\nWhat this means: Inlet screens clogged is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 7,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Water Inlet / Hoses Problems\nPage 7\n18.6. Kinked inlet hose\nWhat this means: Kinked inlet hose is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off and identify exactly what the washer is doing and at which stage the problem occurs.\nStep 2. Check the simplest external causes first: power, water supply, drain path, door/lid, load balance, and\nselected cycle.\nStep 3. Inspect only accessible parts for obvious damage, obstruction, looseness, or incorrect positioning.\nStep 4. Restart the washer only after the external checks are complete and it is safe to do so.\nStep 5. Observe whether the problem repeats and record any information/error code exactly as displayed.\nStep 6. Do not open internal components or bypass safety devices as a user-level repair.\nStep 7. If the condition persists after the external checks, arrange qualified service diagnosis.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        },
+        {
+            "page_number": 8,
+            "has_text": true,
+            "text": "Samsung WA5471ABP/XAA — Water Inlet / Hoses Problems\nPage 8\n18.7. Water faucets not fully open\nWhat this means: Water faucets not fully open is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\nStep 1. Turn the washer off using the Power button and wait until the controls are no longer active before\ninspecting external water connections.\nStep 2. Confirm that the household water supply is available. Open the appropriate water faucet fully and check\nthat water can flow normally.\nStep 3. Inspect the hot and cold inlet hoses along their full visible length. Make sure neither hose is sharply bent,\ncrushed, twisted, or trapped against the washer.\nStep 4. Check both hose connections at the washer and at the water supply. Each connection should be seated\ncorrectly and should not show leakage.\nStep 5. If the problem involves slow or no filling, inspect the inlet screens at the hose connections for visible dirt or\nsediment. Clean only the accessible screens using the procedure recommended by the manual; do not damage\nor remove internal components.\nStep 6. Reconnect the hoses securely, restore the water supply, and run a short test cycle. Observe whether\nwater enters normally.\nStep 7. If the washer still has a fill problem after the external checks, the cause may involve the water valve,\npressure sensing system, wiring, or control board. These are service-level checks and should not be opened or\ntested as a DIY repair.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service."
+        }
+    ],
+    "statistics": {
+        "page_count": 8,
+        "pages_with_text": 8,
+        "pages_without_text": 0,
+        "total_characters": 10389,
+        "total_words": 1639
+    }
+}

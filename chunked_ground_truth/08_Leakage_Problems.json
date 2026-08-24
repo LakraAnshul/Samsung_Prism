@@ -1,0 +1,601 @@
+{
+    "document_id": "WA5471ABP_08_Leakage_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "08_Leakage_Problems.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_08_Leakage_Problems_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_08_Leakage_Problems_section_02",
+                "title": "8. Leakage Problems — Detailed Troubleshooting",
+                "subsections": [
+                    {
+                        "subsection_id": "WA5471ABP_08_Leakage_Problems_problem_01",
+                        "title": "8.1. Water leaking from washer"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_08_Leakage_Problems_problem_02",
+                        "title": "8.2. Water leaking from inlet hose"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_08_Leakage_Problems_problem_03",
+                        "title": "8.3. Water leaking from drain hose"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_08_Leakage_Problems_problem_04",
+                        "title": "8.4. Water leaking around dispenser"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_08_Leakage_Problems_problem_05",
+                        "title": "8.5. Water leaking from bottom"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_08_Leakage_Problems_problem_06",
+                        "title": "8.6. Hose connection leaking"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_08_Leakage_Problems_problem_07",
+                        "title": "8.7. Tub/seal leakage"
+                    }
+                ]
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Leakage Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 24,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_002",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_01",
+            "problem_name": "Leakage Problems — Detailed Troubleshooting",
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "8. Leakage Problems — Detailed Troubleshooting\nManual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 2",
+            "token_count": 152,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_003",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.1. Water leaking from washer",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_02",
+            "problem_name": "Water leaking from washer",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "8.1. Water leaking from washer\nWhat this means: Water leaking from washer is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 3",
+            "token_count": 308,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_004",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.2. Water leaking from inlet hose",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_03",
+            "problem_name": "Water leaking from inlet hose",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "8.2. Water leaking from inlet hose\nWhat this means: Water leaking from inlet hose is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off using the Power button and wait until the controls are no longer active before\ninspecting external water connections.\n\nStep 2. Confirm that the household water supply is available. Open the appropriate water faucet fully and check\nthat water can flow normally.\n\nStep 3. Inspect the hot and cold inlet hoses along their full visible length. Make sure neither hose is sharply bent,\ncrushed, twisted, or trapped against the washer.\n\nStep 4. Check both hose connections at the washer and at the water supply. Each connection should be seated\ncorrectly and should not show leakage.\n\nStep 5. If the problem involves slow or no filling, inspect the inlet screens at the hose connections for visible dirt or\nsediment. Clean only the accessible screens using the procedure recommended by the manual; do not damage\nor remove internal components.\n\nStep 6. Reconnect the hoses securely, restore the water supply, and run a short test cycle. Observe whether\nwater enters normally.\n\nStep 7. If the washer still has a fill problem after the external checks, the cause may involve the water valve,\npressure sensing system, wiring, or control board. These are service-level checks and should not be opened or\ntested as a DIY repair.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 4",
+            "token_count": 366,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_005",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.3. Water leaking from drain hose",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_04",
+            "problem_name": "Water leaking from drain hose",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "8.3. Water leaking from drain hose\nWhat this means: Water leaking from drain hose is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off using the Power button and wait until the controls are no longer active before\ninspecting external water connections.\n\nStep 2. Confirm that the household water supply is available. Open the appropriate water faucet fully and check\nthat water can flow normally.\n\nStep 3. Inspect the hot and cold inlet hoses along their full visible length. Make sure neither hose is sharply bent,\ncrushed, twisted, or trapped against the washer.\n\nStep 4. Check both hose connections at the washer and at the water supply. Each connection should be seated\ncorrectly and should not show leakage.\n\nStep 5. If the problem involves slow or no filling, inspect the inlet screens at the hose connections for visible dirt or\nsediment. Clean only the accessible screens using the procedure recommended by the manual; do not damage\nor remove internal components.\n\nStep 6. Reconnect the hoses securely, restore the water supply, and run a short test cycle. Observe whether\nwater enters normally.\n\nStep 7. If the washer still has a fill problem after the external checks, the cause may involve the water valve,\npressure sensing system, wiring, or control board. These are service-level checks and should not be opened or\ntested as a DIY repair.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 5",
+            "token_count": 365,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_006",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.4. Water leaking around dispenser",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_05",
+            "problem_name": "Water leaking around dispenser",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "8.4. Water leaking around dispenser\nWhat this means: Water leaking around dispenser is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 6",
+            "token_count": 307,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_007",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.5. Water leaking from bottom",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_06",
+            "problem_name": "Water leaking from bottom",
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "8.5. Water leaking from bottom\nWhat this means: Water leaking from bottom is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 7",
+            "token_count": 308,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_007_child_007"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_008",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.6. Hose connection leaking",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_07",
+            "problem_name": "Hose connection leaking",
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "8.6. Hose connection leaking\nWhat this means: Hose connection leaking is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 8",
+            "token_count": 306,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_008_child_008"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_009",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.7. Tub/seal leakage",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_08",
+            "problem_name": "Tub/seal leakage",
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_type": "procedure",
+            "text": "8.7. Tub/seal leakage\nWhat this means: Tub/seal leakage is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 293,
+            "child_chunk_ids": [
+                "WA5471ABP_08_Leakage_Problems_parent_009_child_009"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_001",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 27,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_002",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_01",
+            "problem_name": "Leakage Problems — Detailed Troubleshooting",
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "8. Leakage Problems — Detailed Troubleshooting\nManual\nThis document contains 7 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 2",
+            "token_count": 152,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_003",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.1. Water leaking from washer",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_02",
+            "problem_name": "Water leaking from washer",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "8.1. Water leaking from washer\nWhat this means: Water leaking from washer is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 3",
+            "token_count": 308,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_02_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_004",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.2. Water leaking from inlet hose",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_03",
+            "problem_name": "Water leaking from inlet hose",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "8.2. Water leaking from inlet hose\nWhat this means: Water leaking from inlet hose is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off using the Power button and wait until the controls are no longer active before\ninspecting external water connections.\n\nStep 2. Confirm that the household water supply is available. Open the appropriate water faucet fully and check\nthat water can flow normally.\n\nStep 3. Inspect the hot and cold inlet hoses along their full visible length. Make sure neither hose is sharply bent,\ncrushed, twisted, or trapped against the washer.\n\nStep 4. Check both hose connections at the washer and at the water supply. Each connection should be seated\ncorrectly and should not show leakage.\n\nStep 5. If the problem involves slow or no filling, inspect the inlet screens at the hose connections for visible dirt or\nsediment. Clean only the accessible screens using the procedure recommended by the manual; do not damage\nor remove internal components.\n\nStep 6. Reconnect the hoses securely, restore the water supply, and run a short test cycle. Observe whether\nwater enters normally.\n\nStep 7. If the washer still has a fill problem after the external checks, the cause may involve the water valve,\npressure sensing system, wiring, or control board. These are service-level checks and should not be opened or\ntested as a DIY repair.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 4",
+            "token_count": 366,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_03_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_005",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.3. Water leaking from drain hose",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_04",
+            "problem_name": "Water leaking from drain hose",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "8.3. Water leaking from drain hose\nWhat this means: Water leaking from drain hose is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Turn the washer off using the Power button and wait until the controls are no longer active before\ninspecting external water connections.\n\nStep 2. Confirm that the household water supply is available. Open the appropriate water faucet fully and check\nthat water can flow normally.\n\nStep 3. Inspect the hot and cold inlet hoses along their full visible length. Make sure neither hose is sharply bent,\ncrushed, twisted, or trapped against the washer.\n\nStep 4. Check both hose connections at the washer and at the water supply. Each connection should be seated\ncorrectly and should not show leakage.\n\nStep 5. If the problem involves slow or no filling, inspect the inlet screens at the hose connections for visible dirt or\nsediment. Clean only the accessible screens using the procedure recommended by the manual; do not damage\nor remove internal components.\n\nStep 6. Reconnect the hoses securely, restore the water supply, and run a short test cycle. Observe whether\nwater enters normally.\n\nStep 7. If the washer still has a fill problem after the external checks, the cause may involve the water valve,\npressure sensing system, wiring, or control board. These are service-level checks and should not be opened or\ntested as a DIY repair.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 5",
+            "token_count": 365,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_04_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_006",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.4. Water leaking around dispenser",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_05",
+            "problem_name": "Water leaking around dispenser",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "8.4. Water leaking around dispenser\nWhat this means: Water leaking around dispenser is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 6",
+            "token_count": 307,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_05_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_007",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.5. Water leaking from bottom",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_06",
+            "problem_name": "Water leaking from bottom",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "8.5. Water leaking from bottom\nWhat this means: Water leaking from bottom is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 7",
+            "token_count": 308,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_06_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_008_child_008",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_008",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.6. Hose connection leaking",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_07",
+            "problem_name": "Hose connection leaking",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 7,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "8.6. Hose connection leaking\nWhat this means: Hose connection leaking is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Leakage Problems\nPage 8",
+            "token_count": 306,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_07_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_07_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_07_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_07_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_07_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_07_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_07_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_08_Leakage_Problems_parent_009_child_009",
+            "parent_chunk_id": "WA5471ABP_08_Leakage_Problems_parent_009",
+            "document_id": "WA5471ABP_08_Leakage_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "08_Leakage_Problems.pdf",
+            "section": "8. Leakage Problems — Detailed Troubleshooting",
+            "subsection": "8.7. Tub/seal leakage",
+            "problem_id": "WA5471ABP_08_Leakage_Problems_problem_08",
+            "problem_name": "Tub/seal leakage",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 8,
+            "page_end": 8,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "8.7. Tub/seal leakage\nWhat this means: Tub/seal leakage is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the washer and, if water is actively leaking, stop the water supply if it can be done safely.\n\nStep 2. Do not touch electrical connections or plugs if water has reached them. Treat the situation as an electrical\n\nsafety hazard.\n\nStep 3. Identify where the water first appears: inlet hose, drain hose, dispenser area, bottom of cabinet, or\ntub/seal area.\n\nStep 4. Inspect the accessible hose connections for looseness, damaged washers, cracks, or obvious\ndisplacement.\n\nStep 5. If a hose is visibly loose and can be safely reseated without opening the washer, correct the connection\nand dry the surrounding area.\n\nStep 6. Run a short supervised test only after the area is dry and there is no electrical hazard.\n\nStep 7. If water originates from inside the cabinet, the bottom, or a tub/seal area, stop using the washer and\narrange service rather than opening the machine.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 293,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_08_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_08_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_08_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_08_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_08_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_08_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_08_Leakage_Problems_problem_08_step_07",
+                    "step_number": 7
+                }
+            ]
+        }
+    ]
+}

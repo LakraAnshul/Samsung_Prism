@@ -1,0 +1,461 @@
+{
+    "document_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "15_Temperature_Sensor_Heating_Problems.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_section_02",
+                "title": "15. Temperature Sensor / Heating Problems — Detailed",
+                "subsections": [
+                    {
+                        "subsection_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_01",
+                        "title": "15.1. Temperature sensor failure"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02",
+                        "title": "15.2. Water temperature control problem"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03",
+                        "title": "15.3. Heater-control problem"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04",
+                        "title": "15.4. Incorrect temperature detected"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05",
+                        "title": "15.5. Washer reports temperature-related fault"
+                    }
+                ]
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 27,
+            "child_chunk_ids": [
+                "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_002",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": null,
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_01",
+            "problem_name": "Temperature Sensor / Heating Problems — Detailed",
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "15. Temperature Sensor / Heating Problems — Detailed\nTroubleshooting Manual\nThis document contains 5 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 2",
+            "token_count": 158,
+            "child_chunk_ids": [
+                "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_003",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.1. Temperature sensor failure",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02",
+            "problem_name": "Temperature sensor failure",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "15.1. Temperature sensor failure\nWhat this means: Temperature sensor failure is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 3",
+            "token_count": 284,
+            "child_chunk_ids": [
+                "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_004",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.2. Water temperature control problem",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03",
+            "problem_name": "Water temperature control problem",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "15.2. Water temperature control problem\nWhat this means: Water temperature control problem is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 4",
+            "token_count": 285,
+            "child_chunk_ids": [
+                "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_005",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.3. Heater-control problem",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04",
+            "problem_name": "Heater-control problem",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "15.3. Heater-control problem\nWhat this means: Heater-control problem is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 5",
+            "token_count": 284,
+            "child_chunk_ids": [
+                "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_006",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.4. Incorrect temperature detected",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05",
+            "problem_name": "Incorrect temperature detected",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "15.4. Incorrect temperature detected\nWhat this means: Incorrect temperature detected is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 6",
+            "token_count": 283,
+            "child_chunk_ids": [
+                "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_007",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.5. Washer reports temperature-related fault",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06",
+            "problem_name": "Washer reports temperature-related fault",
+            "page_start": 6,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "15.5. Washer reports temperature-related fault\nWhat this means: Washer reports temperature-related fault is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 270,
+            "child_chunk_ids": [
+                "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_007_child_007"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_001",
+            "document_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "15_Temperature_Sensor_Heating_Problems.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 30,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_002",
+            "document_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "15_Temperature_Sensor_Heating_Problems.pdf",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": null,
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_01",
+            "problem_name": "Temperature Sensor / Heating Problems — Detailed",
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "15. Temperature Sensor / Heating Problems — Detailed\nTroubleshooting Manual\nThis document contains 5 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 2",
+            "token_count": 158,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_003",
+            "document_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "15_Temperature_Sensor_Heating_Problems.pdf",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.1. Temperature sensor failure",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02",
+            "problem_name": "Temperature sensor failure",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "15.1. Temperature sensor failure\nWhat this means: Temperature sensor failure is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 3",
+            "token_count": 284,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_02_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_004",
+            "document_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "15_Temperature_Sensor_Heating_Problems.pdf",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.2. Water temperature control problem",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03",
+            "problem_name": "Water temperature control problem",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "15.2. Water temperature control problem\nWhat this means: Water temperature control problem is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 4",
+            "token_count": 285,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_03_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_005",
+            "document_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "15_Temperature_Sensor_Heating_Problems.pdf",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.3. Heater-control problem",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04",
+            "problem_name": "Heater-control problem",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "15.3. Heater-control problem\nWhat this means: Heater-control problem is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 5",
+            "token_count": 284,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_04_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_006",
+            "document_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "15_Temperature_Sensor_Heating_Problems.pdf",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.4. Incorrect temperature detected",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05",
+            "problem_name": "Incorrect temperature detected",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "15.4. Incorrect temperature detected\nWhat this means: Incorrect temperature detected is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Temperature Sensor / Heating Problems\nPage 6",
+            "token_count": 283,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_05_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_parent_007",
+            "document_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "15_Temperature_Sensor_Heating_Problems.pdf",
+            "section": "15. Temperature Sensor / Heating Problems — Detailed",
+            "subsection": "15.5. Washer reports temperature-related fault",
+            "problem_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06",
+            "problem_name": "Washer reports temperature-related fault",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 6,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "15.5. Washer reports temperature-related fault\nWhat this means: Washer reports temperature-related fault is treated as the observed symptom or fault\ncondition. Follow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the cycle and identify the selected temperature setting.\n\nStep 2. Check that the hot and cold water hoses are connected to the correct supply points and are not reversed.\n\nStep 3. Confirm that both water supplies are available. A missing supply can affect the washer's ability to achieve\nthe selected temperature.\n\nStep 4. Run an appropriate cycle and observe whether the water behavior matches the selected setting. Do not\njudge temperature by touching the water directly.\n\nStep 5. If the washer alternates hot and cold water during automatic temperature control, do not immediately treat\nthat behavior as a fault; the washer may be regulating temperature.\n\nStep 6. If the temperature remains clearly incorrect or an information code appears, record the code.\n\nStep 7. Temperature-sensor, heater-control, wiring, and PCB diagnosis should be performed by qualified service\npersonnel.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 270,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_15_Temperature_Sensor_Heating_Problems_problem_06_step_07",
+                    "step_number": 7
+                }
+            ]
+        }
+    ]
+}

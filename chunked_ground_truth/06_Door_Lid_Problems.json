@@ -1,0 +1,531 @@
+{
+    "document_id": "WA5471ABP_06_Door_Lid_Problems",
+    "appliance_type": "washing_machine",
+    "brand": "Samsung",
+    "model": "WA5471ABP/XAA",
+    "source": {
+        "file_name": "06_Door_Lid_Problems.pdf"
+    },
+    "chunking_config": {
+        "strategy": "document_aware_hierarchical_recursive_parent_child",
+        "parent_target_tokens": 2200,
+        "parent_max_tokens": 3000,
+        "child_target_tokens": 600,
+        "child_max_tokens": 1000,
+        "overlap_tokens": 75,
+        "tokenizer": "tiktoken (cl100k_base)"
+    },
+    "hierarchy": {
+        "sections": [
+            {
+                "section_id": "WA5471ABP_06_Door_Lid_Problems_section_01",
+                "title": "General",
+                "subsections": []
+            },
+            {
+                "section_id": "WA5471ABP_06_Door_Lid_Problems_section_02",
+                "title": "6. Door / Lid Problems — Detailed Troubleshooting",
+                "subsections": [
+                    {
+                        "subsection_id": "WA5471ABP_06_Door_Lid_Problems_problem_01",
+                        "title": "6.1. Door/lid will not open"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_06_Door_Lid_Problems_problem_02",
+                        "title": "6.2. Door/lid does not lock"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_06_Door_Lid_Problems_problem_03",
+                        "title": "6.3. Door/lid opens during operation"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_06_Door_Lid_Problems_problem_04",
+                        "title": "6.4. Washer detects door as open"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_06_Door_Lid_Problems_problem_05",
+                        "title": "6.5. Door lock failure"
+                    },
+                    {
+                        "subsection_id": "WA5471ABP_06_Door_Lid_Problems_problem_06",
+                        "title": "6.6. Door lock mechanism damaged"
+                    }
+                ]
+            }
+        ]
+    },
+    "parents": [
+        {
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_001",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_type": "informational",
+            "text": "Samsung WA5471ABP/XAA — Door / Lid Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 26,
+            "child_chunk_ids": [
+                "WA5471ABP_06_Door_Lid_Problems_parent_001_child_001"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_002",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_01",
+            "problem_name": "Door / Lid Problems — Detailed Troubleshooting",
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_type": "informational",
+            "text": "6. Door / Lid Problems — Detailed Troubleshooting\nManual\nThis document contains 6 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 2",
+            "token_count": 156,
+            "child_chunk_ids": [
+                "WA5471ABP_06_Door_Lid_Problems_parent_002_child_002"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_003",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.1. Door/lid will not open",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_02",
+            "problem_name": "Door/lid will not open",
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_type": "procedure",
+            "text": "6.1. Door/lid will not open\nWhat this means: Door/lid will not open is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 3",
+            "token_count": 308,
+            "child_chunk_ids": [
+                "WA5471ABP_06_Door_Lid_Problems_parent_003_child_003"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_004",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.2. Door/lid does not lock",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_03",
+            "problem_name": "Door/lid does not lock",
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_type": "procedure",
+            "text": "6.2. Door/lid does not lock\nWhat this means: Door/lid does not lock is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 4",
+            "token_count": 308,
+            "child_chunk_ids": [
+                "WA5471ABP_06_Door_Lid_Problems_parent_004_child_004"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_005",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.3. Door/lid opens during operation",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_04",
+            "problem_name": "Door/lid opens during operation",
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_type": "procedure",
+            "text": "6.3. Door/lid opens during operation\nWhat this means: Door/lid opens during operation is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 5",
+            "token_count": 307,
+            "child_chunk_ids": [
+                "WA5471ABP_06_Door_Lid_Problems_parent_005_child_005"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_006",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.4. Washer detects door as open",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_05",
+            "problem_name": "Washer detects door as open",
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_type": "procedure",
+            "text": "6.4. Washer detects door as open\nWhat this means: Washer detects door as open is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 6",
+            "token_count": 306,
+            "child_chunk_ids": [
+                "WA5471ABP_06_Door_Lid_Problems_parent_006_child_006"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_007",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.5. Door lock failure",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_06",
+            "problem_name": "Door lock failure",
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "6.5. Door lock failure\nWhat this means: Door lock failure is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 7",
+            "token_count": 302,
+            "child_chunk_ids": [
+                "WA5471ABP_06_Door_Lid_Problems_parent_007_child_007"
+            ]
+        },
+        {
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_008",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.6. Door lock mechanism damaged",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_07",
+            "problem_name": "Door lock mechanism damaged",
+            "page_start": 7,
+            "page_end": 7,
+            "chunk_type": "procedure",
+            "text": "6.6. Door lock mechanism damaged\nWhat this means: Door lock mechanism damaged is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 286,
+            "child_chunk_ids": [
+                "WA5471ABP_06_Door_Lid_Problems_parent_008_child_008"
+            ]
+        }
+    ],
+    "children": [
+        {
+            "chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_001_child_001",
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_001",
+            "document_id": "WA5471ABP_06_Door_Lid_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "06_Door_Lid_Problems.pdf",
+            "section": "General",
+            "subsection": null,
+            "problem_id": null,
+            "problem_name": null,
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 1,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "[General]\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 1\nSamsung WA5471ABP/XAA",
+            "token_count": 29,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_002_child_002",
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_002",
+            "document_id": "WA5471ABP_06_Door_Lid_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "06_Door_Lid_Problems.pdf",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": null,
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_01",
+            "problem_name": "Door / Lid Problems — Detailed Troubleshooting",
+            "step_start": null,
+            "step_end": null,
+            "page_start": 1,
+            "page_end": 2,
+            "chunk_level": "child",
+            "chunk_type": "informational",
+            "text": "6. Door / Lid Problems — Detailed Troubleshooting\nManual\nThis document contains 6 separate troubleshooting topics. Each topic starts on a new page and is written as a\nsequential procedure. User-level checks are separated from service-level diagnosis.\nModel basis: Samsung's WA5471ABP/XAA support page lists the model-specific User Manual (version 4, modified May 3, 2016). The\ntechnical information for the WA5471 series documents troubleshooting areas including water valves, inlet screens, hoses, water level\nsensing, drain/spin, motor, PCB connections, and related service diagnosis. turn0search13I\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 2",
+            "token_count": 156,
+            "steps": []
+        },
+        {
+            "chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_003_child_003",
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_003",
+            "document_id": "WA5471ABP_06_Door_Lid_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "06_Door_Lid_Problems.pdf",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.1. Door/lid will not open",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_02",
+            "problem_name": "Door/lid will not open",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 2,
+            "page_end": 3,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "6.1. Door/lid will not open\nWhat this means: Door/lid will not open is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 3",
+            "token_count": 308,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_02_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_02_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_02_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_02_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_02_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_02_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_02_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_004_child_004",
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_004",
+            "document_id": "WA5471ABP_06_Door_Lid_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "06_Door_Lid_Problems.pdf",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.2. Door/lid does not lock",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_03",
+            "problem_name": "Door/lid does not lock",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 3,
+            "page_end": 4,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "6.2. Door/lid does not lock\nWhat this means: Door/lid does not lock is treated as the observed symptom or fault condition. Follow the\nsteps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 4",
+            "token_count": 308,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_03_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_03_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_03_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_03_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_03_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_03_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_03_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_005_child_005",
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_005",
+            "document_id": "WA5471ABP_06_Door_Lid_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "06_Door_Lid_Problems.pdf",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.3. Door/lid opens during operation",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_04",
+            "problem_name": "Door/lid opens during operation",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 4,
+            "page_end": 5,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "6.3. Door/lid opens during operation\nWhat this means: Door/lid opens during operation is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 5",
+            "token_count": 307,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_04_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_04_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_04_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_04_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_04_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_04_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_04_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_006_child_006",
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_006",
+            "document_id": "WA5471ABP_06_Door_Lid_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "06_Door_Lid_Problems.pdf",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.4. Washer detects door as open",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_05",
+            "problem_name": "Washer detects door as open",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 5,
+            "page_end": 6,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "6.4. Washer detects door as open\nWhat this means: Washer detects door as open is treated as the observed symptom or fault condition. Follow\nthe steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 6",
+            "token_count": 306,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_05_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_05_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_05_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_05_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_05_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_05_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_05_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_007_child_007",
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_007",
+            "document_id": "WA5471ABP_06_Door_Lid_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "06_Door_Lid_Problems.pdf",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.5. Door lock failure",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_06",
+            "problem_name": "Door lock failure",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 6,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "6.5. Door lock failure\nWhat this means: Door lock failure is treated as the observed symptom or fault condition. Follow the steps in\norder and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.\nSamsung WA5471ABP/XAA — Door / Lid Problems\nPage 7",
+            "token_count": 302,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_06_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_06_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_06_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_06_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_06_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_06_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_06_step_07",
+                    "step_number": 7
+                }
+            ]
+        },
+        {
+            "chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_008_child_008",
+            "parent_chunk_id": "WA5471ABP_06_Door_Lid_Problems_parent_008",
+            "document_id": "WA5471ABP_06_Door_Lid_Problems",
+            "appliance_type": "washing_machine",
+            "brand": "Samsung",
+            "model": "WA5471ABP/XAA",
+            "source_file": "06_Door_Lid_Problems.pdf",
+            "section": "6. Door / Lid Problems — Detailed Troubleshooting",
+            "subsection": "6.6. Door lock mechanism damaged",
+            "problem_id": "WA5471ABP_06_Door_Lid_Problems_problem_07",
+            "problem_name": "Door lock mechanism damaged",
+            "step_start": 1,
+            "step_end": 7,
+            "page_start": 7,
+            "page_end": 7,
+            "chunk_level": "child",
+            "chunk_type": "procedure",
+            "text": "6.6. Door lock mechanism damaged\nWhat this means: Door lock mechanism damaged is treated as the observed symptom or fault condition.\nFollow the steps in order and stop when the cause is identified.\nStep-by-step procedure\n\nStep 1. Stop the current cycle and allow the washer to reach a safe state before attempting to open or close the\ndoor/lid.\n\nStep 2. Do not force the door/lid. Check whether water remains in the tub or whether the washer is still completing\na safety-related operation.\n\nStep 3. Inspect the visible door/lid area and latch for clothing, detergent residue, or another object preventing full\nclosure.\n\nStep 4. Close the door/lid firmly and retry the cycle if the machine is otherwise ready to operate.\n\nStep 5. If the display shows an information code related to the door or lock, record the exact code before\ncontinuing.\n\nStep 6. If the door/lid still will not lock, unlock, or is repeatedly detected as open, stop troubleshooting at the\nexternal checks. The lock mechanism, sensor, wiring, or control system may require service.\n\nStep 7. Never defeat or bypass the locking mechanism.\nWhen to escalate: If the problem remains after the safe external checks, or if the washer shows repeated electrical,\nsensor, control, motor, valve, pump, or lock faults, stop user troubleshooting and arrange qualified service.",
+            "token_count": 286,
+            "steps": [
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_07_step_01",
+                    "step_number": 1
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_07_step_02",
+                    "step_number": 2
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_07_step_03",
+                    "step_number": 3
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_07_step_04",
+                    "step_number": 4
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_07_step_05",
+                    "step_number": 5
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_07_step_06",
+                    "step_number": 6
+                },
+                {
+                    "step_id": "WA5471ABP_06_Door_Lid_Problems_problem_07_step_07",
+                    "step_number": 7
+                }
+            ]
+        }
+    ]
+}

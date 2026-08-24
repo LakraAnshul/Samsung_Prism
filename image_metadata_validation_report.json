@@ -1,0 +1,19 @@
+{
+    "total_ground_truth_steps": 931,
+    "total_images": 931,
+    "successfully_linked": 931,
+    "unmatched": 0,
+    "ambiguous": 0,
+    "steps_without_images": 0,
+    "images_per_step_distribution": {
+        "1 images": 931
+    },
+    "missing_files": 0,
+    "duplicate_image_ids": 0,
+    "duplicate_file_paths": 0,
+    "unique_documents": 20,
+    "unique_problems": 131,
+    "unique_steps": 931,
+    "citation_artifacts_removed": 3,
+    "details": []
+}
