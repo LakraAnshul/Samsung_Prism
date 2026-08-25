@@ -1,0 +1,11 @@
+{
+    "run_id": "run_20260825_203857",
+    "timestamp": "2026-08-25T20:44:16.667854",
+    "model": "WA5471ABP",
+    "database_model": "WA5471ABP/XAA",
+    "total_dataset_cases": 150,
+    "total_dataset_queries": 450,
+    "evaluated_queries_count": 5,
+    "full_run": false,
+    "limit": 5
+}

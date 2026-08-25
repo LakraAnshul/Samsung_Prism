@@ -1,0 +1,11 @@
+metric,rrf_only,rrf_plus_jina,absolute_change,relative_change
+Recall@8,100.00%,100.00%,+0.00%,+0.00%
+MRR,0.7667,1.0000,+0.2333,+30.43%
+nDCG@8,0.8262,1.0000,+0.1738,+21.04%
+Step Recall,80.00%,74.00%,-6.00%,-7.50%
+Step Order,80.00%,80.00%,+0.00%,+0.00%
+Safety,33.33%,0.00%,-33.33%,-100.00%
+Faithfulness,69.50%,60.00%,-9.50%,-13.67%
+Image Recall@3,80.00%,72.00%,-8.00%,-10.00%
+Average Latency,21904.8 ms,23664.5 ms,+1759.7 ms,+8.03%
+Recall@30 [diagnostic],100.00%,100.00%,+0.00%,+0.00%

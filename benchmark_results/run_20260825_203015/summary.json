@@ -1,0 +1,163 @@
+{
+    "run_id": "run_20260825_203015",
+    "model": "WA5471ABP",
+    "evaluated_queries": 5,
+    "rrf_only": {
+        "total_executions": 5,
+        "successful_executions": 5,
+        "failed_executions": 0,
+        "retrieval": {
+            "recall_at_30": 1.0,
+            "recall_at_30_denominator": 5,
+            "recall_at_8": 1.0,
+            "recall_at_8_denominator": 5,
+            "mrr": 0.7667,
+            "mrr_denominator": 5,
+            "ndcg_at_8": 0.8262,
+            "ndcg_at_8_denominator": 5
+        },
+        "answer": {
+            "step_recall": 0.8,
+            "step_recall_denominator": 5,
+            "step_order": 0.8,
+            "step_order_denominator": 5,
+            "safety": 0.3333,
+            "safety_denominator": 3,
+            "faithfulness": 0.695,
+            "faithfulness_denominator": 4,
+            "unsupported_claim_count_avg": 0.4
+        },
+        "images": {
+            "image_recall_at_3": 0.8,
+            "image_recall_at_3_denominator": 5
+        },
+        "overall_score": 0.7771,
+        "overall_score_denominator": 5,
+        "latency": {
+            "average_total_ms": 21904.844,
+            "median_total_ms": 30047.1,
+            "average_reranker_ms": 0.0
+        },
+        "flags": {
+            "model_contamination_count": 0,
+            "critical_safety_violation_count": 2,
+            "complete_retrieval_failure_count": 0,
+            "judge_failure_count": 1
+        }
+    },
+    "rrf_plus_jina": {
+        "total_executions": 5,
+        "successful_executions": 5,
+        "failed_executions": 0,
+        "retrieval": {
+            "recall_at_30": 1.0,
+            "recall_at_30_denominator": 5,
+            "recall_at_8": 1.0,
+            "recall_at_8_denominator": 5,
+            "mrr": 1.0,
+            "mrr_denominator": 5,
+            "ndcg_at_8": 1.0,
+            "ndcg_at_8_denominator": 5
+        },
+        "answer": {
+            "step_recall": 0.74,
+            "step_recall_denominator": 5,
+            "step_order": 0.8,
+            "step_order_denominator": 5,
+            "safety": 0.0,
+            "safety_denominator": 3,
+            "faithfulness": 0.6,
+            "faithfulness_denominator": 4,
+            "unsupported_claim_count_avg": 0.2
+        },
+        "images": {
+            "image_recall_at_3": 0.72,
+            "image_recall_at_3_denominator": 5
+        },
+        "overall_score": 0.756,
+        "overall_score_denominator": 5,
+        "latency": {
+            "average_total_ms": 23664.538,
+            "median_total_ms": 32672.75,
+            "average_reranker_ms": 1665.946
+        },
+        "flags": {
+            "model_contamination_count": 0,
+            "critical_safety_violation_count": 3,
+            "complete_retrieval_failure_count": 0,
+            "judge_failure_count": 1
+        }
+    },
+    "comparison": [
+        {
+            "metric": "Recall@8",
+            "rrf_only": "100.00%",
+            "rrf_plus_jina": "100.00%",
+            "absolute_change": "+0.00%",
+            "relative_change": "+0.00%"
+        },
+        {
+            "metric": "MRR",
+            "rrf_only": "0.7667",
+            "rrf_plus_jina": "1.0000",
+            "absolute_change": "+0.2333",
+            "relative_change": "+30.43%"
+        },
+        {
+            "metric": "nDCG@8",
+            "rrf_only": "0.8262",
+            "rrf_plus_jina": "1.0000",
+            "absolute_change": "+0.1738",
+            "relative_change": "+21.04%"
+        },
+        {
+            "metric": "Step Recall",
+            "rrf_only": "80.00%",
+            "rrf_plus_jina": "74.00%",
+            "absolute_change": "-6.00%",
+            "relative_change": "-7.50%"
+        },
+        {
+            "metric": "Step Order",
+            "rrf_only": "80.00%",
+            "rrf_plus_jina": "80.00%",
+            "absolute_change": "+0.00%",
+            "relative_change": "+0.00%"
+        },
+        {
+            "metric": "Safety",
+            "rrf_only": "33.33%",
+            "rrf_plus_jina": "0.00%",
+            "absolute_change": "-33.33%",
+            "relative_change": "-100.00%"
+        },
+        {
+            "metric": "Faithfulness",
+            "rrf_only": "69.50%",
+            "rrf_plus_jina": "60.00%",
+            "absolute_change": "-9.50%",
+            "relative_change": "-13.67%"
+        },
+        {
+            "metric": "Image Recall@3",
+            "rrf_only": "80.00%",
+            "rrf_plus_jina": "72.00%",
+            "absolute_change": "-8.00%",
+            "relative_change": "-10.00%"
+        },
+        {
+            "metric": "Average Latency",
+            "rrf_only": "21904.8 ms",
+            "rrf_plus_jina": "23664.5 ms",
+            "absolute_change": "+1759.7 ms",
+            "relative_change": "+8.03%"
+        },
+        {
+            "metric": "Recall@30 [diagnostic]",
+            "rrf_only": "100.00%",
+            "rrf_plus_jina": "100.00%",
+            "absolute_change": "+0.00%",
+            "relative_change": "+0.00%"
+        }
+    ]
+}

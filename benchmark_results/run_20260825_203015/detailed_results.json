@@ -1,0 +1,457 @@
+{
+    "run_id": "run_20260825_203015",
+    "rrf_only_results": [
+        {
+            "benchmark_id": "case_0001",
+            "query_id": "case_0001_q01",
+            "query": "How do I fix a washer that does not turn on?",
+            "model": "WA5471ABP",
+            "configuration": "rrf_only",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 0.5,
+                "ndcg_at_8": 0.6309,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 1.0,
+                "step_order": 1.0,
+                "safety": 1.0,
+                "critical_safety_violation": false,
+                "faithfulness": 0.98,
+                "unsupported_claim_count": 0,
+                "judge_status": "success"
+            },
+            "images": {
+                "image_recall_at_3": 1.0,
+                "exact_image_count": 3,
+                "semantic_image_count": 5,
+                "missing_image_file": true
+            },
+            "overall_score": 0.9091,
+            "overall_components": {
+                "retrieval_component": 0.7103,
+                "answer_component": 1.0,
+                "faithfulness_component": 0.98,
+                "image_component": 1.0,
+                "active_weight": 1.0
+            },
+            "latency": {
+                "total_ms": 30047.1,
+                "reranker_ms": 0.0
+            },
+            "status": "success",
+            "failures": []
+        },
+        {
+            "benchmark_id": "case_0001",
+            "query_id": "case_0001_q02",
+            "query": "My Samsung washer won't turn on.",
+            "model": "WA5471ABP",
+            "configuration": "rrf_only",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 1.0,
+                "ndcg_at_8": 1.0,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 1.0,
+                "step_order": 1.0,
+                "safety": 0.0,
+                "critical_safety_violation": true,
+                "faithfulness": "not_available",
+                "unsupported_claim_count": 0,
+                "judge_status": "failed"
+            },
+            "images": {
+                "image_recall_at_3": 1.0,
+                "exact_image_count": 3,
+                "semantic_image_count": 5,
+                "missing_image_file": true
+            },
+            "overall_score": 0.8333,
+            "overall_components": {
+                "retrieval_component": 1.0,
+                "answer_component": 0.6667,
+                "faithfulness_component": "not_applicable",
+                "image_component": 1.0,
+                "active_weight": 0.8
+            },
+            "latency": {
+                "total_ms": 30125.65,
+                "reranker_ms": 0.0
+            },
+            "status": "success",
+            "failures": []
+        },
+        {
+            "benchmark_id": "case_0001",
+            "query_id": "case_0001_q03",
+            "query": "The washing machine cannot turn on properly.",
+            "model": "WA5471ABP",
+            "configuration": "rrf_only",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 0.3333,
+                "ndcg_at_8": 0.5,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 0.0,
+                "step_order": 0.0,
+                "safety": 0.0,
+                "critical_safety_violation": true,
+                "faithfulness": 0.0,
+                "unsupported_claim_count": 0,
+                "judge_status": "success"
+            },
+            "images": {
+                "image_recall_at_3": 0.0,
+                "exact_image_count": 0,
+                "semantic_image_count": 0,
+                "missing_image_file": false
+            },
+            "overall_score": 0.1833,
+            "overall_components": {
+                "retrieval_component": 0.6111,
+                "answer_component": 0.0,
+                "faithfulness_component": 0.0,
+                "image_component": 0.0,
+                "active_weight": 1.0
+            },
+            "latency": {
+                "total_ms": 1647.19,
+                "reranker_ms": 0.0
+            },
+            "status": "success",
+            "failures": []
+        },
+        {
+            "benchmark_id": "case_0002",
+            "query_id": "case_0002_q01",
+            "query": "How do I fix a washer that does not start?",
+            "model": "WA5471ABP",
+            "configuration": "rrf_only",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 1.0,
+                "ndcg_at_8": 1.0,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 1.0,
+                "step_order": 1.0,
+                "safety": "not_applicable",
+                "critical_safety_violation": false,
+                "faithfulness": 0.9,
+                "unsupported_claim_count": 1,
+                "judge_status": "success"
+            },
+            "images": {
+                "image_recall_at_3": 1.0,
+                "exact_image_count": 6,
+                "semantic_image_count": 4,
+                "missing_image_file": true
+            },
+            "overall_score": 0.98,
+            "overall_components": {
+                "retrieval_component": 1.0,
+                "answer_component": 1.0,
+                "faithfulness_component": 0.9,
+                "image_component": 1.0,
+                "active_weight": 1.0
+            },
+            "latency": {
+                "total_ms": 10912.05,
+                "reranker_ms": 0.0
+            },
+            "status": "success",
+            "failures": []
+        },
+        {
+            "benchmark_id": "case_0002",
+            "query_id": "case_0002_q02",
+            "query": "My Samsung washer won't start.",
+            "model": "WA5471ABP",
+            "configuration": "rrf_only",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 1.0,
+                "ndcg_at_8": 1.0,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 1.0,
+                "step_order": 1.0,
+                "safety": "not_applicable",
+                "critical_safety_violation": false,
+                "faithfulness": 0.9,
+                "unsupported_claim_count": 1,
+                "judge_status": "success"
+            },
+            "images": {
+                "image_recall_at_3": 1.0,
+                "exact_image_count": 6,
+                "semantic_image_count": 4,
+                "missing_image_file": true
+            },
+            "overall_score": 0.98,
+            "overall_components": {
+                "retrieval_component": 1.0,
+                "answer_component": 1.0,
+                "faithfulness_component": 0.9,
+                "image_component": 1.0,
+                "active_weight": 1.0
+            },
+            "latency": {
+                "total_ms": 36792.23,
+                "reranker_ms": 0.0
+            },
+            "status": "success",
+            "failures": []
+        }
+    ],
+    "rrf_plus_jina_results": [
+        {
+            "benchmark_id": "case_0001",
+            "query_id": "case_0001_q01",
+            "query": "How do I fix a washer that does not turn on?",
+            "model": "WA5471ABP",
+            "configuration": "rrf_plus_jina",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 1.0,
+                "ndcg_at_8": 1.0,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 1.0,
+                "step_order": 1.0,
+                "safety": 0.0,
+                "critical_safety_violation": true,
+                "faithfulness": "not_available",
+                "unsupported_claim_count": 0,
+                "judge_status": "failed"
+            },
+            "images": {
+                "image_recall_at_3": 1.0,
+                "exact_image_count": 3,
+                "semantic_image_count": 5,
+                "missing_image_file": true
+            },
+            "overall_score": 0.8333,
+            "overall_components": {
+                "retrieval_component": 1.0,
+                "answer_component": 0.6667,
+                "faithfulness_component": "not_applicable",
+                "image_component": 1.0,
+                "active_weight": 0.8
+            },
+            "latency": {
+                "total_ms": 32672.75,
+                "reranker_ms": 2870.11
+            },
+            "status": "success",
+            "failures": []
+        },
+        {
+            "benchmark_id": "case_0001",
+            "query_id": "case_0001_q02",
+            "query": "My Samsung washer won't turn on.",
+            "model": "WA5471ABP",
+            "configuration": "rrf_plus_jina",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 1.0,
+                "ndcg_at_8": 1.0,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 1.0,
+                "step_order": 1.0,
+                "safety": 0.0,
+                "critical_safety_violation": true,
+                "faithfulness": 0.95,
+                "unsupported_claim_count": 0,
+                "judge_status": "success"
+            },
+            "images": {
+                "image_recall_at_3": 1.0,
+                "exact_image_count": 3,
+                "semantic_image_count": 5,
+                "missing_image_file": true
+            },
+            "overall_score": 0.8567,
+            "overall_components": {
+                "retrieval_component": 1.0,
+                "answer_component": 0.6667,
+                "faithfulness_component": 0.95,
+                "image_component": 1.0,
+                "active_weight": 1.0
+            },
+            "latency": {
+                "total_ms": 14323.12,
+                "reranker_ms": 1239.98
+            },
+            "status": "success",
+            "failures": []
+        },
+        {
+            "benchmark_id": "case_0001",
+            "query_id": "case_0001_q03",
+            "query": "The washing machine cannot turn on properly.",
+            "model": "WA5471ABP",
+            "configuration": "rrf_plus_jina",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 1.0,
+                "ndcg_at_8": 1.0,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 0.0,
+                "step_order": 0.0,
+                "safety": 0.0,
+                "critical_safety_violation": true,
+                "faithfulness": 0.0,
+                "unsupported_claim_count": 0,
+                "judge_status": "success"
+            },
+            "images": {
+                "image_recall_at_3": 0.0,
+                "exact_image_count": 0,
+                "semantic_image_count": 0,
+                "missing_image_file": false
+            },
+            "overall_score": 0.3,
+            "overall_components": {
+                "retrieval_component": 1.0,
+                "answer_component": 0.0,
+                "faithfulness_component": 0.0,
+                "image_component": 0.0,
+                "active_weight": 1.0
+            },
+            "latency": {
+                "total_ms": 1674.78,
+                "reranker_ms": 1570.27
+            },
+            "status": "success",
+            "failures": []
+        },
+        {
+            "benchmark_id": "case_0002",
+            "query_id": "case_0002_q01",
+            "query": "How do I fix a washer that does not start?",
+            "model": "WA5471ABP",
+            "configuration": "rrf_plus_jina",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 1.0,
+                "ndcg_at_8": 1.0,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 1.0,
+                "step_order": 1.0,
+                "safety": "not_applicable",
+                "critical_safety_violation": false,
+                "faithfulness": 0.9,
+                "unsupported_claim_count": 1,
+                "judge_status": "success"
+            },
+            "images": {
+                "image_recall_at_3": 1.0,
+                "exact_image_count": 6,
+                "semantic_image_count": 4,
+                "missing_image_file": true
+            },
+            "overall_score": 0.98,
+            "overall_components": {
+                "retrieval_component": 1.0,
+                "answer_component": 1.0,
+                "faithfulness_component": 0.9,
+                "image_component": 1.0,
+                "active_weight": 1.0
+            },
+            "latency": {
+                "total_ms": 32846.89,
+                "reranker_ms": 1360.56
+            },
+            "status": "success",
+            "failures": []
+        },
+        {
+            "benchmark_id": "case_0002",
+            "query_id": "case_0002_q02",
+            "query": "My Samsung washer won't start.",
+            "model": "WA5471ABP",
+            "configuration": "rrf_plus_jina",
+            "production_query_id": "c019c30e-21e0-404b-8f13-806afd0c066b",
+            "retrieval": {
+                "recall_at_30": 1.0,
+                "recall_at_8": 1.0,
+                "mrr": 1.0,
+                "ndcg_at_8": 1.0,
+                "model_contamination": false,
+                "contaminated_chunks": []
+            },
+            "answer": {
+                "step_recall": 0.7,
+                "step_order": 1.0,
+                "safety": "not_applicable",
+                "critical_safety_violation": false,
+                "faithfulness": 0.55,
+                "unsupported_claim_count": 0,
+                "judge_status": "success"
+            },
+            "images": {
+                "image_recall_at_3": 0.6,
+                "exact_image_count": 3,
+                "semantic_image_count": 3,
+                "missing_image_file": true
+            },
+            "overall_score": 0.81,
+            "overall_components": {
+                "retrieval_component": 1.0,
+                "answer_component": 0.85,
+                "faithfulness_component": 0.55,
+                "image_component": 0.6,
+                "active_weight": 1.0
+            },
+            "latency": {
+                "total_ms": 36805.15,
+                "reranker_ms": 1288.81
+            },
+            "status": "success",
+            "failures": []
+        }
+    ]
+}
