@@ -11,6 +11,7 @@ import time
 from typing import Dict, Optional, List
 
 from dotenv import load_dotenv
+from backend.pipeline_logger import pipeline_logger
 
 load_dotenv()
 load_dotenv("backend/.env")
@@ -320,6 +321,14 @@ def _validate_grounding(llm_output: Dict, retrieval_context: Dict, model_known: 
     if validation_errors:
         llm_output["_validation_errors"] = validation_errors
 
+    pipeline_logger.log_grounding_validation(
+        status="PASS" if not validation_errors else "PASS_WITH_WARNINGS",
+        steps_received=len(raw_steps),
+        steps_accepted=len(validated_steps),
+        steps_rejected=len(raw_steps) - len(validated_steps),
+        errors=validation_errors
+    )
+
     return llm_output
 
 
@@ -352,7 +361,25 @@ def generate_grounded_guide(query: str, retrieval_context: Dict,
     system_prompt = _build_system_prompt(model_known=model_known)
     user_prompt = _build_user_prompt(query, retrieval_context, model, model_known=model_known)
 
+    problems = retrieval_context.get("problems", [])
+    evidence_counts = {
+        "problems": len(problems),
+        "steps": sum(len(p.get("steps", [])) for p in problems),
+        "chunks": sum(len(p.get("supporting_chunks", [])) for p in problems)
+    }
+
+    pipeline_logger.log_llm_request(
+        provider="Groq",
+        model=GROQ_MODEL,
+        mode=mode,
+        model_known=model_known,
+        guidance_scope="model_specific" if model_known else "generic",
+        prompt=user_prompt,
+        evidence_counts=evidence_counts
+    )
+
     last_error = None
+    llm_t0 = time.perf_counter()
     for attempt in range(MAX_RETRIES + 1):
         try:
             completion = client.chat.completions.create(
@@ -365,10 +392,20 @@ def generate_grounded_guide(query: str, retrieval_context: Dict,
                 response_format={"type": "json_object"},
             )
 
+            llm_latency_ms = (time.perf_counter() - llm_t0) * 1000.0
             raw_content = completion.choices[0].message.content
             parsed = _parse_llm_response(raw_content)
 
             if parsed is None:
+                pipeline_logger.log_llm_response(
+                    status="invalid_response",
+                    response_length=len(raw_content) if raw_content else 0,
+                    parsed_successfully=False,
+                    step_count=0,
+                    image_count=0,
+                    raw_response=raw_content,
+                    latency_ms=llm_latency_ms
+                )
                 return {
                     "status": "error",
                     "message": "The language model returned an invalid response."
@@ -376,12 +413,30 @@ def generate_grounded_guide(query: str, retrieval_context: Dict,
 
             # Validate schema
             if not isinstance(parsed, dict):
+                pipeline_logger.log_llm_response(
+                    status="invalid_structure",
+                    response_length=len(raw_content),
+                    parsed_successfully=False,
+                    step_count=0,
+                    image_count=0,
+                    raw_response=raw_content,
+                    latency_ms=llm_latency_ms
+                )
                 return {
                     "status": "error",
                     "message": "The language model returned an invalid response structure."
                 }
 
             if "steps" not in parsed or not isinstance(parsed.get("steps"), list):
+                pipeline_logger.log_llm_response(
+                    status="missing_steps_field",
+                    response_length=len(raw_content),
+                    parsed_successfully=False,
+                    step_count=0,
+                    image_count=0,
+                    raw_response=raw_content,
+                    latency_ms=llm_latency_ms
+                )
                 return {
                     "status": "error",
                     "message": "The language model response is missing required 'steps' field."
@@ -389,6 +444,19 @@ def generate_grounded_guide(query: str, retrieval_context: Dict,
 
             # Validate grounding
             validated = _validate_grounding(parsed, retrieval_context, model_known=model_known)
+            
+            validated_steps = validated.get("steps", [])
+            img_count = sum(len(s.get("images", [])) for s in validated_steps if isinstance(s, dict))
+
+            pipeline_logger.log_llm_response(
+                status="success",
+                response_length=len(raw_content),
+                parsed_successfully=True,
+                step_count=len(validated_steps),
+                image_count=img_count,
+                raw_response=raw_content,
+                latency_ms=llm_latency_ms
+            )
 
             return validated
 
@@ -417,6 +485,7 @@ def generate_grounded_guide(query: str, retrieval_context: Dict,
 
     if last_error:
         print(f"    [LLM Generator] Internal error: {last_error}")
+        pipeline_logger.log_error("LLM_GENERATOR", last_error)
 
     return {
         "status": "error",

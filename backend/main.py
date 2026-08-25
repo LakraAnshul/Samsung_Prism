@@ -29,6 +29,7 @@ from backend.model_resolver import (
     extract_models_from_text,
     get_database_models
 )
+from backend.pipeline_logger import pipeline_logger
 
 DEBUG_RETRIEVAL = os.getenv("DEBUG_RETRIEVAL", "false").lower() == "true"
 
@@ -84,17 +85,30 @@ def generate_guide_from_rag(query: str, model: Optional[str] = None,
         9. Attach authoritative image URLs
         10. Return final JSON response
     """
+    import time
+    total_start = time.perf_counter()
+    created_standalone_ctx = False
+    
     # 1. Validate query
     if not query or not query.strip():
         return {"status": "error", "message": "No query provided."}
 
     query = query.strip()
 
+    # If no active query context exists (e.g. CLI / direct invocation), initialize one
+    if pipeline_logger.get_context() is None:
+        pipeline_logger.log_query_start(query=query, model=model, mode=mode, endpoint="direct_call")
+        created_standalone_ctx = True
+
     # 2. Resolve model context
+    m_start = time.perf_counter()
     model_ctx = resolve_model_context(query, model_hint=model)
+    m_latency = (time.perf_counter() - m_start) * 1000.0
+    pipeline_logger.log_model_resolution(model_ctx, latency_ms=m_latency)
+
     resolution_status = model_ctx.get("status")
 
-    # Structured logging
+    # Structured logging to stdout preserved
     print("[MODEL]")
     print(f"  requested={model_ctx.get('requested_model')}")
     print(f"  canonical={model_ctx.get('canonical_model')}")
@@ -105,23 +119,33 @@ def generate_guide_from_rag(query: str, model: Optional[str] = None,
 
     # 3. STATE A: No model provided
     if resolution_status == "disambiguation_required":
-        return {
+        res = {
             "status": "disambiguation_required",
             "message": model_ctx.get("message", "Please enter your Samsung washing machine model number so I can provide accurate troubleshooting guidance."),
             "model": None,
             "model_known": False,
             "available_models": model_ctx.get("available_models", get_available_database_models())
         }
+        total_latency = (time.perf_counter() - total_start) * 1000.0
+        pipeline_logger.log_final_response(res, total_latency_ms=total_latency)
+        if created_standalone_ctx:
+            pipeline_logger.log_query_end(status="disambiguation_required")
+        return res
 
     # 4. EDGE CASE: Model conflict
     if resolution_status == "model_conflict":
-        return {
+        res = {
             "status": "model_conflict",
             "message": model_ctx.get("message", "Two different washing machine models were provided. Please specify only one model."),
             "models_detected": model_ctx.get("models_detected", []),
             "model": None,
             "model_known": False
         }
+        total_latency = (time.perf_counter() - total_start) * 1000.0
+        pipeline_logger.log_final_response(res, total_latency_ms=total_latency)
+        if created_standalone_ctx:
+            pipeline_logger.log_query_end(status="model_conflict")
+        return res
 
     canonical_model = model_ctx.get("canonical_model")
     model_known = model_ctx.get("model_known", False)
@@ -141,21 +165,33 @@ def generate_guide_from_rag(query: str, model: Optional[str] = None,
             image_top_k=3
         )
     except SystemExit:
-        return {
+        err_res = {
             "status": "error",
             "message": "Retrieval infrastructure error. Please check Qdrant and Jina API availability."
         }
+        total_latency = (time.perf_counter() - total_start) * 1000.0
+        pipeline_logger.log_error("STAGE8", Exception("SystemExit in retrieval"))
+        pipeline_logger.log_final_response(err_res, total_latency_ms=total_latency)
+        if created_standalone_ctx:
+            pipeline_logger.log_query_end(status="error")
+        return err_res
     except Exception as e:
         print(f"    Retrieval error: {e}")
-        return {
+        err_res = {
             "status": "error",
             "message": "Retrieval service is temporarily unavailable."
         }
+        total_latency = (time.perf_counter() - total_start) * 1000.0
+        pipeline_logger.log_error("STAGE8", e)
+        pipeline_logger.log_final_response(err_res, total_latency_ms=total_latency)
+        if created_standalone_ctx:
+            pipeline_logger.log_query_end(status="error")
+        return err_res
 
     # 6. Handle retrieval status (zero/insufficient evidence)
     if retrieval_context.get("status") == "no_text_evidence":
         if model_known:
-            return {
+            res = {
                 "status": "no_results",
                 "model": canonical_model,
                 "model_known": True,
@@ -165,7 +201,7 @@ def generate_guide_from_rag(query: str, model: Optional[str] = None,
                 "query": query
             }
         else:
-            return {
+            res = {
                 "status": "no_results",
                 "model": canonical_model,
                 "model_known": False,
@@ -174,6 +210,11 @@ def generate_guide_from_rag(query: str, model: Optional[str] = None,
                 "message": "No generic troubleshooting evidence was found for this request.",
                 "query": query
             }
+        total_latency = (time.perf_counter() - total_start) * 1000.0
+        pipeline_logger.log_final_response(res, total_latency_ms=total_latency)
+        if created_standalone_ctx:
+            pipeline_logger.log_query_end(status="no_results")
+        return res
 
     # 7. Call LLM
     try:
@@ -185,13 +226,23 @@ def generate_guide_from_rag(query: str, model: Optional[str] = None,
         )
     except Exception as e:
         print(f"    LLM error: {e}")
-        return {
+        err_res = {
             "status": "error",
             "message": "Guide generation service is temporarily unavailable."
         }
+        total_latency = (time.perf_counter() - total_start) * 1000.0
+        pipeline_logger.log_error("LLM", e)
+        pipeline_logger.log_final_response(err_res, total_latency_ms=total_latency)
+        if created_standalone_ctx:
+            pipeline_logger.log_query_end(status="error")
+        return err_res
 
     # 8. Check LLM result
     if llm_result.get("status") == "error":
+        total_latency = (time.perf_counter() - total_start) * 1000.0
+        pipeline_logger.log_final_response(llm_result, total_latency_ms=total_latency)
+        if created_standalone_ctx:
+            pipeline_logger.log_query_end(status="error")
         return llm_result
 
     # 9. Authoritative metadata injection (Application layer is authoritative)
@@ -208,6 +259,11 @@ def generate_guide_from_rag(query: str, model: Optional[str] = None,
     # 11. Strip debug fields in production
     if not DEBUG_RETRIEVAL:
         llm_result = _strip_debug_fields(llm_result)
+
+    total_latency = (time.perf_counter() - total_start) * 1000.0
+    pipeline_logger.log_final_response(llm_result, total_latency_ms=total_latency)
+    if created_standalone_ctx:
+        pipeline_logger.log_query_end(status="success")
 
     return llm_result
 

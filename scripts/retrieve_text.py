@@ -11,6 +11,12 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchValue, SparseVector
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from scripts.rerank_text import rerank_documents, load_rerank_config
+from backend.pipeline_logger import pipeline_logger
+
 
 def load_config():
     load_dotenv(PROJECT_ROOT / ".env")
@@ -268,9 +274,10 @@ def reciprocal_rank_fusion(dense_results, sparse_results, rrf_k=60):
 
 def retrieve_text(query, appliance_type="washing_machine", brand="Samsung", model=None, 
                   document_id=None, problem_id=None, dense_top_k=20, sparse_top_k=20, 
-                  final_top_k=8, rrf_k=60, retrieval_mode="model_specific"):
+                  final_top_k=8, rrf_k=60, retrieval_mode="model_specific",
+                  candidate_top_k=None, rerank=None):
     """
-    Hybrid text retrieval with strict retrieval mode support.
+    Hybrid text retrieval with strict retrieval mode support and optional Jina reranking.
 
     Modes:
         - "model_specific": Filters strictly by model. NEVER removes model filter.
@@ -283,6 +290,10 @@ def retrieve_text(query, appliance_type="washing_machine", brand="Samsung", mode
     query = query.strip()
     
     config = load_config()
+    rerank_config = load_rerank_config()
+    is_rerank_enabled = rerank_config["RERANK_ENABLED"] if rerank is None else rerank
+    effective_candidate_k = candidate_top_k or rerank_config["RERANK_CANDIDATE_K"]
+
     client = connect_qdrant(config["QDRANT_URL"])
     collection_name = "washing_machines"
     validate_collection(client, collection_name)
@@ -293,6 +304,8 @@ def retrieve_text(query, appliance_type="washing_machine", brand="Samsung", mode
     tokenizer = _TOKENIZER_CACHE
     sparse_dict = tokenizer.tokenize(query)
     
+    import time
+    qdrant_start = time.perf_counter()
     dense_vector = embed_query(query, config["JINA_EMBEDDING_MODEL"], config["JINA_API_KEY"])
     
     # Determine retrieval model filter based on retrieval_mode
@@ -300,12 +313,87 @@ def retrieve_text(query, appliance_type="washing_machine", brand="Samsung", mode
     
     q_filter = build_filter(appliance_type, brand, effective_model, document_id, problem_id)
     
-    dense_res = dense_search(client, collection_name, dense_vector, q_filter, dense_top_k)
-    sparse_res = sparse_search(client, collection_name, sparse_dict, q_filter, sparse_top_k)
+    effective_dense_k = max(dense_top_k, effective_candidate_k) if is_rerank_enabled else dense_top_k
+    effective_sparse_k = max(sparse_top_k, effective_candidate_k) if is_rerank_enabled else sparse_top_k
+
+    dense_t0 = time.perf_counter()
+    dense_res = dense_search(client, collection_name, dense_vector, q_filter, effective_dense_k)
+    dense_time_ms = (time.perf_counter() - dense_t0) * 1000.0
+
+    sparse_t0 = time.perf_counter()
+    sparse_res = sparse_search(client, collection_name, sparse_dict, q_filter, effective_sparse_k)
+    sparse_time_ms = (time.perf_counter() - sparse_t0) * 1000.0
     
+    rrf_t0 = time.perf_counter()
     fused = reciprocal_rank_fusion(dense_res, sparse_res, rrf_k=rrf_k)
-    final_results = fused[:final_top_k]
+    rrf_time_ms = (time.perf_counter() - rrf_t0) * 1000.0
+    qdrant_time_ms = (time.perf_counter() - qdrant_start) * 1000.0
+
+    # Log dense, sparse, and RRF stages
+    pipeline_logger.log_dense_retrieval(
+        collection=collection_name,
+        query=query,
+        retrieval_mode=retrieval_mode,
+        q_filter=q_filter,
+        requested_limit=effective_dense_k,
+        points=dense_res,
+        latency_ms=dense_time_ms
+    )
     
+    pipeline_logger.log_sparse_retrieval(
+        collection=collection_name,
+        query=query,
+        retrieval_mode=retrieval_mode,
+        q_filter=q_filter,
+        requested_limit=effective_sparse_k,
+        points=sparse_res,
+        matching_tokens_count=len(sparse_dict),
+        reason_if_zero="No matching sparse tokens in vocabulary" if not sparse_dict else ("No matching points found in Qdrant" if not sparse_res else None),
+        latency_ms=sparse_time_ms
+    )
+
+    pipeline_logger.log_rrf_fusion(
+        rrf_k=rrf_k,
+        dense_count=len(dense_res),
+        sparse_count=len(sparse_res),
+        fused_results=fused,
+        candidate_pool_limit=effective_candidate_k,
+        latency_ms=rrf_time_ms
+    )
+    
+    ctx = pipeline_logger.get_context()
+    if ctx:
+        ctx.qdrant_latency_ms = round(qdrant_time_ms, 2)
+
+    if is_rerank_enabled:
+        candidate_pool = fused[:effective_candidate_k]
+        pipeline_logger.log_reranker_input_pool(candidates=candidate_pool, top_k=final_top_k)
+        final_results, rerank_meta = rerank_documents(
+            query=query,
+            candidates=candidate_pool,
+            top_k=final_top_k,
+            enabled=True
+        )
+    else:
+        pipeline_logger.log_reranker_disabled()
+        final_results = fused[:final_top_k]
+        rerank_meta = {
+            "enabled": False,
+            "applied": False
+        }
+    
+    retrieval_meta = {
+        "dense_top_k": dense_top_k,
+        "sparse_top_k": sparse_top_k,
+        "candidate_top_k": effective_candidate_k if is_rerank_enabled else None,
+        "final_top_k": final_top_k,
+        "rrf_k": rrf_k,
+        "retrieval_mode": retrieval_mode,
+        "fallback_used": False,
+        "reranking": rerank_meta,
+        "qdrant_latency_ms": round(qdrant_time_ms, 2)
+    }
+
     return {
         "query": query,
         "filters": {
@@ -315,14 +403,7 @@ def retrieve_text(query, appliance_type="washing_machine", brand="Samsung", mode
             "document_id": document_id,
             "problem_id": problem_id
         },
-        "retrieval": {
-            "dense_top_k": dense_top_k,
-            "sparse_top_k": sparse_top_k,
-            "final_top_k": final_top_k,
-            "rrf_k": rrf_k,
-            "retrieval_mode": retrieval_mode,
-            "fallback_used": False
-        },
+        "retrieval": retrieval_meta,
         "results": final_results
     }
 
@@ -341,7 +422,17 @@ def print_cli_output(result_obj):
     print(f"\nRetrieval mode:\n    {r_meta.get('retrieval_mode', 'model_specific')}")
     print(f"\nDense candidates:\n    {r_meta['dense_top_k']}")
     print(f"\nSparse candidates:\n    {r_meta['sparse_top_k']}")
+    if r_meta.get("candidate_top_k"):
+        print(f"\nReranker Candidate Pool:\n    {r_meta['candidate_top_k']}")
     print(f"\nRRF K:\n    {r_meta['rrf_k']}")
+
+    rerank_meta = r_meta.get("reranking", {})
+    if rerank_meta.get("enabled"):
+        print(f"\nReranker:\n    model = {rerank_meta.get('model')}\n    candidates = {rerank_meta.get('candidate_count')}\n    applied = {rerank_meta.get('applied')}")
+        if "latency_ms" in rerank_meta:
+            print(f"    latency = {rerank_meta.get('latency_ms')} ms")
+        if rerank_meta.get("fallback"):
+            print(f"    fallback = {rerank_meta.get('fallback')} (reason: {rerank_meta.get('reason')})")
     
     results = result_obj['results']
     print(f"\nFinal results:\n    {len(results)}")
@@ -377,6 +468,10 @@ def print_cli_output(result_obj):
         print(f"Sparse rank:\n    {res['sparse_rank']}\n")
         print(f"Sparse score:\n    {res['sparse_score']}\n")
         print(f"RRF score:\n    {res['rrf_score']:.6f}\n")
+        if res.get('rerank_score') is not None:
+            print(f"Rerank score:\n    {res['rerank_score']:.6f}\n")
+            print(f"Rerank rank:\n    {res.get('rerank_rank')}\n")
+            print(f"Original RRF rank:\n    {res.get('retrieval_rank')}\n")
         print(f"Text:\n    {res.get('text')}")
         print("--------------------------------------------------")
 
@@ -385,9 +480,13 @@ def main():
     parser.add_argument("--query", type=str, help="The query string")
     parser.add_argument("--model", type=str, help="Target appliance model (e.g., WA5471ABP/XAA)")
     parser.add_argument("--generic", action="store_true", help="Run generic retrieval without model filter")
+    parser.add_argument("--no-rerank", action="store_true", help="Disable Jina reranking stage")
+    parser.add_argument("--candidate-k", type=int, default=None, help="Candidate pool size for reranker")
+    parser.add_argument("--top-k", type=int, default=8, help="Final top K evidence chunks")
     parser.add_argument("--interactive", action="store_true", help="Run in interactive mode")
     
     args = parser.parse_args()
+    rerank_flag = False if args.no_rerank else None
     
     if args.interactive:
         while True:
@@ -403,14 +502,28 @@ def main():
                 continue
                 
             retrieval_mode = "generic" if args.generic else "model_specific"
-            res = retrieve_text(q, model=args.model, retrieval_mode=retrieval_mode)
+            res = retrieve_text(
+                q,
+                model=args.model,
+                retrieval_mode=retrieval_mode,
+                final_top_k=args.top_k,
+                candidate_top_k=args.candidate_k,
+                rerank=rerank_flag
+            )
             print_cli_output(res)
     elif args.query:
         if not args.model and not args.generic:
             print("Error: Specify either --model <MODEL_ID> or --generic for retrieval.")
             sys.exit(1)
         retrieval_mode = "generic" if args.generic else "model_specific"
-        res = retrieve_text(args.query, model=args.model, retrieval_mode=retrieval_mode)
+        res = retrieve_text(
+            args.query,
+            model=args.model,
+            retrieval_mode=retrieval_mode,
+            final_top_k=args.top_k,
+            candidate_top_k=args.candidate_k,
+            rerank=rerank_flag
+        )
         print_cli_output(res)
     else:
         parser.print_help()
@@ -418,3 +531,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -22,9 +22,10 @@ project_root = str(Path(os.path.dirname(os.path.abspath(__file__))).parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-# Import the orchestrator and model resolver
+# Import the orchestrator, model resolver, and pipeline logger
 from backend.main import generate_guide_from_rag
 from backend.model_resolver import get_available_database_models, resolve_model_context
+from backend.pipeline_logger import pipeline_logger
 
 load_dotenv()
 load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"))
@@ -83,14 +84,28 @@ def chat():
         model_param = str(model_param).strip()
     mode = data.get("mode", DEFAULT_MODE).upper()
 
+    # Initialize structured query logging
+    ctx = pipeline_logger.log_query_start(
+        query=user_query,
+        model=model_param,
+        mode=mode,
+        http_method=request.method,
+        endpoint=request.path,
+        client_ip=request.remote_addr or "127.0.0.1"
+    )
+
     if not user_query:
-        return jsonify({"status": "error", "message": "No query provided"}), 400
+        result = {"status": "error", "message": "No query provided"}
+        pipeline_logger.log_query_end(status="error", ctx=ctx)
+        return jsonify(result), 400
 
     try:
         result = generate_guide_from_rag(user_query, model=model_param, mode=mode)
 
         # Map status to HTTP codes
         status = result.get("status", "error")
+        pipeline_logger.log_query_end(status=status, ctx=ctx)
+        
         if status == "error":
             return jsonify(result), 500
         elif status in ["disambiguation_required", "model_conflict", "no_results", "success"]:
@@ -99,6 +114,8 @@ def chat():
         return jsonify(result), 200
     except Exception as e:
         print(f"Server Error: {e}")
+        pipeline_logger.log_error("SERVER", e)
+        pipeline_logger.log_query_end(status="error", ctx=ctx)
         return jsonify({"status": "error", "message": "An internal server error occurred."}), 500
 
 

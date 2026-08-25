@@ -11,6 +11,7 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from scripts.retrieve_text import retrieve_text
 from scripts.retrieve_images import retrieve_images
+from backend.pipeline_logger import pipeline_logger
 
 def format_output_json(context):
     return json.dumps(context, indent=4, ensure_ascii=False)
@@ -195,23 +196,29 @@ def build_retrieval_context(query, appliance_type="washing_machine", brand="Sams
             "validation": validation
         }
 
+    import time
+    stage8_start = time.perf_counter()
     grouped_problems = group_chunks_by_problem(text_chunks)
     
-    # Pre-sort candidate problems by max RRF score and chunk count before image retrieval
+    # Pre-sort candidate problems by max relevance score and chunk count before image retrieval
     candidate_problems = []
     for key, prob_data in grouped_problems.items():
         chunks = prob_data["chunks"]
         max_rrf = max([c.get("rrf_score", 0.0) for c in chunks]) if chunks else 0.0
+        max_rerank = max([c.get("rerank_score") for c in chunks if c.get("rerank_score") is not None], default=None)
+        effective_score = max_rerank if max_rerank is not None else max_rrf
         candidate_problems.append({
             "prob_data": prob_data,
             "chunks": chunks,
             "max_rrf": max_rrf,
+            "max_rerank": max_rerank,
+            "effective_score": effective_score,
             "chunk_count": len(chunks),
             "problem_id": prob_data.get("problem_id", "")
         })
         
     candidate_problems.sort(key=lambda x: (
-        -x["max_rrf"],
+        -x["effective_score"],
         -x["chunk_count"],
         x["problem_id"]
     ))
@@ -220,11 +227,13 @@ def build_retrieval_context(query, appliance_type="washing_machine", brand="Sams
     candidate_problems = candidate_problems[:3]
     
     final_problems = []
+    total_image_latency_ms = 0.0
     
     for candidate in candidate_problems:
         prob_data = candidate["prob_data"]
         chunks = candidate["chunks"]
         max_rrf = candidate["max_rrf"]
+        max_rerank = candidate["max_rerank"]
         
         supporting_chunks = []
         for c in chunks:
@@ -232,6 +241,7 @@ def build_retrieval_context(query, appliance_type="washing_machine", brand="Sams
                 "chunk_id": c.get("chunk_id"),
                 "parent_chunk_id": c.get("parent_chunk_id"),
                 "rrf_score": c.get("rrf_score"),
+                "rerank_score": c.get("rerank_score"),
                 "dense_score": c.get("dense_score"),
                 "sparse_score": c.get("sparse_score"),
                 "page_start": c.get("page_start"),
@@ -252,6 +262,7 @@ def build_retrieval_context(query, appliance_type="washing_machine", brand="Sams
             step["images"] = []
             
             try:
+                img_t0 = time.perf_counter()
                 img_res = retrieve_images(
                     query=image_query,
                     appliance_type=appliance_type,
@@ -261,15 +272,18 @@ def build_retrieval_context(query, appliance_type="washing_machine", brand="Sams
                     top_k=image_top_k,
                     retrieval_mode=effective_mode
                 )
+                total_image_latency_ms += (time.perf_counter() - img_t0) * 1000.0
                 raw_images = img_res.get("results", [])
                 
                 # Deduplicate images within this step
                 seen_image_ids = set()
                 filtered_images = []
+                removed_image_ids = []
                 
                 for img in raw_images:
                     img_id = img.get("image_id")
                     if img_id in seen_image_ids:
+                        removed_image_ids.append(img_id)
                         continue
                         
                     sem_score = img.get("semantic_score", 0.0)
@@ -293,6 +307,27 @@ def build_retrieval_context(query, appliance_type="washing_machine", brand="Sams
                     
                 step["images"] = filtered_images
                 
+                if removed_image_ids:
+                    pipeline_logger.log_image_deduplication(
+                        before_count=len(raw_images),
+                        after_count=len(filtered_images),
+                        removed_ids=removed_image_ids
+                    )
+
+                pipeline_logger.log_image_step_retrieval(
+                    step_id=step["step_id"],
+                    step_number=step.get("step_number", 1),
+                    problem_name=p_name,
+                    image_query=image_query,
+                    model=target_model,
+                    retrieval_mode=effective_mode,
+                    top_k=image_top_k,
+                    all_candidates=raw_images,
+                    final_images=filtered_images,
+                    fallback_used=img_res.get("retrieval", {}).get("fallback_used", False),
+                    fallback_reason=img_res.get("retrieval", {}).get("fallback_reason")
+                )
+                
                 if not filtered_images:
                     validation["missing_images"].append({
                         "step_id": step["step_id"],
@@ -311,12 +346,27 @@ def build_retrieval_context(query, appliance_type="washing_machine", brand="Sams
             "document_id": prob_data["document_id"],
             "relevance": {
                 "max_rrf_score": max_rrf,
+                "max_rerank_score": max_rerank,
                 "supporting_chunk_count": len(chunks)
             },
             "supporting_chunks": supporting_chunks,
             "steps": steps
         })
     
+    stage8_latency_ms = (time.perf_counter() - stage8_start) * 1000.0
+    ctx = pipeline_logger.get_context()
+    if ctx:
+        ctx.stage8_ms = round(stage8_latency_ms, 2)
+        ctx.image_latency_ms = round(total_image_latency_ms, 2)
+
+    pipeline_logger.log_stage8_reconstruction(
+        input_candidate_count=len(text_chunks),
+        problems=final_problems,
+        model=target_model,
+        retrieval_mode=effective_mode,
+        latency_ms=stage8_latency_ms
+    )
+
     return {
         "schema_version": "1.0",
         "query": query,
@@ -327,7 +377,11 @@ def build_retrieval_context(query, appliance_type="washing_machine", brand="Sams
         },
         "model_context": constructed_model_context,
         "retrieval": {
-            "text": {"top_k": text_top_k, "retrieval_mode": effective_mode},
+            "text": {
+                "top_k": text_top_k,
+                "retrieval_mode": effective_mode,
+                "reranking": text_res.get("retrieval", {}).get("reranking", {})
+            },
             "images": {"top_k_per_step": image_top_k}
         },
         "status": "success",
